@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Fallacies - Swipe Learner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .animate-spin {
+            animation: spin 0.6s linear infinite;
+        }
+    </style>
+</head>
+<body class="m-0 p-0 overflow-hidden">
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="text/babel">
+        const { useState, useEffect, useRef } = React;
+
+        // Lucide icons as inline SVGs
+        const ChevronUp = ({ size = 24 }) => (
+            <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+        );
+
+        const ChevronDown = ({ size = 24 }) => (
+            <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        );
+
+        const RotateCcw = ({ size = 18 }) => (
+            <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="1 4 1 10 7 10"></polyline>
+                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+            </svg>
+        );
+
+        const Shuffle = ({ size = 24 }) => (
+            <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="16 3 21 3 21 8"></polyline>
+                <line x1="4" y1="20" x2="21" y2="3"></line>
+                <polyline points="21 16 21 21 16 21"></polyline>
+                <line x1="15" y1="15" x2="21" y2="21"></line>
+                <line x1="4" y1="4" x2="9" y2="9"></line>
+            </svg>
+        );
+
+        function FallacySwiper() {
+            const [cardData, setCardData] = useState(null);
+            const [currentIndex, setCurrentIndex] = useState(0);
+            const [touchStart, setTouchStart] = useState(0);
+            const [touchEnd, setTouchEnd] = useState(0);
+            const [isDragging, setIsDragging] = useState(false);
+            const [dragOffset, setDragOffset] = useState(0);
+            const [shuffledCards, setShuffledCards] = useState([]);
+            const [isShuffling, setIsShuffling] = useState(false);
+            const containerRef = useRef(null);
+
+            useEffect(() => {
+                fetch('fallacies.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        setCardData(data);
+                        setShuffledCards(data.cards);
+                    })
+                    .catch(error => console.error('Error loading fallacies:', error));
+            }, []);
+
+            if (!cardData) {
+                return (
+                    <div className="h-screen w-full bg-black flex items-center justify-center">
+                        <div className="text-white text-2xl">Loading...</div>
+                    </div>
+                );
+            }
+
+            const cards = shuffledCards;
+            const currentCard = cards[currentIndex];
+
+            const calculateTitleFontSize = (title) => {
+                const length = title.length;
+                const baseSize = 3.5;
+                const minSize = 1.2;
+                const scaleFactor = 0.08;
+                const calculatedSize = Math.max(minSize, baseSize - (length * scaleFactor));
+                return `${calculatedSize}rem`;
+            };
+
+            const handleTouchStart = (e) => {
+                setTouchStart(e.touches[0].clientY);
+                setIsDragging(true);
+            };
+
+            const handleTouchMove = (e) => {
+                setTouchEnd(e.touches[0].clientY);
+                if (isDragging) {
+                    const offset = e.touches[0].clientY - touchStart;
+                    setDragOffset(offset);
+                }
+            };
+
+            const handleTouchEnd = () => {
+                if (!isDragging) return;
+                const swipeDistance = touchStart - touchEnd;
+                const minSwipeDistance = 50;
+                if (swipeDistance > minSwipeDistance && currentIndex < cards.length - 1) {
+                    setCurrentIndex(prev => prev + 1);
+                } else if (swipeDistance < -minSwipeDistance && currentIndex > 0) {
+                    setCurrentIndex(prev => prev - 1);
+                }
+                setIsDragging(false);
+                setDragOffset(0);
+                setTouchStart(0);
+                setTouchEnd(0);
+            };
+
+            const handleMouseDown = (e) => {
+                setTouchStart(e.clientY);
+                setIsDragging(true);
+            };
+
+            const handleMouseMove = (e) => {
+                if (!isDragging) return;
+                setTouchEnd(e.clientY);
+                const offset = e.clientY - touchStart;
+                setDragOffset(offset);
+            };
+
+            const handleMouseUp = () => {
+                handleTouchEnd();
+            };
+
+            const goNext = () => {
+                if (currentIndex < cards.length - 1) {
+                    setCurrentIndex(prev => prev + 1);
+                }
+            };
+
+            const goPrev = () => {
+                if (currentIndex > 0) {
+                    setCurrentIndex(prev => prev - 1);
+                }
+            };
+
+            const reset = () => {
+                setCurrentIndex(0);
+            };
+
+            const shuffleCards = () => {
+                setIsShuffling(true);
+                const introCard = cardData.cards[0];
+                const fallacyCards = cardData.cards.slice(1);
+                for (let i = fallacyCards.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [fallacyCards[i], fallacyCards[j]] = [fallacyCards[j], fallacyCards[i]];
+                }
+                setShuffledCards([introCard, ...fallacyCards]);
+                setCurrentIndex(0);
+                setTimeout(() => setIsShuffling(false), 600);
+            };
+
+            useEffect(() => {
+                const handleKeyDown = (e) => {
+                    if (e.key === 'ArrowUp') goPrev();
+                    if (e.key === 'ArrowDown') goNext();
+                };
+                window.addEventListener('keydown', handleKeyDown);
+                return () => window.removeEventListener('keydown', handleKeyDown);
+            });
+
+            return (
+                <div className="h-screen w-full bg-black overflow-hidden flex items-center justify-center">
+                    <div 
+                        ref={containerRef}
+                        className="relative w-full max-w-md h-full flex items-center justify-center"
+                        onTouchStart={handleTouchStart}
+                        onTouchMove={handleTouchMove}
+                        onTouchEnd={handleTouchEnd}
+                        onMouseDown={handleMouseDown}
+                        onMouseMove={handleMouseMove}
+                        onMouseUp={handleMouseUp}
+                        onMouseLeave={handleMouseUp}
+                    >
+                        <div 
+                            className="w-full h-[85vh] relative transition-transform duration-300 ease-out"
+                            style={{
+                                transform: `translateY(${dragOffset}px)`,
+                                transition: isDragging ? 'none' : 'transform 0.3s ease-out'
+                            }}
+                        >
+                            <div className={`w-full h-full rounded-3xl bg-gradient-to-br ${currentCard.color} p-8 flex flex-col justify-between shadow-2xl`}>
+                                <div className="flex gap-1 mb-4">
+                                    {cards.map((_, idx) => (
+                                        <div 
+                                            key={idx} 
+                                            className={`h-1 flex-1 rounded-full transition-all ${
+                                                idx === currentIndex ? 'bg-white' : 'bg-white/30'
+                                            }`}
+                                        />
+                                    ))}
+                                </div>
+
+                                <div className="flex-1 flex flex-col justify-center text-white">
+                                    <div className="mb-8">
+                                        <h1 className="font-bold mb-2 whitespace-nowrap" style={{
+                                            fontSize: calculateTitleFontSize(currentCard.title)
+                                        }}>{currentCard.title}</h1>
+                                        <p className="text-xl opacity-90">{currentCard.subtitle}</p>
+                                    </div>
+
+                                    <div className="space-y-6">
+                                        <div>
+                                            <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 opacity-80">
+                                                {currentCard.isIntro ? "Welcome" : "Definition"}
+                                            </h3>
+                                            <p className="text-lg leading-relaxed">{currentCard.description}</p>
+                                        </div>
+
+                                        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4">
+                                            <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 opacity-80">
+                                                {currentCard.isIntro ? "What You'll Learn" : "Example"}
+                                            </h3>
+                                            <p className="text-base italic leading-relaxed">{currentCard.example}</p>
+                                        </div>
+
+                                        <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4">
+                                            <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 opacity-80">
+                                                💡 {currentCard.isIntro ? "Get Started" : "Pro Tip"}
+                                            </h3>
+                                            <p className="text-base leading-relaxed">{currentCard.tip}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="text-center text-white/80 text-sm mt-4">
+                                    {currentIndex + 1} / {cards.length}
+                                </div>
+                            </div>
+                        </div>
+
+                        <button
+                            onClick={goPrev}
+                            disabled={currentIndex === 0}
+                            className="absolute top-4 left-1/2 -translate-x-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/30 transition-all z-10"
+                        >
+                            <ChevronUp size={24} />
+                        </button>
+
+                        {currentIndex === 0 && (
+                            <button
+                                onClick={shuffleCards}
+                                disabled={isShuffling}
+                                className={`absolute top-4 right-4 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/30 transition-all z-10 ${
+                                    isShuffling ? 'animate-spin bg-white/40' : ''
+                                }`}
+                                title="Shuffle cards"
+                            >
+                                <Shuffle size={24} />
+                            </button>
+                        )}
+
+                        <button
+                            onClick={goNext}
+                            disabled={currentIndex === cards.length - 1}
+                            className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/30 transition-all z-10"
+                        >
+                            <ChevronDown size={24} />
+                        </button>
+
+                        {currentIndex === cards.length - 1 && (
+                            <button
+                                onClick={reset}
+                                className="absolute bottom-20 left-1/2 -translate-x-1/2 bg-white text-gray-900 px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-gray-100 transition-all z-10 shadow-lg"
+                            >
+                                <RotateCcw size={18} />
+                                <span>Start Over</span>
+                            </button>
+                        )}
+                    </div>
+
+                    <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/40 text-sm text-center">
+                        Swipe up/down or use arrow keys
+                    </div>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<FallacySwiper />, document.getElementById('root'));
+    </script>
+</body>
+</html>

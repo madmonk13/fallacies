@@ -1,0 +1,1364 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "title": "🧠 Logical Fallacies",
+      "subtitle": "Master Critical Thinking",
+      "description": "Learn to identify common errors in reasoning that can mislead arguments and debates. Swipe through to discover fallacies that appear everywhere from social media to political discourse.",
+      "example": "Understanding these patterns will help you think more clearly, argue more effectively, and avoid being manipulated by flawed reasoning.",
+      "tip": "Take your time with each one. Real mastery comes from recognizing these fallacies in everyday conversations!",
+      "color": "from-slate-700 to-slate-900",
+      "isIntro": true
+    },
+    {
+      "id": 1,
+      "title": "👤 Ad Hominem",
+      "subtitle": "Attacking the Person",
+      "description": "Attacking the person making an argument rather than addressing the argument itself.",
+      "example": "You can't trust John's opinion on climate change because he's not a scientist.",
+      "tip": "Focus on the argument's merit, not who's making it.",
+      "color": "from-purple-500 to-pink-500"
+    },
+    {
+      "id": 2,
+      "title": "🎪 Straw Man",
+      "subtitle": "Misrepresenting the Argument",
+      "description": "Misrepresenting someone's argument to make it easier to attack.",
+      "example": "Person A: We should have some gun control. Person B: So you want to take away all guns?",
+      "tip": "Always address the actual argument being made.",
+      "color": "from-blue-500 to-cyan-500"
+    },
+    {
+      "id": 3,
+      "title": "⚫⚪ False Dichotomy",
+      "subtitle": "Black-and-White Thinking",
+      "description": "Presenting only two options when more exist.",
+      "example": "You're either with us or against us.",
+      "tip": "Look for middle ground and additional alternatives.",
+      "color": "from-green-500 to-emerald-500"
+    },
+    {
+      "id": 4,
+      "title": "👔 Appeal to Authority",
+      "subtitle": "Improper Authority",
+      "description": "Using an authority figure's opinion as evidence when they lack relevant expertise.",
+      "example": "This famous actor says this diet works, so it must be healthy.",
+      "tip": "Check if the authority is actually an expert in the relevant field.",
+      "color": "from-orange-500 to-red-500"
+    },
+    {
+      "id": 5,
+      "title": "🎿 Slippery Slope",
+      "subtitle": "Chain Reaction Fallacy",
+      "description": "Arguing that one step will inevitably lead to extreme consequences without evidence.",
+      "example": "If we allow students to redo assignments, soon grades will be meaningless.",
+      "tip": "Each step in a chain needs its own justification.",
+      "color": "from-indigo-500 to-purple-500"
+    },
+    {
+      "id": 6,
+      "title": "🏃 Hasty Generalization",
+      "subtitle": "Jumping to Conclusions",
+      "description": "Drawing a broad conclusion from limited evidence.",
+      "example": "I met two rude people from that city, so everyone there must be rude.",
+      "tip": "Ensure your sample size is large and representative.",
+      "color": "from-yellow-500 to-orange-500"
+    },
+    {
+      "id": 7,
+      "title": "🔄 Circular Reasoning",
+      "subtitle": "Begging the Question",
+      "description": "Using the conclusion as a premise in your argument.",
+      "example": "The Bible is true because it says so in the Bible.",
+      "tip": "Your premises must be independent of your conclusion.",
+      "color": "from-pink-500 to-rose-500"
+    },
+    {
+      "id": 8,
+      "title": "🐟 Red Herring",
+      "subtitle": "Distracting from the Issue",
+      "description": "Introducing irrelevant information to distract from the actual issue.",
+      "example": "Why worry about the environment when there are people starving?",
+      "tip": "Stay focused on the topic being discussed.",
+      "color": "from-teal-500 to-blue-500"
+    },
+    {
+      "id": 9,
+      "title": "🚐 Bandwagon",
+      "subtitle": "Appeal to Popularity",
+      "description": "Arguing something is true because many people believe it.",
+      "example": "Everyone's buying this product, so it must be good.",
+      "tip": "Popularity doesn't equal correctness.",
+      "color": "from-violet-500 to-purple-500"
+    },
+    {
+      "id": 10,
+      "title": "⏰ Post Hoc",
+      "subtitle": "False Cause",
+      "description": "Assuming that because B follows A, A must have caused B.",
+      "example": "I wore my lucky socks and we won the game, so my socks caused our victory.",
+      "tip": "Correlation does not imply causation.",
+      "color": "from-cyan-500 to-teal-500"
+    },
+    {
+      "id": 11,
+      "title": "😢 Appeal to Emotion",
+      "subtitle": "Playing on Feelings",
+      "description": "Manipulating emotions instead of using valid reasoning to persuade.",
+      "example": "If you don't support this law, you must hate children.",
+      "tip": "Strong emotions don't make an argument logically sound.",
+      "color": "from-rose-500 to-pink-500"
+    },
+    {
+      "id": 12,
+      "title": "🪞 Tu Quoque",
+      "subtitle": "You Too Fallacy",
+      "description": "Dismissing criticism by pointing out the critic's hypocrisy.",
+      "example": "You say I shouldn't smoke, but you used to smoke too!",
+      "tip": "Hypocrisy doesn't make the criticism wrong.",
+      "color": "from-amber-500 to-orange-500"
+    },
+    {
+      "id": 13,
+      "title": "🌿 Appeal to Nature",
+      "subtitle": "Natural Equals Good",
+      "description": "Arguing that something is good because it's natural.",
+      "example": "This medicine is better because it's all-natural and organic.",
+      "tip": "Arsenic is natural. Natural doesn't mean safe.",
+      "color": "from-lime-500 to-green-500"
+    },
+    {
+      "id": 14,
+      "title": "🎯 Texas Sharpshooter",
+      "subtitle": "Cherry-Picking Data",
+      "description": "Selecting data that supports your conclusion while ignoring data that doesn't.",
+      "example": "Look at all these warm days - global warming is happening!",
+      "tip": "Look at all the data, not just what supports your view.",
+      "color": "from-red-500 to-orange-500"
+    },
+    {
+      "id": 15,
+      "title": "🏴 No True Scotsman",
+      "subtitle": "Moving the Goalposts",
+      "description": "Changing the definition to exclude counterexamples.",
+      "example": "No true Christian would do that. Well, he's not a TRUE Christian then.",
+      "tip": "Definitions shouldn't change to preserve your argument.",
+      "color": "from-indigo-500 to-blue-500"
+    },
+    {
+      "id": 16,
+      "title": "🪤 Loaded Question",
+      "subtitle": "Trap Questions",
+      "description": "Asking a question that contains an unproven assumption.",
+      "example": "Have you stopped cheating on tests?",
+      "tip": "Challenge the assumptions built into questions.",
+      "color": "from-purple-500 to-violet-500"
+    },
+    {
+      "id": 17,
+      "title": "⚖️ Middle Ground",
+      "subtitle": "False Compromise",
+      "description": "Assuming the truth lies in the middle of two extreme positions.",
+      "example": "Some say vaccines are safe, others deadly. Truth is in between.",
+      "tip": "Sometimes one side is simply right and the other wrong.",
+      "color": "from-gray-500 to-slate-500"
+    },
+    {
+      "id": 18,
+      "title": "📋 Burden of Proof",
+      "subtitle": "Prove Me Wrong",
+      "description": "Claiming something is true until proven false.",
+      "example": "Bigfoot exists. Prove to me that he doesn't!",
+      "tip": "The person making a claim has the burden to prove it.",
+      "color": "from-emerald-500 to-teal-500"
+    },
+    {
+      "id": 19,
+      "title": "🏛️ Appeal to Tradition",
+      "subtitle": "We've Always Done It",
+      "description": "Arguing something is correct because it's been done historically.",
+      "example": "We've always done it this way, so we should continue.",
+      "tip": "Tradition doesn't justify an action's correctness.",
+      "color": "from-amber-600 to-orange-600"
+    },
+    {
+      "id": 20,
+      "title": "🧬 Genetic Fallacy",
+      "subtitle": "Judging by Origin",
+      "description": "Judging something based on where it comes from.",
+      "example": "That theory came from a discredited scientist, so it's wrong.",
+      "tip": "Evaluate ideas on their own merit, not their source.",
+      "color": "from-fuchsia-500 to-pink-500"
+    },
+    {
+      "id": 21,
+      "title": "🧩 Composition",
+      "subtitle": "Parts to Whole",
+      "description": "Assuming what's true for the parts must be true for the whole.",
+      "example": "Each player is excellent, so the team must be excellent.",
+      "tip": "A collection can have different properties than its parts.",
+      "color": "from-sky-500 to-blue-500"
+    },
+    {
+      "id": 22,
+      "title": "✂️ Division",
+      "subtitle": "Whole to Parts",
+      "description": "Assuming what's true for the whole must be true for the parts.",
+      "example": "This company is profitable, so every department is profitable.",
+      "tip": "Individual parts may differ from the collective whole.",
+      "color": "from-cyan-500 to-sky-500"
+    },
+    {
+      "id": 23,
+      "title": "🔀 Equivocation",
+      "subtitle": "Shifting Meanings",
+      "description": "Using the same word with different meanings in an argument.",
+      "example": "A feather is light. Light is opposite of dark. Feather is opposite of dark.",
+      "tip": "Keep word meanings consistent throughout.",
+      "color": "from-violet-500 to-fuchsia-500"
+    },
+    {
+      "id": 24,
+      "title": "📖 Anecdotal Evidence",
+      "subtitle": "My Experience Proves It",
+      "description": "Using personal experience as the sole evidence.",
+      "example": "My grandfather smoked and lived to 95, so smoking isn't bad.",
+      "tip": "Individual cases don't disprove statistical trends.",
+      "color": "from-orange-500 to-amber-500"
+    },
+    {
+      "id": 25,
+      "title": "❓ Appeal to Ignorance",
+      "subtitle": "Absence of Evidence",
+      "description": "Claiming something is true because it hasn't been proven false.",
+      "example": "No one has proven aliens don't exist, so they must be real.",
+      "tip": "Lack of evidence isn't evidence itself.",
+      "color": "from-indigo-600 to-purple-600"
+    },
+    {
+      "id": 26,
+      "title": "🎭 Special Pleading",
+      "subtitle": "Rules for Thee, Not for Me",
+      "description": "Applying rules to others but claiming you're exempt.",
+      "example": "Everyone should follow speed limits, but I'm a good driver.",
+      "tip": "General rules need general application.",
+      "color": "from-red-600 to-rose-600"
+    },
+    {
+      "id": 27,
+      "title": "💸 Sunk Cost",
+      "subtitle": "Can't Waste the Investment",
+      "description": "Continuing because you've already invested.",
+      "example": "I've already spent $500 fixing this car, so I have to keep fixing it.",
+      "tip": "Past investments shouldn't dictate future decisions.",
+      "color": "from-yellow-600 to-orange-600"
+    },
+    {
+      "id": 28,
+      "title": "🎲 Gambler's Fallacy",
+      "subtitle": "Due for a Win",
+      "description": "Believing past random events affect future independent events.",
+      "example": "The coin landed heads five times, so tails is due next.",
+      "tip": "Independent events don't have memory.",
+      "color": "from-green-600 to-emerald-600"
+    },
+    {
+      "id": 29,
+      "title": "🍎🍊 False Analogy",
+      "subtitle": "Apples to Oranges",
+      "description": "Comparing two things that aren't sufficiently similar.",
+      "example": "Employees are like nails. Nails must be hit to work, so must employees.",
+      "tip": "Analogies only work when similarities are relevant.",
+      "color": "from-pink-600 to-fuchsia-600"
+    },
+    {
+      "id": 30,
+      "title": "🥅 Moving the Goalposts",
+      "subtitle": "Never Satisfied",
+      "description": "Changing requirements when they've been met.",
+      "example": "Show evidence. That's not enough. I meant different evidence.",
+      "tip": "Define success criteria clearly beforehand.",
+      "color": "from-blue-600 to-cyan-600"
+    },
+    {
+      "id": 31,
+      "title": "🤡 Appeal to Ridicule",
+      "subtitle": "Mocking the Argument",
+      "description": "Presenting an opponent's argument as absurd.",
+      "example": "Oh sure, and the moon is made of cheese!",
+      "tip": "Ridicule is not refutation.",
+      "color": "from-orange-600 to-red-600"
+    },
+    {
+      "id": 32,
+      "title": "🌊 Overwhelming Exception",
+      "subtitle": "Exception Swallows Rule",
+      "description": "Citing an exception as if it disproves the rule.",
+      "example": "Exercise is healthy? My friend got injured exercising!",
+      "tip": "Exceptions don't invalidate general patterns.",
+      "color": "from-teal-600 to-cyan-600"
+    },
+    {
+      "id": 33,
+      "title": "⚡ Nirvana Fallacy",
+      "subtitle": "Perfect or Nothing",
+      "description": "Rejecting a solution because it's not perfect.",
+      "example": "This safety measure won't prevent ALL accidents.",
+      "tip": "Better is still better, even if not perfect.",
+      "color": "from-purple-600 to-pink-600"
+    },
+    {
+      "id": 34,
+      "title": "🎣 Argument from Fallacy",
+      "subtitle": "Fallacy Fallacy",
+      "description": "If an argument has a fallacy, the conclusion must be false.",
+      "example": "Your argument used a fallacy, so exercise isn't beneficial.",
+      "tip": "A bad argument doesn't make the conclusion wrong.",
+      "color": "from-emerald-600 to-green-600"
+    },
+    {
+      "id": 35,
+      "title": "👥 Appeal to Pity",
+      "subtitle": "Sympathy Over Logic",
+      "description": "Winning support through sympathy rather than reasoning.",
+      "example": "I've been having a hard time, so give me an A.",
+      "tip": "Sympathy doesn't validate a claim.",
+      "color": "from-blue-600 to-indigo-600"
+    },
+    {
+      "id": 36,
+      "title": "💪 Appeal to Force",
+      "subtitle": "Might Makes Right",
+      "description": "Using threats instead of reasoning.",
+      "example": "Believe what I say or you'll lose your job.",
+      "tip": "Threats don't make an argument valid.",
+      "color": "from-red-700 to-orange-700"
+    },
+    {
+      "id": 37,
+      "title": "🌟 Appeal to Novelty",
+      "subtitle": "New Must Be Better",
+      "description": "Assuming something is better because it's newer.",
+      "example": "This new app must be better just because it's newer.",
+      "tip": "Age doesn't determine quality.",
+      "color": "from-cyan-600 to-blue-600"
+    },
+    {
+      "id": 38,
+      "title": "🎖️ Appeal to Accomplishment",
+      "subtitle": "Success in One, Expert in All",
+      "description": "Expertise in one field grants expertise in all.",
+      "example": "She's a great athlete, so her political opinions are valid.",
+      "tip": "Excellence doesn't transfer between domains.",
+      "color": "from-yellow-600 to-amber-600"
+    },
+    {
+      "id": 39,
+      "title": "💰 Appeal to Wealth",
+      "subtitle": "Rich Means Right",
+      "description": "Someone is correct because they are wealthy.",
+      "example": "He's a billionaire, so he's right about economics.",
+      "tip": "Wealth doesn't equal correctness.",
+      "color": "from-green-600 to-lime-600"
+    },
+    {
+      "id": 40,
+      "title": "🧹 Reductio ad Absurdum",
+      "subtitle": "Misused Reduction to Absurdity",
+      "description": "Taking an argument to extremes improperly.",
+      "example": "If we allow gay marriage, people will marry their pets!",
+      "tip": "Valid when logical, invalid when exaggerating.",
+      "color": "from-violet-600 to-purple-600"
+    },
+    {
+      "id": 41,
+      "title": "📺 Proof by Assertion",
+      "subtitle": "Repeat Until True",
+      "description": "Repeating a statement as if repetition makes it true.",
+      "example": "This is the best. Simply the best. Everyone knows it's the best.",
+      "tip": "Repetition doesn't create truth.",
+      "color": "from-pink-600 to-rose-600"
+    },
+    {
+      "id": 42,
+      "title": "🎪 False Equivalence",
+      "subtitle": "Both Sides Are Equal",
+      "description": "Treating unequal things as equal.",
+      "example": "A jaywalker and murderer are both criminals, so they're the same.",
+      "tip": "Not all things in a category are equally significant.",
+      "color": "from-orange-600 to-amber-600"
+    },
+    {
+      "id": 43,
+      "title": "🎨 Fallacy of Composition",
+      "subtitle": "Good for One, Good for All",
+      "description": "What benefits one will benefit the group.",
+      "example": "If one person stands at a concert, everyone should stand.",
+      "tip": "Individual benefits don't always scale.",
+      "color": "from-indigo-600 to-violet-600"
+    },
+    {
+      "id": 44,
+      "title": "🕰️ Chronological Snobbery",
+      "subtitle": "Old Means Wrong",
+      "description": "Dismissing ideas because they're old.",
+      "example": "That book is 100 years old, so it can't be relevant.",
+      "tip": "Some truths are timeless.",
+      "color": "from-slate-600 to-gray-600"
+    },
+    {
+      "id": 45,
+      "title": "🎯 Cherry Picking",
+      "subtitle": "Selective Evidence",
+      "description": "Selecting only favorable evidence.",
+      "example": "Look at these five studies that support my view.",
+      "tip": "Consider all available evidence.",
+      "color": "from-red-600 to-pink-600"
+    },
+    {
+      "id": 46,
+      "title": "🤝 Guilt by Association",
+      "subtitle": "Bad Company, Bad Ideas",
+      "description": "Discrediting by association with undesirable groups.",
+      "example": "Hitler was a vegetarian, so vegetarianism is bad.",
+      "tip": "Judge ideas independently.",
+      "color": "from-purple-600 to-indigo-600"
+    },
+    {
+      "id": 47,
+      "title": "🎬 Historian's Fallacy",
+      "subtitle": "They Should Have Known",
+      "description": "Assuming past people had current information.",
+      "example": "How could they not know smoking was bad in the 1950s?",
+      "tip": "Evaluate past with past information.",
+      "color": "from-amber-600 to-yellow-600"
+    },
+    {
+      "id": 48,
+      "title": "🔮 Appeal to Mystery",
+      "subtitle": "Patterns in Randomness",
+      "description": "Cherry-picking clusters in random data.",
+      "example": "Three people from this town got sick - must be the water!",
+      "tip": "Random clusters occur naturally.",
+      "color": "from-teal-600 to-emerald-600"
+    },
+    {
+      "id": 49,
+      "title": "🎭 Appeal to Fear",
+      "subtitle": "Scare Tactics",
+      "description": "Using fear to manipulate acceptance.",
+      "example": "If you don't vote for this, our way of life will be destroyed!",
+      "tip": "Fear-based arguments often lack logic.",
+      "color": "from-orange-700 to-red-700"
+    },
+    {
+      "id": 50,
+      "title": "🏁 Proof by Example",
+      "subtitle": "One Example Proves All",
+      "description": "Using one example as proof of a universal claim.",
+      "example": "My uncle smoked and lived to 100, so smoking isn't harmful.",
+      "tip": "One example doesn't establish a pattern.",
+      "color": "from-lime-600 to-green-600"
+    },
+    {
+      "id": 51,
+      "title": "🎰 Appeal to Probability",
+      "subtitle": "If It Can, It Will",
+      "description": "Assuming possibility equals inevitability.",
+      "example": "Someone will misuse this, so ban it now.",
+      "tip": "Possibility doesn't equal inevitability.",
+      "color": "from-purple-700 to-pink-700"
+    },
+    {
+      "id": 52,
+      "title": "🔍 Spotlight Fallacy",
+      "subtitle": "Media Equals Reality",
+      "description": "Media coverage represents full reality.",
+      "example": "News shows crime, so crime is rising.",
+      "tip": "Media coverage doesn't reflect statistics.",
+      "color": "from-yellow-700 to-orange-700"
+    },
+    {
+      "id": 53,
+      "title": "🎓 Argument from Authority",
+      "subtitle": "Expert Says, Must Be True",
+      "description": "Accepting claims just because an expert said it.",
+      "example": "Nobel winner said it, must be true.",
+      "tip": "Even experts need evidence.",
+      "color": "from-blue-700 to-indigo-700"
+    },
+    {
+      "id": 54,
+      "title": "🌈 Continuum Fallacy",
+      "subtitle": "No Clear Line, No Difference",
+      "description": "Rejecting distinction due to unclear boundary.",
+      "example": "No exact moment day becomes night, so no difference.",
+      "tip": "Vague boundaries don't eliminate differences.",
+      "color": "from-pink-700 to-rose-700"
+    },
+    {
+      "id": 55,
+      "title": "🎪 Kettle Logic",
+      "subtitle": "Contradictory Arguments",
+      "description": "Using contradictory arguments together.",
+      "example": "Never borrowed it. Was broken. Returned perfect.",
+      "tip": "Contradictions undermine each other.",
+      "color": "from-teal-700 to-cyan-700"
+    },
+    {
+      "id": 56,
+      "title": "🔔 Affirming the Consequent",
+      "subtitle": "Backward Logic",
+      "description": "If A causes B, then B proves A.",
+      "example": "Rain makes grass wet. Grass wet, so it rained.",
+      "tip": "Effects have multiple causes.",
+      "color": "from-green-700 to-emerald-700"
+    },
+    {
+      "id": 57,
+      "title": "❌ Denying the Antecedent",
+      "subtitle": "Wrong Direction",
+      "description": "If A causes B, not-A means not-B.",
+      "example": "Study to pass. Didn't study, won't pass.",
+      "tip": "Absence of one cause doesn't eliminate all.",
+      "color": "from-red-700 to-pink-700"
+    },
+    {
+      "id": 58,
+      "title": "🎯 Base Rate Fallacy",
+      "subtitle": "Ignoring Background Rate",
+      "description": "Ignoring overall probability.",
+      "example": "99% accurate test, you're positive, so you have it.",
+      "tip": "Consider baseline probability.",
+      "color": "from-indigo-700 to-violet-700"
+    },
+    {
+      "id": 59,
+      "title": "🎲 Conjunction Fallacy",
+      "subtitle": "More Detail, More Likely",
+      "description": "Specific seems more likely than general.",
+      "example": "Linda is more likely feminist bank teller than bank teller.",
+      "tip": "Adding details decreases probability.",
+      "color": "from-orange-700 to-amber-700"
+    },
+    {
+      "id": 60,
+      "title": "🧠 Mind Projection",
+      "subtitle": "My Thoughts Are Reality",
+      "description": "Mental states reflect objective reality.",
+      "example": "This music is objectively bad because I dislike it.",
+      "tip": "Subjective isn't objective.",
+      "color": "from-purple-700 to-fuchsia-700"
+    },
+    {
+      "id": 61,
+      "title": "🎭 Motte-and-Bailey",
+      "subtitle": "Defend Weak, Assert Strong",
+      "description": "Switching between controversial and defensible positions.",
+      "example": "Abolish prisons. I meant reform prisons.",
+      "tip": "Don't let retreat to weaker claims.",
+      "color": "from-slate-700 to-gray-700"
+    },
+    {
+      "id": 62,
+      "title": "🌀 Kafkatrapping",
+      "subtitle": "Denial Proves Guilt",
+      "description": "Denial itself is proof of guilt.",
+      "example": "Not racist? That's what racists say!",
+      "tip": "Unfalsifiable accusations are invalid.",
+      "color": "from-red-800 to-orange-800"
+    },
+    {
+      "id": 63,
+      "title": "💭 Thought-Terminating Cliché",
+      "subtitle": "Conversation Ender",
+      "description": "Catchy phrases shut down thinking.",
+      "example": "It is what it is. Boys will be boys.",
+      "tip": "Clichés stop thinking.",
+      "color": "from-cyan-700 to-blue-700"
+    },
+    {
+      "id": 64,
+      "title": "🎪 Two Wrongs Make Right",
+      "subtitle": "Their Wrong Justifies Mine",
+      "description": "Others' wrongs justify yours.",
+      "example": "Sure I cheated, everyone does!",
+      "tip": "Others' wrongs don't justify yours.",
+      "color": "from-pink-800 to-rose-800"
+    },
+    {
+      "id": 65,
+      "title": "⚖️ False Balance",
+      "subtitle": "Equal Time for Unequal",
+      "description": "Giving equal weight to unequal positions.",
+      "example": "99% of scientists vs one skeptic - both sides!",
+      "tip": "Balance isn't equal time.",
+      "color": "from-teal-800 to-emerald-800"
+    },
+    {
+      "id": 66,
+      "title": "🔊 Argument from Loudness",
+      "subtitle": "Yelling Means Winning",
+      "description": "Speaking louder makes argument valid.",
+      "example": "Shouting over someone in debate.",
+      "tip": "Volume doesn't validate.",
+      "color": "from-orange-800 to-red-800"
+    },
+    {
+      "id": 67,
+      "title": "🎯 Ecological Fallacy",
+      "subtitle": "Group Stats to Individuals",
+      "description": "Group truth applies to individuals.",
+      "example": "High income neighborhood, so everyone is wealthy.",
+      "tip": "Averages don't describe individuals.",
+      "color": "from-green-800 to-lime-800"
+    },
+    {
+      "id": 68,
+      "title": "🎨 McNamara Fallacy",
+      "subtitle": "Only Measurable Matters",
+      "description": "Decisions based only on metrics.",
+      "example": "Student learning is only test scores.",
+      "tip": "Not everything important is measurable.",
+      "color": "from-blue-800 to-indigo-800"
+    },
+    {
+      "id": 69,
+      "title": "🎪 Psychologist's Fallacy",
+      "subtitle": "Observer Bias as Fact",
+      "description": "Projecting your perspective into subjects.",
+      "example": "Baby smiled, so it recognizes me.",
+      "tip": "Your interpretation isn't their experience.",
+      "color": "from-pink-800 to-fuchsia-800"
+    },
+    {
+      "id": 70,
+      "title": "🎭 Package Deal",
+      "subtitle": "All or Nothing Bundle",
+      "description": "Positions must always go together.",
+      "example": "Support gun rights? Must oppose abortion.",
+      "tip": "Beliefs don't come in packages.",
+      "color": "from-amber-800 to-yellow-800"
+    },
+    {
+      "id": 71,
+      "title": "🔄 Circular Cause",
+      "subtitle": "Chicken and Egg",
+      "description": "A causes B and B causes A.",
+      "example": "Depressed because unemployed, unemployed because depressed.",
+      "tip": "Break loops by examining origins.",
+      "color": "from-cyan-800 to-teal-800"
+    },
+    {
+      "id": 72,
+      "title": "💎 Appeal to Consequences",
+      "subtitle": "Truth Based on Outcomes",
+      "description": "True or false based on liking consequences.",
+      "example": "Can't be no afterlife, too depressing.",
+      "tip": "Wanting doesn't make it true.",
+      "color": "from-rose-800 to-red-800"
+    },
+    {
+      "id": 73,
+      "title": "🎯 Sharpshooter's Fallacy",
+      "subtitle": "Paint Target After",
+      "description": "Adjusting hypothesis after seeing data.",
+      "example": "Predicted something big, celebrity divorced!",
+      "tip": "After-the-fact isn't prediction.",
+      "color": "from-lime-800 to-green-800"
+    },
+    {
+      "id": 74,
+      "title": "🌟 Wishful Thinking",
+      "subtitle": "Belief Shapes Reality",
+      "description": "True because you want it true.",
+      "example": "Don't need to study, will pass because I need to.",
+      "tip": "Desire doesn't override reality.",
+      "color": "from-purple-800 to-pink-800"
+    },
+    {
+      "id": 75,
+      "title": "🎭 Appeal to Flattery",
+      "subtitle": "Compliments Replace Logic",
+      "description": "Using praise to get acceptance.",
+      "example": "Someone as smart as you agrees...",
+      "tip": "Flattery is persuasion, not proof.",
+      "color": "from-yellow-800 to-orange-800"
+    },
+    {
+      "id": 76,
+      "title": "⚡ Lightning Fallacy",
+      "subtitle": "Sudden Insight Must Be True",
+      "description": "Sudden realization must be true.",
+      "example": "Suddenly became clear - this is the answer!",
+      "tip": "Epiphanies need verification.",
+      "color": "from-blue-900 to-indigo-900"
+    },
+    {
+      "id": 77,
+      "title": "🎪 Availability Heuristic",
+      "subtitle": "Easy Recall Means Common",
+      "description": "Judging likelihood by ease of recall.",
+      "example": "Plane crashes are so common!",
+      "tip": "Memorable doesn't mean common.",
+      "color": "from-red-900 to-rose-900"
+    },
+    {
+      "id": 78,
+      "title": "🎯 Anchoring Bias",
+      "subtitle": "First Number Sticks",
+      "description": "Over-relying on first information.",
+      "example": "Listed at $30K, so $25K is great!",
+      "tip": "Don't let initial info anchor you.",
+      "color": "from-teal-900 to-cyan-900"
+    },
+    {
+      "id": 79,
+      "title": "🎪 Confirmation Bias",
+      "subtitle": "See What You Want",
+      "description": "Seeking info confirming beliefs.",
+      "example": "Horoscope was right today!",
+      "tip": "Actively seek disconfirming evidence.",
+      "color": "from-purple-900 to-fuchsia-900"
+    },
+    {
+      "id": 80,
+      "title": "🔍 Hindsight Bias",
+      "subtitle": "I Knew It All Along",
+      "description": "Past events seemed more predictable.",
+      "example": "I knew that team would win!",
+      "tip": "Obvious in hindsight wasn't before.",
+      "color": "from-orange-900 to-amber-900"
+    },
+    {
+      "id": 81,
+      "title": "👤 Fundamental Attribution Error",
+      "subtitle": "Character Over Circumstance",
+      "description": "Overemphasizing personality over situation.",
+      "example": "He cut me off - terrible person!",
+      "tip": "Consider situational factors.",
+      "color": "from-blue-900 to-sky-900"
+    },
+    {
+      "id": 82,
+      "title": "🎭 Actor-Observer Bias",
+      "subtitle": "Different Rules for Me",
+      "description": "Your actions situational, others' character.",
+      "example": "I was late because traffic, you because irresponsible.",
+      "tip": "Apply same standards to all.",
+      "color": "from-pink-900 to-rose-900"
+    },
+    {
+      "id": 83,
+      "title": "🌟 Halo Effect",
+      "subtitle": "One Good, All Good",
+      "description": "One positive quality influences all judgment.",
+      "example": "She's attractive, so also smart and kind.",
+      "tip": "Evaluate each quality independently.",
+      "color": "from-yellow-900 to-lime-900"
+    },
+    {
+      "id": 84,
+      "title": "😈 Horn Effect",
+      "subtitle": "One Bad, All Bad",
+      "description": "One negative quality influences all.",
+      "example": "He made a mistake, so incompetent at everything.",
+      "tip": "One flaw doesn't define all.",
+      "color": "from-red-900 to-orange-900"
+    },
+    {
+      "id": 85,
+      "title": "🎯 Dunning-Kruger Effect",
+      "subtitle": "Ignorance Breeds Confidence",
+      "description": "Overestimating knowledge when knowing little.",
+      "example": "Watched YouTube video, know more than doctors.",
+      "tip": "More you learn, more you don't know.",
+      "color": "from-indigo-900 to-violet-900"
+    },
+    {
+      "id": 86,
+      "title": "🎪 Impostor Syndrome",
+      "subtitle": "Expertise Breeds Doubt",
+      "description": "Doubting abilities despite competence.",
+      "example": "Only got PhD because lucky, not capable.",
+      "tip": "Recognize actual accomplishments.",
+      "color": "from-teal-900 to-emerald-900"
+    },
+    {
+      "id": 87,
+      "title": "💭 Clustering Illusion",
+      "subtitle": "Patterns in Randomness",
+      "description": "Finding patterns where none exist.",
+      "example": "Keep seeing 11:11, must mean something!",
+      "tip": "Random events naturally cluster.",
+      "color": "from-cyan-900 to-blue-900"
+    },
+    {
+      "id": 88,
+      "title": "🎲 Hot Hand Fallacy",
+      "subtitle": "Streaks Mean Momentum",
+      "description": "Success streaks will continue.",
+      "example": "Won three coin flips, on a hot streak!",
+      "tip": "Past luck doesn't influence future.",
+      "color": "from-orange-900 to-red-900"
+    },
+    {
+      "id": 89,
+      "title": "🎯 Survivorship Bias",
+      "subtitle": "Success Story Selection",
+      "description": "Focusing on successes, ignoring failures.",
+      "example": "Dropouts like Gates became billionaires!",
+      "tip": "Look at full population.",
+      "color": "from-green-900 to-emerald-900"
+    },
+    {
+      "id": 90,
+      "title": "📊 Regression to Mean",
+      "subtitle": "Extreme Results Normalize",
+      "description": "Not accounting for return to average.",
+      "example": "Back pain went away after healer!",
+      "tip": "Extremes naturally move to average.",
+      "color": "from-violet-900 to-purple-900"
+    },
+    {
+      "id": 91,
+      "title": "🎪 Self-Serving Bias",
+      "subtitle": "Credit Success, Blame Circumstances",
+      "description": "Successes yours, failures external.",
+      "example": "Passed because smart, failed because unfair test.",
+      "tip": "Be honest about both.",
+      "color": "from-pink-900 to-fuchsia-900"
+    },
+    {
+      "id": 92,
+      "title": "👥 Ingroup Bias",
+      "subtitle": "My Group Better",
+      "description": "Favoring your own group.",
+      "example": "Lost due to luck, they won by cheating.",
+      "tip": "Evaluate individually.",
+      "color": "from-blue-900 to-indigo-900"
+    },
+    {
+      "id": 93,
+      "title": "🌍 Outgroup Homogeneity",
+      "subtitle": "They're All Same",
+      "description": "Perceiving outgroups as more similar.",
+      "example": "All millennials are entitled.",
+      "tip": "Outgroups have diversity too.",
+      "color": "from-red-900 to-pink-900"
+    },
+    {
+      "id": 94,
+      "title": "🎯 Projection Bias",
+      "subtitle": "Everyone Thinks Like Me",
+      "description": "Assuming others share your views.",
+      "example": "I love spicy food, great gift for anyone!",
+      "tip": "People have different preferences.",
+      "color": "from-amber-900 to-yellow-900"
+    },
+    {
+      "id": 95,
+      "title": "🔮 Planning Fallacy",
+      "subtitle": "Underestimating Time",
+      "description": "Underestimating time and costs.",
+      "example": "This will take 2 weeks. Takes 2 months.",
+      "tip": "Look at past similar tasks.",
+      "color": "from-teal-900 to-cyan-900"
+    },
+    {
+      "id": 96,
+      "title": "⏰ Present Bias",
+      "subtitle": "Now Over Later",
+      "description": "Overvaluing immediate rewards.",
+      "example": "Start diet tomorrow, eat cake today.",
+      "tip": "Future you thanks present you.",
+      "color": "from-orange-900 to-rose-900"
+    },
+    {
+      "id": 97,
+      "title": "🎪 Hyperbolic Discounting",
+      "subtitle": "Near Beats Distant",
+      "description": "Preferring smaller immediate over larger delayed.",
+      "example": "$50 now better than $100 in a year.",
+      "tip": "Calculate actual value.",
+      "color": "from-lime-900 to-green-900"
+    },
+    {
+      "id": 98,
+      "title": "🎯 Framing Effect",
+      "subtitle": "Presentation Changes Perception",
+      "description": "Same info, different conclusions by framing.",
+      "example": "90% survival sounds better than 10% death.",
+      "tip": "Look past framing to facts.",
+      "color": "from-blue-900 to-cyan-900"
+    },
+    {
+      "id": 99,
+      "title": "🎭 Distinction Bias",
+      "subtitle": "Comparison Exaggerates",
+      "description": "Overvaluing differences when comparing.",
+      "example": "These headphones sound way better in store!",
+      "tip": "Evaluate in context.",
+      "color": "from-pink-900 to-red-900"
+    },
+    {
+      "id": 100,
+      "title": "💭 Information Bias",
+      "subtitle": "More Info Better",
+      "description": "Seeking info that won't affect decision.",
+      "example": "Researching hours when differences trivial.",
+      "tip": "Know when you have enough.",
+      "color": "from-indigo-900 to-purple-900"
+    },
+    {
+      "id": 101,
+      "title": "🎯 Ostrich Effect",
+      "subtitle": "Avoiding Negative Info",
+      "description": "Ignoring dangerous information.",
+      "example": "Not checking bank balance when low.",
+      "tip": "Facing problems solves them.",
+      "color": "from-yellow-900 to-orange-900"
+    },
+    {
+      "id": 102,
+      "title": "🌟 Optimism Bias",
+      "subtitle": "Bad Things to Others",
+      "description": "Less likely to experience negatives.",
+      "example": "Don't need insurance, won't happen to me.",
+      "tip": "Statistics apply to you too.",
+      "color": "from-cyan-900 to-teal-900"
+    },
+    {
+      "id": 103,
+      "title": "😰 Pessimism Bias",
+      "subtitle": "Overestimating Negatives",
+      "description": "Expecting worst more likely.",
+      "example": "Speak up, definitely get fired.",
+      "tip": "Worst-case usually unlikely.",
+      "color": "from-gray-900 to-slate-900"
+    },
+    {
+      "id": 104,
+      "title": "🎪 Normalcy Bias",
+      "subtitle": "Everything Stays Same",
+      "description": "Underestimating disaster likelihood.",
+      "example": "Fire alarm is probably just drill.",
+      "tip": "Prepare for serious events.",
+      "color": "from-red-900 to-orange-900"
+    },
+    {
+      "id": 105,
+      "title": "⚡ Recency Bias",
+      "subtitle": "Recent More Important",
+      "description": "More weight to recent events.",
+      "example": "Market crashed yesterday, bad time to invest.",
+      "tip": "Consider full timeline.",
+      "color": "from-purple-900 to-pink-900"
+    },
+    {
+      "id": 106,
+      "title": "🎯 Peak-End Rule",
+      "subtitle": "Peaks and Ends Define Memory",
+      "description": "Judging by peak and end.",
+      "example": "Vacation was amazing! Last day was great.",
+      "tip": "Consider full experience.",
+      "color": "from-teal-900 to-blue-900"
+    },
+    {
+      "id": 107,
+      "title": "💎 Endowment Effect",
+      "subtitle": "My Stuff More Valuable",
+      "description": "Overvaluing because you own it.",
+      "example": "Won't sell car for $10K, wouldn't pay $10K either.",
+      "tip": "Ownership shouldn't change value.",
+      "color": "from-amber-900 to-orange-900"
+    },
+    {
+      "id": 108,
+      "title": "🎭 IKEA Effect",
+      "subtitle": "I Made It, Better",
+      "description": "Overvaluing what you created.",
+      "example": "Wobbly table I built worth more than store-bought!",
+      "tip": "Effort doesn't change market value.",
+      "color": "from-blue-900 to-indigo-900"
+    },
+    {
+      "id": 109,
+      "title": "🌟 Zero-Risk Bias",
+      "subtitle": "Eliminate One Risk",
+      "description": "Preferring one risk to zero over reducing multiple.",
+      "example": "Make X 100% safe instead of reducing all risks.",
+      "tip": "Reduce total risk.",
+      "color": "from-green-900 to-emerald-900"
+    },
+    {
+      "id": 110,
+      "title": "🎪 Denomination Effect",
+      "subtitle": "Big Bills More Valuable",
+      "description": "Less likely to spend larger bills.",
+      "example": "Won't break $100, easily spend five $20s.",
+      "tip": "Denomination doesn't change value.",
+      "color": "from-violet-900 to-purple-900"
+    },
+    {
+      "id": 111,
+      "title": "💭 Mental Accounting",
+      "subtitle": "Money in Mental Buckets",
+      "description": "Treating money differently by category.",
+      "example": "Birthday money can splurge, salary be careful.",
+      "tip": "Money is fungible.",
+      "color": "from-pink-900 to-rose-900"
+    },
+    {
+      "id": 112,
+      "title": "🎯 Decoy Effect",
+      "subtitle": "Third Option Changes Preference",
+      "description": "Third inferior option changes preference.",
+      "example": "Small $3, Large $7, Medium $6.50 makes large good.",
+      "tip": "Ignore decoys.",
+      "color": "from-orange-900 to-amber-900"
+    },
+    {
+      "id": 113,
+      "title": "🌈 Rainbow Washing",
+      "subtitle": "Superficial Cause Support",
+      "description": "Appearing to support causes for profit.",
+      "example": "Support pride month, logo change June only.",
+      "tip": "Look for action, not symbols.",
+      "color": "from-pink-800 to-purple-800"
+    },
+    {
+      "id": 114,
+      "title": "🎪 Greenwashing",
+      "subtitle": "False Environmental Claims",
+      "description": "Misleading environmental claims.",
+      "example": "Eco-friendly plastic! Still pollutes.",
+      "tip": "Research actual impact.",
+      "color": "from-green-800 to-lime-800"
+    },
+    {
+      "id": 115,
+      "title": "🎭 Virtue Signaling",
+      "subtitle": "Values Without Action",
+      "description": "Expressing opinions for moral superiority.",
+      "example": "Posting about causes, never helping.",
+      "tip": "Actions matter more.",
+      "color": "from-blue-800 to-cyan-800"
+    },
+    {
+      "id": 116,
+      "title": "💭 Whataboutism",
+      "subtitle": "Deflecting with Other Issues",
+      "description": "Responding to criticism with different issue.",
+      "example": "Why criticize us? What about what they did?",
+      "tip": "Address actual criticism.",
+      "color": "from-red-800 to-orange-800"
+    },
+    {
+      "id": 117,
+      "title": "🎯 Golden Hammer",
+      "subtitle": "One Solution for All",
+      "description": "Over-relying on familiar tool.",
+      "example": "Know Excel, use it for everything!",
+      "tip": "Different problems need different tools.",
+      "color": "from-yellow-800 to-amber-800"
+    },
+    {
+      "id": 118,
+      "title": "🎪 Not Invented Here",
+      "subtitle": "Rejecting External Ideas",
+      "description": "Avoiding solutions from outside.",
+      "example": "Can't use their solution, build our own.",
+      "tip": "Good ideas come from anywhere.",
+      "color": "from-indigo-800 to-violet-800"
+    },
+    {
+      "id": 119,
+      "title": "⚡ Premature Optimization",
+      "subtitle": "Perfecting Before Knowing",
+      "description": "Optimizing before understanding needs.",
+      "example": "Weeks optimizing code that runs once daily.",
+      "tip": "Optimize what matters, when matters.",
+      "color": "from-purple-800 to-pink-800"
+    },
+    {
+      "id": 120,
+      "title": "🎭 Bikeshedding",
+      "subtitle": "Focusing on Trivial",
+      "description": "Disproportionate time on minor decisions.",
+      "example": "Hours debating paint color, quick million-dollar approvals.",
+      "tip": "Time should match importance.",
+      "color": "from-teal-800 to-cyan-800"
+    },
+    {
+      "id": 121,
+      "title": "🌟 Analysis Paralysis",
+      "subtitle": "Overthinking Prevents Deciding",
+      "description": "Unable to decide due to overanalyzing.",
+      "example": "Researching laptops for months, never buying.",
+      "tip": "Good enough beats perfect.",
+      "color": "from-blue-800 to-indigo-800"
+    },
+    {
+      "id": 122,
+      "title": "💎 Feature Creep",
+      "subtitle": "Adding Unnecessary Complexity",
+      "description": "Continuously adding features.",
+      "example": "Just one more feature... repeat 100 times.",
+      "tip": "Know when to stop adding.",
+      "color": "from-orange-800 to-red-800"
+    },
+    {
+      "id": 123,
+      "title": "🎯 Scope Creep",
+      "subtitle": "Expanding Beyond Plan",
+      "description": "Requirements expanding without evaluation.",
+      "example": "While we're at it, let's also add...",
+      "tip": "Protect original scope.",
+      "color": "from-green-800 to-emerald-800"
+    },
+    {
+      "id": 124,
+      "title": "🎪 Perfectionism Paralysis",
+      "subtitle": "Nothing Good Enough",
+      "description": "Never completing because not perfect.",
+      "example": "Rewriting first chapter 50 times.",
+      "tip": "Done beats perfect.",
+      "color": "from-violet-800 to-purple-800"
+    },
+    {
+      "id": 125,
+      "title": "⚡ Busy Work Fallacy",
+      "subtitle": "Activity Equals Productivity",
+      "description": "Confusing busy with productive.",
+      "example": "Sent 100 emails, accomplished nothing important.",
+      "tip": "Measure output and impact.",
+      "color": "from-pink-800 to-rose-800"
+    },
+    {
+      "id": 126,
+      "title": "🎭 Mere Exposure Effect",
+      "subtitle": "Familiarity Breeds Preference",
+      "description": "Preferring because familiar.",
+      "example": "Like song after hearing 20 times.",
+      "tip": "Familiarity doesn't equal quality.",
+      "color": "from-cyan-800 to-blue-800"
+    },
+    {
+      "id": 127,
+      "title": "🌟 Authority Bias",
+      "subtitle": "Authority Must Be Right",
+      "description": "Trusting authority even when wrong.",
+      "example": "CEO said it, must be true.",
+      "tip": "Question authority respectfully.",
+      "color": "from-amber-800 to-yellow-800"
+    },
+    {
+      "id": 128,
+      "title": "🎯 Bystander Effect",
+      "subtitle": "Someone Else Will Handle",
+      "description": "Not acting because others present.",
+      "example": "Someone else will help that person.",
+      "tip": "Take responsibility.",
+      "color": "from-red-800 to-pink-800"
+    },
+    {
+      "id": 129,
+      "title": "💭 Just-World Hypothesis",
+      "subtitle": "Good to Good People",
+      "description": "World is fair, people get what deserve.",
+      "example": "They're poor, must be lazy.",
+      "tip": "World isn't always fair.",
+      "color": "from-indigo-800 to-violet-800"
+    },
+    {
+      "id": 130,
+      "title": "🎪 Barnum Effect",
+      "subtitle": "Vague Feels Personal",
+      "description": "Vague statements feel specifically about you.",
+      "example": "You need others to like you.",
+      "tip": "Horoscopes exploit this.",
+      "color": "from-purple-800 to-fuchsia-800"
+    },
+    {
+      "id": 131,
+      "title": "🌈 Choice-Supportive Bias",
+      "subtitle": "Retroactively Justifying",
+      "description": "Remembering choices as better.",
+      "example": "Glad I chose this car.",
+      "tip": "Honestly evaluate past decisions.",
+      "color": "from-teal-800 to-emerald-800"
+    },
+    {
+      "id": 132,
+      "title": "⚡ Reactance",
+      "subtitle": "Resist Being Told",
+      "description": "Opposite of suggested because freedom threatened.",
+      "example": "Don't tell me what to do!",
+      "tip": "Evaluate advice on merit.",
+      "color": "from-orange-800 to-amber-800"
+    },
+    {
+      "id": 133,
+      "title": "🎭 Illusory Superiority",
+      "subtitle": "I'm Better Than Average",
+      "description": "Overestimating positive qualities.",
+      "example": "I'm above-average driver.",
+      "tip": "You're probably more average.",
+      "color": "from-blue-800 to-cyan-800"
+    },
+    {
+      "id": 134,
+      "title": "💎 Hard-Easy Effect",
+      "subtitle": "Confidence Inversely Related",
+      "description": "Overconfident on hard, underconfident on easy.",
+      "example": "This is impossible! vs No problem!",
+      "tip": "Calibrate confidence with difficulty.",
+      "color": "from-pink-800 to-rose-800"
+    },
+    {
+      "id": 135,
+      "title": "🎯 Egocentric Bias",
+      "subtitle": "My Contribution Larger",
+      "description": "Overestimating own contributions.",
+      "example": "I did 80% of group project!",
+      "tip": "Others contributed more than you remember.",
+      "color": "from-green-800 to-lime-800"
+    },
+    {
+      "id": 136,
+      "title": "🌟 False Consensus",
+      "subtitle": "Everyone Agrees",
+      "description": "Overestimating agreement with beliefs.",
+      "example": "Everyone thinks this way.",
+      "tip": "Your views aren't universal.",
+      "color": "from-violet-800 to-purple-800"
+    },
+    {
+      "id": 137,
+      "title": "⚡ Curse of Knowledge",
+      "subtitle": "Can't Remember Not Knowing",
+      "description": "Difficulty imagining not knowing what you know.",
+      "example": "This is so obvious!",
+      "tip": "Remember when you were learning.",
+      "color": "from-cyan-800 to-teal-800"
+    },
+    {
+      "id": 138,
+      "title": "🎪 Spotlight Effect",
+      "subtitle": "Everyone Watching",
+      "description": "Overestimating how much others notice.",
+      "example": "Everyone will notice this stain!",
+      "tip": "People less focused on you.",
+      "color": "from-red-800 to-orange-800"
+    },
+    {
+      "id": 139,
+      "title": "💭 Illusion of Transparency",
+      "subtitle": "Thoughts Are Obvious",
+      "description": "Overestimating how well others understand you.",
+      "example": "They should know I'm upset!",
+      "tip": "Communicate explicitly.",
+      "color": "from-indigo-800 to-blue-800"
+    },
+    {
+      "id": 140,
+      "title": "🎭 Illusion of Control",
+      "subtitle": "Can Influence Random",
+      "description": "Overestimating influence over uncontrollable.",
+      "example": "Need lucky jersey for team to win!",
+      "tip": "Distinguish controllable from not.",
+      "color": "from-purple-800 to-pink-800"
+    },
+    {
+      "id": 141,
+      "title": "🌈 Moral Luck",
+      "subtitle": "Judging by Outcomes",
+      "description": "Judging by outcomes rather than intent.",
+      "example": "Drove drunk but didn't hit anyone, not that bad.",
+      "tip": "Judge action itself.",
+      "color": "from-amber-800 to-orange-800"
+    },
+    {
+      "id": 142,
+      "title": "🎯 Outcome Bias",
+      "subtitle": "Results Determine Quality",
+      "description": "Judging decision by outcome.",
+      "example": "Terrible choice! Was good bet that lost.",
+      "tip": "Good decisions can have bad outcomes.",
+      "color": "from-teal-800 to-cyan-800"
+    },
+    {
+      "id": 143,
+      "title": "⚡ Impact Bias",
+      "subtitle": "Overestimating Duration",
+      "description": "Overestimating emotional duration.",
+      "example": "Don't get job, devastated forever!",
+      "tip": "You're more resilient.",
+      "color": "from-blue-800 to-indigo-800"
+    },
+    {
+      "id": 144,
+      "title": "💎 Restraint Bias",
+      "subtitle": "Overconfident Self-Control",
+      "description": "Overestimating ability to resist.",
+      "example": "Keep cookies, have willpower! Eats all.",
+      "tip": "Don't expose to temptation.",
+      "color": "from-rose-800 to-pink-800"
+    },
+    {
+      "id": 145,
+      "title": "🎪 Time-Saving Bias",
+      "subtitle": "Overestimating Time Saved",
+      "description": "Overestimating time saved by speed.",
+      "example": "Speeding to save 2 minutes on 10 minute drive.",
+      "tip": "Time savings are logarithmic.",
+      "color": "from-yellow-800 to-lime-800"
+    },
+    {
+      "id": 146,
+      "title": "🌟 Effort Justification",
+      "subtitle": "Hard Work Makes Valuable",
+      "description": "Valuing outcomes more when effort required.",
+      "example": "Meal tastes better, spent 5 hours making it.",
+      "tip": "Effort doesn't always equal value.",
+      "color": "from-indigo-800 to-purple-800"
+    },
+    {
+      "id": 147,
+      "title": "🎯 Ben Franklin Effect",
+      "subtitle": "Favors Create Liking",
+      "description": "Liking someone more after doing favor.",
+      "example": "Helped them, so worth helping, like them now.",
+      "tip": "Actions influence feelings.",
+      "color": "from-cyan-800 to-teal-800"
+    },
+    {
+      "id": 148,
+      "title": "🎭 Reactance Theory",
+      "subtitle": "Forbidden Fruit Sweeter",
+      "description": "Wanting more when restricted.",
+      "example": "Don't think about pink elephants.",
+      "tip": "Restriction increases desire.",
+      "color": "from-pink-800 to-rose-800"
+    },
+    {
+      "id": 149,
+      "title": "💭 Zeigarnik Effect",
+      "subtitle": "Unfinished Tasks Haunt",
+      "description": "Remembering incomplete better than completed.",
+      "example": "Can't stop thinking about unfinished project.",
+      "tip": "Minds crave closure.",
+      "color": "from-orange-800 to-amber-800"
+    },
+    {
+      "id": 150,
+      "title": "🎯 Blind Spot Bias",
+      "subtitle": "I'm Less Biased",
+      "description": "Recognizing biases in others, not self.",
+      "example": "Everyone else biased, I see objectively.",
+      "tip": "You have biases too - this proves it!",
+      "color": "from-cyan-800 to-teal-800"
+    }
+  ]
+}
