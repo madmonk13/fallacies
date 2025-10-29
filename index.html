@@ -41,12 +41,13 @@
             width: 100%;
             height: 85vh;
             border-radius: 1.5rem;
-            padding: 2rem;
+            padding: 1.5rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease-out;
+            overflow-y: auto;
         }
 
         .progress-bar {
@@ -76,32 +77,32 @@
         }
 
         .card-header {
-            margin-bottom: 2rem;
+            margin-bottom: 1.25rem;
         }
 
         .card-title {
             font-size: 3rem;
             font-weight: bold;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.35rem;
             white-space: nowrap;
         }
 
         .card-subtitle {
-            font-size: 1.25rem;
+            font-size: 1.1rem;
             opacity: 0.9;
         }
 
         .card-body {
             display: flex;
             flex-direction: column;
-            gap: 1.5rem;
+            gap: 1rem;
         }
 
         .card-section {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             border-radius: 1rem;
-            padding: 1rem;
+            padding: 0.75rem;
         }
 
         .card-section.definition {
@@ -114,29 +115,29 @@
         }
 
         .section-label {
-            font-size: 0.875rem;
+            font-size: 0.75rem;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
             opacity: 0.8;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.35rem;
         }
 
         .section-content {
-            font-size: 1.125rem;
-            line-height: 1.75;
+            font-size: 0.95rem;
+            line-height: 1.4;
         }
 
         .section-content.example {
             font-style: italic;
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
 
         .card-counter {
             text-align: center;
             color: rgba(255, 255, 255, 0.8);
             font-size: 0.875rem;
-            margin-top: 1rem;
+            margin-top: 0.5rem;
         }
 
         .nav-button {
@@ -388,59 +389,6 @@
             const scaleFactor = 0.08;
             const calculatedSize = Math.max(minSize, baseSize - (length * scaleFactor));
             return `${calculatedSize}rem`;
-        }
-
-        function getTailwindColor(colorClass) {
-            const colorMap = {
-                'slate-700': '#334155', 'slate-900': '#0f172a',
-                'purple-500': '#a855f7', 'pink-500': '#ec4899',
-                'blue-500': '#3b82f6', 'cyan-500': '#06b6d4',
-                'green-500': '#22c55e', 'emerald-500': '#10b981',
-                'orange-500': '#f97316', 'red-500': '#ef4444',
-                'indigo-500': '#6366f1', 'violet-500': '#8b5cf6',
-                'yellow-500': '#eab308', 'teal-500': '#14b8a6',
-                'rose-500': '#f43f5e', 'amber-500': '#f59e0b',
-                'lime-500': '#84cc16', 'fuchsia-500': '#d946ef',
-                'sky-500': '#0ea5e9', 'gray-500': '#6b7280',
-                'slate-500': '#64748b',
-                'purple-600': '#9333ea', 'pink-600': '#db2777',
-                'indigo-600': '#4f46e5', 'red-600': '#dc2626',
-                'rose-600': '#e11d48', 'yellow-600': '#ca8a04',
-                'orange-600': '#ea580c', 'green-600': '#16a34a',
-                'emerald-600': '#059669', 'lime-600': '#65a30d',
-                'violet-600': '#7c3aed', 'fuchsia-600': '#c026d3',
-                'blue-600': '#2563eb', 'cyan-600': '#0891b2',
-                'teal-600': '#0d9488', 'amber-600': '#d97706',
-                'purple-700': '#7e22ce', 'pink-700': '#be185d',
-                'yellow-700': '#a16207', 'orange-700': '#c2410c',
-                'blue-700': '#1d4ed8', 'indigo-700': '#4338ca',
-                'rose-700': '#be123c', 'teal-700': '#0f766e',
-                'cyan-700': '#0e7490', 'green-700': '#15803d',
-                'emerald-700': '#047857', 'violet-700': '#6d28d9',
-                'fuchsia-700': '#a21caf', 'slate-700': '#334155',
-                'gray-700': '#374151', 'red-700': '#b91c1c',
-                'amber-700': '#b45309', 'lime-700': '#4d7c0f',
-                'red-800': '#991b1b', 'orange-800': '#9a3412',
-                'cyan-800': '#155e75', 'blue-800': '#1e40af',
-                'pink-800': '#9f1239', 'rose-800': '#9f1239',
-                'teal-800': '#115e59', 'emerald-800': '#065f46',
-                'green-800': '#166534', 'lime-800': '#3f6212',
-                'indigo-800': '#3730a3', 'violet-800': '#5b21b6',
-                'purple-800': '#6b21a8', 'fuchsia-800': '#86198f',
-                'amber-800': '#92400e', 'yellow-800': '#854d0e',
-                'slate-600': '#475569', 'gray-600': '#4b5563',
-                'blue-900': '#1e3a8a', 'indigo-900': '#312e81',
-                'red-900': '#7f1d1d', 'rose-900': '#881337',
-                'orange-900': '#7c2d12', 'amber-900': '#78350f',
-                'sky-900': '#0c4a6e', 'purple-900': '#581c87',
-                'fuchsia-900': '#701a75', 'cyan-900': '#164e63',
-                'teal-900': '#134e4a', 'emerald-900': '#064e3b',
-                'green-900': '#14532d', 'lime-900': '#365314',
-                'violet-900': '#4c1d95', 'pink-900': '#831843',
-                'yellow-900': '#713f12', 'gray-900': '#111827',
-                'slate-900': '#0f172a'
-            };
-            return colorMap[colorClass] || '#3b82f6';
         }
 
         function setupEventListeners() {
