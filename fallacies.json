@@ -7,7 +7,7 @@
       "description": "Logical fallacies are errors in reasoning that undermine the logic of an argument. They occur when the connection between premises and conclusion is flawed, even if the premises themselves might be true. Understanding these patterns is essential for critical thinking, effective debate, and recognizing manipulation in media, politics, and everyday discourse.",
       "example": "You'll encounter these fallacies daily: in advertisements trying to sell you products, in political debates shaping public opinion, in social media arguments, and even in your own reasoning. Learning to spot them helps you think more clearly, argue more effectively, and make better decisions based on sound logic rather than emotional manipulation or flawed reasoning.",
       "tip": "Don't rush through these. Real mastery comes from recognizing fallacies in real-world situations. After learning each one, try to spot it in news articles, social media posts, or everyday conversations. The goal isn't to win arguments, but to think more clearly and help others do the same.",
-      "color": "#4A5568",
+      "color": "#E2E8F0",
       "isIntro": true
     },
     {
@@ -17,7 +17,7 @@
       "description": "Ad hominem (Latin for 'to the person') occurs when someone attacks the character, motive, or other attribute of the person making an argument rather than addressing the substance of the argument itself. This fallacy attempts to discredit an idea by discrediting the person who presents it, which is logically invalid because the truth of a claim is independent of who states it.",
       "example": "Climate scientist presents data on global warming. Opponent responds: 'You can't trust her opinion because she drives an SUV' or 'He's just saying that because he gets research grants.' These attacks on character or motive don't address whether the data and conclusions are actually correct. Even hypocrites can make valid arguments.",
       "tip": "When evaluating arguments, separate the message from the messenger. A person's character flaws, political affiliations, or personal interests don't automatically invalidate their reasoning. Always ask: Does this response address the actual argument, or is it just attacking the person making it?",
-      "color": "#5A67D8"
+      "color": "#DDD6FE"
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "description": "The straw man fallacy involves distorting, exaggerating, or misrepresenting someone's argument to make it easier to attack or refute. Instead of addressing the actual position, the arguer constructs a weaker, more extreme, or simplified version (a 'straw man') that's easier to knock down. This is intellectually dishonest because it gives the appearance of refuting an argument without actually engaging with it.",
       "example": "Person A: 'We should have some reasonable gun control measures like background checks.' Person B: 'So you want to take away all guns and leave law-abiding citizens defenseless against criminals?' Person B has created a straw man by transforming a nuanced position about specific regulations into an extreme position about total gun confiscation, which is easier to argue against.",
       "tip": "Before responding to an argument, try to state the other person's position back to them in your own words and ask if you've understood correctly. This ensures you're addressing their actual argument, not a distorted version. If someone seems to be misrepresenting your position, politely clarify: 'That's not quite what I said. My actual position is...'",
-      "color": "#4299E1"
+      "color": "#DBEAFE"
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
       "description": "A false dichotomy (also called false dilemma or black-and-white thinking) presents only two options as if they're the only possibilities, when in reality there are additional alternatives, middle ground, or nuances. This fallacy artificially limits choices and forces a decision between extremes, ignoring the spectrum of possibilities that usually exists between them.",
       "example": "You're either with us or against us. You either support the police completely or you hate them. You're either pro-business or anti-growth. These statements ignore countless middle positions: you can support police reform while respecting officers, or favor environmental protection while supporting economic development. Most complex issues have more than two positions.",
       "tip": "When someone presents only two options, ask yourself: Are these really the only possibilities? What middle ground exists? What am I not considering? Complex issues rarely have simple binary solutions. Beware of rhetoric that uses 'either/or' thinking, especially in politics and advertising.",
-      "color": "#48BB78"
+      "color": "#D1FAE5"
     },
     {
       "id": 4,
@@ -44,7 +44,7 @@
       "description": "An appeal to authority fallacy occurs when someone cites an authority figure as evidence for a claim, but that authority lacks relevant expertise in the specific field being discussed. While expert opinion can be valuable evidence, it becomes fallacious when the person cited isn't actually an expert in the relevant domain, or when their authority is invoked as the sole justification without supporting evidence.",
       "example": "A famous actor endorses a diet plan, claiming it's scientifically proven. While the actor may be successful in entertainment, they have no nutrition or medical expertise. Or: 'Einstein believed in God, so atheism is wrong.' Einstein's expertise in physics doesn't make him an authority on theology. The fallacy is citing authority outside their domain of expertise.",
       "tip": "Always ask: Is this person actually an expert in this specific field? What are their credentials and qualifications? Are other experts in the field in agreement? Even genuine experts can be wrong, so look for consensus and supporting evidence, not just a single authority's opinion. Be especially skeptical of celebrity endorsements.",
-      "color": "#ED8936"
+      "color": "#FED7AA"
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "description": "The slippery slope fallacy argues that one small step will inevitably lead to a chain of events resulting in an extreme, usually negative outcome, without providing evidence for the inevitability of this chain reaction. While some actions do lead to consequences, this fallacy assumes each step necessarily leads to the next without justifying why the progression is inevitable rather than merely possible.",
       "example": "If we allow students to redo one assignment, they'll expect to redo every assignment, then retake every test, then demand automatic passing grades, and eventually degrees will become meaningless. Each step is presented as inevitable, but there's no evidence that allowing one redo must lead to this cascade. Reasonable policies can include limited redos without sliding down this entire slope.",
       "tip": "Each link in a causal chain needs its own justification. Ask: Is each step in this sequence actually inevitable? What evidence supports that one thing must lead to another? What safeguards or stopping points exist? Many slippery slope arguments rely on fear rather than logic. Look for actual evidence of the causal chain, not just speculation.",
-      "color": "#9F7AEA"
+      "color": "#E9D5FF"
     },
     {
       "id": 6,
@@ -62,7 +62,178 @@
       "description": "A hasty generalization draws a broad conclusion from insufficient evidence, typically from a sample that's too small, unrepresentative, or biased. This fallacy occurs when someone takes limited observations and applies them universally without adequate justification. While inductive reasoning requires making generalizations from observations, hasty generalization does so prematurely or carelessly.",
       "example": "I met two rude people from New York, so all New Yorkers are rude. My friend smoked for 40 years and never got cancer, so smoking must not cause cancer. Both examples draw sweeping conclusions from tiny, unrepresentative samples while ignoring vast amounts of contradictory evidence. Personal anecdotes, no matter how vivid, don't override statistical reality.",
       "tip": "Before accepting a generalization, ask: How large is the sample size? Is it representative of the whole population? What about counter-examples? Anecdotes and personal experiences are memorable but often misleading. Look for systematic evidence from properly conducted studies rather than generalizing from a few examples. The plural of anecdote is not data.",
-      "color": "#ECC94B"
+      "color": "#FEF3C7"
+    },
+    {
+      "id": 7,
+      "title": "🔄 Circular Reasoning",
+      "subtitle": "Begging the Question",
+      "description": "Circular reasoning (also called begging the question) occurs when an argument's conclusion is assumed in one of its premises, creating a logical loop that doesn't actually prove anything. The conclusion is used as evidence for itself, providing no independent justification. While the argument may be logically valid (if the premise is true, the conclusion follows), it's epistemically useless because it doesn't establish why we should accept the premise in the first place.",
+      "example": "The Bible is true because it says so in the Bible. This assumes the Bible's truthfulness (the conclusion) in order to prove the Bible's truthfulness (the premise). Or: 'I'm trustworthy because I always tell the truth, and you can trust what I say about being truthful.' The argument goes in a circle without providing external evidence.",
+      "tip": "Check whether the premises actually provide independent support for the conclusion, or if they're just restating the conclusion in different words. Ask: What evidence supports this that doesn't assume what we're trying to prove? Good arguments build from accepted facts or principles to reach new conclusions, not from the conclusion itself.",
+      "color": "#FECACA"
+    },
+    {
+      "id": 8,
+      "title": "🐟 Red Herring",
+      "subtitle": "Distracting from the Issue",
+      "description": "A red herring introduces irrelevant information into an argument to distract from the actual issue being discussed. Named after the practice of using smoked fish to distract hunting dogs from a scent trail, this fallacy diverts attention to a different topic that seems related but doesn't address the original argument. It's often used deliberately to avoid difficult questions or uncomfortable topics.",
+      "example": "Discussing environmental protection: 'Why worry about the environment when there are people starving in the world?' While hunger is important, it's a separate issue that doesn't address whether environmental protection is valuable. Both issues can be important simultaneously. Or in a debate about education funding: 'But what about our military readiness?' - again, changing the subject rather than addressing the original issue.",
+      "tip": "Stay focused on the original question or argument. When someone introduces a new topic, pause and ask: Is this actually relevant to what we're discussing, or is it changing the subject? It's okay to acknowledge that other issues matter while redirecting back to the original point: 'That's an important topic we can discuss separately, but right now we're talking about...'",
+      "color": "#CCFBF1"
+    },
+    {
+      "id": 9,
+      "title": "🚐 Bandwagon",
+      "subtitle": "Appeal to Popularity",
+      "description": "The bandwagon fallacy (or appeal to popularity) argues that something is true, good, or desirable simply because many people believe it or do it. This confuses popularity with correctness. While popularity can be relevant in some contexts (like determining what's socially acceptable), it's not evidence for truth, quality, or ethical rightness. History is full of popular ideas that turned out to be wrong.",
+      "example": "Everyone's buying this cryptocurrency, so it must be a good investment. Millions of people believe in astrology, so it must be true. These arguments ignore that popular opinion can be misinformed, manipulated, or simply wrong. The truth of a claim is independent of how many people believe it. Remember that at various points in history, slavery, smoking, and bloodletting were all widely accepted.",
+      "tip": "Popularity can indicate that something is worth investigating, but it's not proof of correctness. Ask: What's the actual evidence, independent of how many people believe it? Are these people believing for good reasons or just following the crowd? Consider whether you're feeling social pressure to conform rather than evaluating evidence objectively.",
+      "color": "#DDD6FE"
+    },
+    {
+      "id": 10,
+      "title": "⏰ Post Hoc",
+      "subtitle": "False Cause",
+      "description": "Post hoc ergo propter hoc (Latin for 'after this, therefore because of this') assumes that because event B followed event A, event A must have caused event B. This confuses temporal sequence with causal relationship. While causes do precede effects, not everything that comes before is a cause. This fallacy ignores other possible causes, coincidence, and the need to establish an actual causal mechanism.",
+      "example": "I wore my lucky socks and we won the game, so my socks caused our victory. The rooster crows before sunrise, so the rooster's crow causes the sun to rise. I started taking these vitamins and my cold got better, so the vitamins cured it (ignoring that colds typically resolve on their own). These confuse correlation with causation without evidence of a causal mechanism.",
+      "tip": "Correlation doesn't imply causation. When you notice two things happening together or in sequence, ask: Is there a plausible mechanism connecting them? Could there be other explanations? Could it be coincidence? Could a third factor be causing both? Establishing true causation requires controlled studies that can rule out alternative explanations and confounding variables.",
+      "color": "#CFFAFE"
+    },
+    {
+      "id": 11,
+      "title": "😢 Appeal to Emotion",
+      "subtitle": "Playing on Feelings",
+      "description": "An appeal to emotion attempts to manipulate feelings rather than presenting valid reasoning. While emotions are important and can highlight issues worth considering, this fallacy uses emotional manipulation as a substitute for logic and evidence. It's particularly common in advertising, political rhetoric, and activism, where the goal is to bypass rational analysis and trigger an emotional response that leads to agreement or action.",
+      "example": "If you don't support this law, you must want children to suffer. Think of the children! How can you be so heartless? This uses emotional manipulation (guilt, fear, sympathy) rather than explaining why the law would actually help children or addressing potential problems with it. The emotional appeal distracts from substantive analysis of the policy's likely effects.",
+      "tip": "Emotions can alert us to moral issues, but they shouldn't replace analysis. When you feel a strong emotional reaction to an argument, pause and ask: What's the actual evidence? Is this trying to make me feel something instead of convincing me with logic? Strong feelings can coexist with clear thinking - acknowledge the emotion, then analyze the argument rationally.",
+      "color": "#FBCFE8"
+    },
+    {
+      "id": 12,
+      "title": "🪞 Tu Quoque",
+      "subtitle": "You Too Fallacy",
+      "description": "Tu quoque (Latin for 'you too') attempts to dismiss criticism by pointing out that the critic is hypocritical or has done the same thing. While hypocrisy may be worth noting, it doesn't actually address whether the criticism is valid. The truth of a claim is independent of whether the person making it practices what they preach. This fallacy is a specific type of ad hominem that focuses on perceived hypocrisy.",
+      "example": "Doctor: You should quit smoking, it's terrible for your health. Patient: But you smoke too! How can you tell me to quit? Even if the doctor is a hypocrite, that doesn't make the health advice wrong. A smoking doctor can still give accurate information about smoking's dangers. The advice should be evaluated on its merits, not on whether the advisor follows it.",
+      "tip": "Separate the message from the messenger's behavior. Hypocrisy is worth noting and may indicate lack of willpower or sincerity, but it doesn't invalidate true statements. Ask: Is the criticism itself accurate and well-founded? Would the argument be valid if someone else made it? Focus on whether the advice or argument is sound, not whether the person is perfect.",
+      "color": "#FDE68A"
+    },
+    {
+      "id": 13,
+      "title": "🌿 Appeal to Nature",
+      "subtitle": "Natural Equals Good",
+      "description": "The appeal to nature fallacy assumes that what is natural is automatically good, right, or beneficial, while what is unnatural is bad or harmful. This ignores that nature includes both beneficial and harmful things, and that humans have improved on nature in countless ways. The natural/unnatural distinction is often arbitrary, and 'natural' is frequently used as a marketing term without clear meaning.",
+      "example": "This medicine is better because it's all-natural and organic. But arsenic, mercury, and deadly nightshade are all natural. Conversely, vaccines, antibiotics, and eyeglasses are 'unnatural' but highly beneficial. Nature is indifferent to human wellbeing - it includes both healing herbs and lethal poisons. Something being natural tells us nothing about its safety or efficacy.",
+      "tip": "Don't confuse natural with safe or good. What matters is evidence of safety and effectiveness, not whether something is found in nature. Remember that 'natural' products can be harmful and 'artificial' ones can be beneficial. Ask: What's the actual evidence for safety and effectiveness? Don't let the word 'natural' bypass your critical thinking.",
+      "color": "#D1FAE5"
+    },
+    {
+      "id": 14,
+      "title": "🎯 Texas Sharpshooter",
+      "subtitle": "Cherry-Picking Data",
+      "description": "The Texas sharpshooter fallacy involves cherry-picking data points that support your argument while ignoring those that don't, then claiming the selected data proves your point. Named after a joke about a shooter who fires randomly at a barn, then paints targets around the bullet holes to make it look like perfect aim, this fallacy involves finding patterns in random data by focusing only on the 'hits' and ignoring the 'misses.'",
+      "example": "Look at all these warm days this winter - global warming is definitely happening! (Ignoring all the cold days). Or pointing to three cancer patients in one neighborhood as proof of environmental contamination, while ignoring that with enough neighborhoods, such clusters will occur by chance. This selectively highlights confirming evidence while discarding contradictory data.",
+      "tip": "Look at all the data, not just what supports your preferred conclusion. Ask: What percentage of cases fit this pattern? How many counter-examples exist? Could this pattern occur by chance? Genuine patterns hold up when you look at comprehensive data, not just cherry-picked examples. Be especially suspicious when someone shows you only favorable data points.",
+      "color": "#FCA5A5"
+    },
+    {
+      "id": 15,
+      "title": "🏴 No True Scotsman",
+      "subtitle": "Moving the Goalposts",
+      "description": "The 'no true Scotsman' fallacy makes a universal claim, then when confronted with a legitimate counter-example, dismisses it by claiming it doesn't count as a 'true' example. This involves changing the definition or criteria to exclude inconvenient counter-examples, effectively making the original claim unfalsifiable. It's a way of protecting a belief from evidence by arbitrarily redefining terms.",
+      "example": "No true Christian would do something so cruel. But Person X is Christian and did exactly that. Well, then they're not a TRUE Christian. The definition of Christian is being changed mid-argument to exclude counter-examples. Same with: No true Scotsman puts sugar on his porridge. But my uncle from Scotland does. Well, no TRUE Scotsman does. The goalposts keep moving to preserve the original claim.",
+      "tip": "Define your terms clearly at the start and stick to those definitions. If counter-examples emerge, acknowledge them rather than changing definitions to exclude them. Ask: Am I moving the goalposts to protect my conclusion? Am I using a 'no true' defense to dismiss valid counter-examples? Honest inquiry means being willing to modify claims when faced with contrary evidence.",
+      "color": "#BFDBFE"
+    },
+    {
+      "id": 16,
+      "title": "🪤 Loaded Question",
+      "subtitle": "Trap Questions",
+      "description": "A loaded question contains an assumption or accusation embedded within the question itself, making it impossible to answer directly without accepting the problematic premise. The question is 'loaded' like a loaded gun - it comes with something extra that traps the respondent. Answering the question as asked implicitly accepts an assumption that may be false or disputed.",
+      "example": "Have you stopped cheating on tests? This assumes you were cheating. Answering yes or no both confirm that you cheated. Or: When did you become so selfish? This presupposes selfishness. These questions make an accusation while appearing to ask a simple question. They're designed to put the respondent on the defensive regardless of how they answer.",
+      "tip": "When faced with a loaded question, identify and challenge the hidden assumption before answering. Say something like: Your question assumes that I cheated, which isn't true, so I can't answer it as stated. Or ask for the question to be rephrased without the assumption. Don't let yourself be trapped into accepting false premises by trying to directly answer unfairly loaded questions.",
+      "color": "#DDD6FE"
+    },
+    {
+      "id": 17,
+      "title": "⚖️ Middle Ground",
+      "subtitle": "False Compromise",
+      "description": "The middle ground fallacy (or argument to moderation) assumes that the truth must lie somewhere between two opposing positions, or that a compromise between two views must be correct. While compromise is often valuable in practice, this fallacy incorrectly treats all disputes as if both sides are equally valid and the truth must be somewhere in between. Sometimes one side is simply right and the other wrong.",
+      "example": "Some say vaccines are safe and effective, others say they cause autism and are deadly poison. The truth is probably somewhere in between. Actually, overwhelming scientific evidence supports vaccine safety and effectiveness, while the anti-vaccine position is not supported by evidence. The middle ground between fact and fiction is still fiction. Not all controversies have two equally valid sides.",
+      "tip": "Evaluate the evidence for each position independently rather than assuming truth lies in the middle. Ask: What does the evidence actually say? Are both positions backed by equal quality evidence? Sometimes compromise is wise, but sometimes one side is simply correct. Don't let false balance lead you to give equal weight to unequal positions.",
+      "color": "#CBD5E1"
+    },
+    {
+      "id": 18,
+      "title": "📋 Burden of Proof",
+      "subtitle": "Prove Me Wrong",
+      "description": "The burden of proof fallacy occurs when someone makes a claim and demands that others prove it false, rather than providing evidence that it's true. In rational discourse, the person making a positive claim bears the burden of supporting it with evidence. Shifting this burden to skeptics is fallacious because it's impossible to prove a negative, and unfalsifiable claims are meaningless. The default position should be skepticism until evidence is provided.",
+      "example": "I believe Bigfoot exists. Prove to me that he doesn't! There's an invisible dragon in my garage. You can't prove there isn't! These reverse the burden of proof. The person making the extraordinary claim (Bigfoot exists, invisible dragons exist) is responsible for providing evidence, not the skeptic. It's impossible to prove that something doesn't exist anywhere in the universe.",
+      "tip": "If someone makes a claim, they need to support it with evidence. Don't accept the burden of disproving unfounded claims. Ask: What's your evidence for this? The more extraordinary the claim, the stronger the evidence required. Be especially wary of conspiracy theories and supernatural claims that demand you disprove them rather than providing positive evidence.",
+      "color": "#D1FAE5"
+    },
+    {
+      "id": 19,
+      "title": "🏛️ Appeal to Tradition",
+      "subtitle": "We've Always Done It",
+      "description": "An appeal to tradition argues that something is good, right, or true because it's traditional, long-established, or 'the way we've always done it.' While traditions can have value and may reflect accumulated wisdom, age alone doesn't validate a practice. Many harmful practices (slavery, denial of women's rights, etc.) were traditional. This fallacy confuses longevity with correctness and resists change based on custom rather than merit.",
+      "example": "We've always elected men as president, so we should continue doing so. Marriage has traditionally been between a man and woman, so other forms shouldn't be recognized. Companies have always required employees to work in offices, so remote work must be wrong. These arguments appeal to history rather than providing reasons why the traditional approach is actually better than alternatives.",
+      "tip": "Traditions deserve consideration but not uncritical acceptance. Ask: Why did this tradition start? Is it still serving its original purpose? What would be the actual consequences of changing it? Just because something is old doesn't make it good, and just because something is new doesn't make it bad. Evaluate practices on their current merits, not just their history.",
+      "color": "#FED7AA"
+    },
+    {
+      "id": 20,
+      "title": "🧬 Genetic Fallacy",
+      "subtitle": "Judging by Origin",
+      "description": "The genetic fallacy judges something as true, false, good, or bad based on its origin, source, or history rather than its current merit or the strength of the argument itself. While origin can sometimes be relevant (understanding bias, checking credentials), this fallacy focuses exclusively on where something came from rather than evaluating it on its own merits. Good ideas can come from bad sources, and bad ideas can come from good sources.",
+      "example": "That theory came from a discredited scientist, so it must be wrong. This idea originated in Nazi Germany, so it's invalid. He's suggesting that because he'll profit from it. While these facts might raise questions worth investigating, they don't automatically determine whether the theory or idea is correct. Even terrible people occasionally have valid insights, and even good people can be wrong.",
+      "tip": "Evaluate ideas on their merits, not their origins. Consider the source as one factor (especially regarding credibility and potential bias) but don't let it substitute for examining the argument itself. Ask: Setting aside where this came from, is the reasoning sound and evidence strong? Don't dismiss good ideas because of their source, or accept bad ideas because of their pedigree.",
+      "color": "#FBCFE8"
+    },
+    {
+      "id": 21,
+      "title": "📖 Anecdotal Evidence",
+      "subtitle": "My Experience Proves It",
+      "description": "The anecdotal evidence fallacy relies on personal experience or isolated examples as the sole or primary evidence for a general claim, ignoring statistical evidence and the role of chance. While anecdotes can be valuable for generating hypotheses or illustrating points, they're insufficient for drawing general conclusions because personal experiences are prone to bias, selective memory, and misinterpretation. Individual cases don't override systematic data.",
+      "example": "My grandfather smoked two packs a day and lived to 95, so smoking can't be that bad for you. This ignores overwhelming statistical evidence that smoking dramatically increases disease risk and reduces life expectancy. One case doesn't disprove a general pattern. Personal experience, however vivid and memorable, is not a reliable guide to what's generally true. Statistics beat anecdotes.",
+      "tip": "Anecdotes are not data. Personal experiences are real but often unrepresentative. Ask: Is this one case typical or exceptional? What do systematic studies show? How large and representative is the sample? Be especially skeptical of your own anecdotes - we remember unusual outcomes more than typical ones, and we're prone to confirmation bias about our own experiences.",
+      "color": "#FED7AA"
+    },
+    {
+      "id": 22,
+      "title": "❓ Appeal to Ignorance",
+      "subtitle": "Absence of Evidence",
+      "description": "An appeal to ignorance (argumentum ad ignorantiam) argues that a claim is true because it hasn't been proven false, or false because it hasn't been proven true. This confuses lack of evidence with evidence of absence. Just because something hasn't been proven doesn't mean it's true (or false). This fallacy shifts the burden of proof and makes unfalsifiable claims appear reasonable. The absence of disproof is not proof.",
+      "example": "No one has proven that aliens don't exist, so they must be real. You can't prove that ghosts don't exist, so they do. Conversely: There's no proof that this treatment works, so it must not work. In all cases, absence of evidence is being treated as if it were evidence. The rational position in the absence of evidence is agnosticism or proportional skepticism, not belief.",
+      "tip": "The burden is on those claiming something exists or is true to provide evidence, not on skeptics to disprove it. Ask: What positive evidence supports this claim? Lack of disproof is not proof. Be especially wary of conspiracy theories and pseudoscience that rely on this fallacy, claiming their beliefs are valid because they haven't been definitively disproven.",
+      "color": "#DDD6FE"
+    },
+    {
+      "id": 23,
+      "title": "🎭 Special Pleading",
+      "subtitle": "Rules for Thee, Not for Me",
+      "description": "Special pleading applies rules, standards, or principles to others while claiming exemption for oneself (or one's argument) without adequate justification. It's essentially saying 'the general rule applies to everyone except me' without providing good reasons why an exception should be made. This fallacy involves citing something as an exception to a general principle without justifying why it should be exempt.",
+      "example": "I know everyone should follow the speed limit, but I'm a good driver so it doesn't apply to me. My religion is the one true faith, but other religions that make the same claim about themselves are clearly wrong. I can use my cell phone while driving because I'm being careful, even though others shouldn't. These apply a double standard without adequate justification.",
+      "tip": "Apply consistent standards. If you claim an exception, you need to explain what genuinely makes your case different. Ask yourself: If everyone made this same exception for themselves, would the rule become meaningless? Am I applying a double standard? Would I accept this reasoning if someone else used it? Genuine exceptions require genuine justifications.",
+      "color": "#FCA5A5"
+    },
+    {
+      "id": 24,
+      "title": "💸 Sunk Cost",
+      "subtitle": "Can't Waste the Investment",
+      "description": "The sunk cost fallacy involves continuing a behavior or endeavor because of previously invested time, money, or effort, even when continuing is not the best decision going forward. Past investments ('sunk costs') are gone and shouldn't influence future decisions - only future costs and benefits matter. This fallacy makes us throw good money after bad because we can't accept that our previous investment is lost.",
+      "example": "I've already spent $500 fixing this unreliable car, so I have to keep fixing it (even though selling it and buying a reliable car would be cheaper). I've watched five seasons of this boring show, I can't quit now (even though you'll never get that time back anyway). These decisions prioritize past investments over what's actually best going forward.",
+      "tip": "When making decisions, consider only future costs and benefits, not past investments. Ask: If I hadn't already invested anything, would I still choose this path? What's the best decision going forward, regardless of what's already been spent? It's okay to cut your losses. Past costs are gone whether you continue or quit - don't let them trap you in bad situations.",
+      "color": "#FDE68A"
+    },
+    {
+      "id": 25,
+      "title": "🎲 Gambler's Fallacy",
+      "subtitle": "Due for a Win",
+      "description": "The gambler's fallacy believes that past random events affect future independent random events, as if chance has memory. After a run of one outcome, people think the opposite becomes 'due' to balance things out. This misunderstands randomness and probability - each independent event has the same probability regardless of what came before. Random sequences don't self-correct or balance out in short runs.",
+      "example": "The coin has landed heads five times in a row, so it's due to land tails next. (Each flip is still 50/50). I haven't won the lottery in 20 years, so I'm due for a win now. (Each draw has the same odds). After a string of bad luck, people think good luck must be coming, but random events don't work that way.",
+      "tip": "Independent events don't have memory. Each occurrence has the same probability regardless of history. Ask: Are these events truly independent? Does the past actually influence the probability of future outcomes? Understand that patterns will appear in random data, but they don't predict future results. This fallacy costs gamblers billions annually.",
+      "color": "#D1FAE5"
     },
     {
       "id": 7,
