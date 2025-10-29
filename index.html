@@ -4,298 +4,570 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logical Fallacies - Swipe Learner</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            overflow: hidden;
+        }
+
+        #app {
+            width: 100vw;
+            height: 100vh;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .card-container {
+            position: relative;
+            width: 100%;
+            max-width: 28rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            touch-action: none;
+        }
+
+        .card {
+            width: 100%;
+            height: 85vh;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease-out;
+        }
+
+        .progress-bar {
+            display: flex;
+            gap: 0.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .progress-dot {
+            height: 0.25rem;
+            flex: 1;
+            border-radius: 0.25rem;
+            background: rgba(255, 255, 255, 0.3);
+            transition: background 0.3s;
+        }
+
+        .progress-dot.active {
+            background: white;
+        }
+
+        .card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+        }
+
+        .card-header {
+            margin-bottom: 2rem;
+        }
+
+        .card-title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            white-space: nowrap;
+        }
+
+        .card-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .card-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+
+        .card-section.definition {
+            background: transparent;
+            padding: 0;
+        }
+
+        .card-section.tip {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .section-label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            opacity: 0.8;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-content {
+            font-size: 1.125rem;
+            line-height: 1.75;
+        }
+
+        .section-content.example {
+            font-style: italic;
+            font-size: 1rem;
+        }
+
+        .card-counter {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.875rem;
+            margin-top: 1rem;
+        }
+
+        .nav-button {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 10;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .nav-button:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .nav-button.up {
+            top: 1rem;
+        }
+
+        .nav-button.down {
+            bottom: 1rem;
+        }
+
+        .shuffle-button {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 10;
+        }
+
+        .shuffle-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .shuffle-button.spinning {
+            animation: spin 0.6s linear infinite;
+            background: rgba(255, 255, 255, 0.4);
+        }
+
         @keyframes spin {
             from { transform: rotate(0deg); }
             to { transform: rotate(360deg); }
         }
-        .animate-spin {
-            animation: spin 0.6s linear infinite;
+
+        .reset-button {
+            position: absolute;
+            bottom: 5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            color: #111827;
+            border: none;
+            border-radius: 2rem;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+            z-index: 10;
+        }
+
+        .reset-button:hover {
+            background: #f3f4f6;
+        }
+
+        .instructions {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.875rem;
+            text-align: center;
+        }
+
+        .hidden {
+            display: none;
         }
     </style>
 </head>
-<body class="m-0 p-0 overflow-hidden">
-    <div id="root"></div>
-
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    
-    <script type="text/babel">
-        const { useState, useEffect, useRef } = React;
-
-        // Lucide icons as inline SVGs
-        const ChevronUp = ({ size = 24 }) => (
-            <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="18 15 12 9 6 15"></polyline>
-            </svg>
-        );
-
-        const ChevronDown = ({ size = 24 }) => (
-            <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-        );
-
-        const RotateCcw = ({ size = 18 }) => (
-            <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="1 4 1 10 7 10"></polyline>
-                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
-            </svg>
-        );
-
-        const Shuffle = ({ size = 24 }) => (
-            <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="16 3 21 3 21 8"></polyline>
-                <line x1="4" y1="20" x2="21" y2="3"></line>
-                <polyline points="21 16 21 21 16 21"></polyline>
-                <line x1="15" y1="15" x2="21" y2="21"></line>
-                <line x1="4" y1="4" x2="9" y2="9"></line>
-            </svg>
-        );
-
-        function FallacySwiper() {
-            const [cardData, setCardData] = useState(null);
-            const [currentIndex, setCurrentIndex] = useState(0);
-            const [touchStart, setTouchStart] = useState(0);
-            const [touchEnd, setTouchEnd] = useState(0);
-            const [isDragging, setIsDragging] = useState(false);
-            const [dragOffset, setDragOffset] = useState(0);
-            const [shuffledCards, setShuffledCards] = useState([]);
-            const [isShuffling, setIsShuffling] = useState(false);
-            const containerRef = useRef(null);
-
-            useEffect(() => {
-                fetch('fallacies.json')
-                    .then(response => response.json())
-                    .then(data => {
-                        setCardData(data);
-                        setShuffledCards(data.cards);
-                    })
-                    .catch(error => console.error('Error loading fallacies:', error));
-            }, []);
-
-            if (!cardData) {
-                return (
-                    <div className="h-screen w-full bg-black flex items-center justify-center">
-                        <div className="text-white text-2xl">Loading...</div>
+<body>
+    <div id="app">
+        <div class="card-container" id="cardContainer">
+            <div class="card" id="card">
+                <div class="progress-bar" id="progressBar"></div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <h1 class="card-title" id="cardTitle"></h1>
+                        <p class="card-subtitle" id="cardSubtitle"></p>
                     </div>
-                );
-            }
-
-            const cards = shuffledCards;
-            const currentCard = cards[currentIndex];
-
-            const calculateTitleFontSize = (title) => {
-                const length = title.length;
-                const baseSize = 3.5;
-                const minSize = 1.2;
-                const scaleFactor = 0.08;
-                const calculatedSize = Math.max(minSize, baseSize - (length * scaleFactor));
-                return `${calculatedSize}rem`;
-            };
-
-            const handleTouchStart = (e) => {
-                setTouchStart(e.touches[0].clientY);
-                setIsDragging(true);
-            };
-
-            const handleTouchMove = (e) => {
-                setTouchEnd(e.touches[0].clientY);
-                if (isDragging) {
-                    const offset = e.touches[0].clientY - touchStart;
-                    setDragOffset(offset);
-                }
-            };
-
-            const handleTouchEnd = () => {
-                if (!isDragging) return;
-                const swipeDistance = touchStart - touchEnd;
-                const minSwipeDistance = 50;
-                if (swipeDistance > minSwipeDistance && currentIndex < cards.length - 1) {
-                    setCurrentIndex(prev => prev + 1);
-                } else if (swipeDistance < -minSwipeDistance && currentIndex > 0) {
-                    setCurrentIndex(prev => prev - 1);
-                }
-                setIsDragging(false);
-                setDragOffset(0);
-                setTouchStart(0);
-                setTouchEnd(0);
-            };
-
-            const handleMouseDown = (e) => {
-                setTouchStart(e.clientY);
-                setIsDragging(true);
-            };
-
-            const handleMouseMove = (e) => {
-                if (!isDragging) return;
-                setTouchEnd(e.clientY);
-                const offset = e.clientY - touchStart;
-                setDragOffset(offset);
-            };
-
-            const handleMouseUp = () => {
-                handleTouchEnd();
-            };
-
-            const goNext = () => {
-                if (currentIndex < cards.length - 1) {
-                    setCurrentIndex(prev => prev + 1);
-                }
-            };
-
-            const goPrev = () => {
-                if (currentIndex > 0) {
-                    setCurrentIndex(prev => prev - 1);
-                }
-            };
-
-            const reset = () => {
-                setCurrentIndex(0);
-            };
-
-            const shuffleCards = () => {
-                setIsShuffling(true);
-                const introCard = cardData.cards[0];
-                const fallacyCards = cardData.cards.slice(1);
-                for (let i = fallacyCards.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [fallacyCards[i], fallacyCards[j]] = [fallacyCards[j], fallacyCards[i]];
-                }
-                setShuffledCards([introCard, ...fallacyCards]);
-                setCurrentIndex(0);
-                setTimeout(() => setIsShuffling(false), 600);
-            };
-
-            useEffect(() => {
-                const handleKeyDown = (e) => {
-                    if (e.key === 'ArrowUp') goPrev();
-                    if (e.key === 'ArrowDown') goNext();
-                };
-                window.addEventListener('keydown', handleKeyDown);
-                return () => window.removeEventListener('keydown', handleKeyDown);
-            });
-
-            return (
-                <div className="h-screen w-full bg-black overflow-hidden flex items-center justify-center">
-                    <div 
-                        ref={containerRef}
-                        className="relative w-full max-w-md h-full flex items-center justify-center"
-                        onTouchStart={handleTouchStart}
-                        onTouchMove={handleTouchMove}
-                        onTouchEnd={handleTouchEnd}
-                        onMouseDown={handleMouseDown}
-                        onMouseMove={handleMouseMove}
-                        onMouseUp={handleMouseUp}
-                        onMouseLeave={handleMouseUp}
-                    >
-                        <div 
-                            className="w-full h-[85vh] relative transition-transform duration-300 ease-out"
-                            style={{
-                                transform: `translateY(${dragOffset}px)`,
-                                transition: isDragging ? 'none' : 'transform 0.3s ease-out'
-                            }}
-                        >
-                            <div className={`w-full h-full rounded-3xl bg-gradient-to-br ${currentCard.color} p-8 flex flex-col justify-between shadow-2xl`}>
-                                <div className="flex gap-1 mb-4">
-                                    {cards.map((_, idx) => (
-                                        <div 
-                                            key={idx} 
-                                            className={`h-1 flex-1 rounded-full transition-all ${
-                                                idx === currentIndex ? 'bg-white' : 'bg-white/30'
-                                            }`}
-                                        />
-                                    ))}
-                                </div>
-
-                                <div className="flex-1 flex flex-col justify-center text-white">
-                                    <div className="mb-8">
-                                        <h1 className="font-bold mb-2 whitespace-nowrap" style={{
-                                            fontSize: calculateTitleFontSize(currentCard.title)
-                                        }}>{currentCard.title}</h1>
-                                        <p className="text-xl opacity-90">{currentCard.subtitle}</p>
-                                    </div>
-
-                                    <div className="space-y-6">
-                                        <div>
-                                            <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 opacity-80">
-                                                {currentCard.isIntro ? "Welcome" : "Definition"}
-                                            </h3>
-                                            <p className="text-lg leading-relaxed">{currentCard.description}</p>
-                                        </div>
-
-                                        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4">
-                                            <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 opacity-80">
-                                                {currentCard.isIntro ? "What You'll Learn" : "Example"}
-                                            </h3>
-                                            <p className="text-base italic leading-relaxed">{currentCard.example}</p>
-                                        </div>
-
-                                        <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4">
-                                            <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 opacity-80">
-                                                💡 {currentCard.isIntro ? "Get Started" : "Pro Tip"}
-                                            </h3>
-                                            <p className="text-base leading-relaxed">{currentCard.tip}</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="text-center text-white/80 text-sm mt-4">
-                                    {currentIndex + 1} / {cards.length}
-                                </div>
-                            </div>
+                    <div class="card-body">
+                        <div class="card-section definition">
+                            <div class="section-label" id="definitionLabel">Definition</div>
+                            <p class="section-content" id="cardDescription"></p>
                         </div>
-
-                        <button
-                            onClick={goPrev}
-                            disabled={currentIndex === 0}
-                            className="absolute top-4 left-1/2 -translate-x-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/30 transition-all z-10"
-                        >
-                            <ChevronUp size={24} />
-                        </button>
-
-                        {currentIndex === 0 && (
-                            <button
-                                onClick={shuffleCards}
-                                disabled={isShuffling}
-                                className={`absolute top-4 right-4 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/30 transition-all z-10 ${
-                                    isShuffling ? 'animate-spin bg-white/40' : ''
-                                }`}
-                                title="Shuffle cards"
-                            >
-                                <Shuffle size={24} />
-                            </button>
-                        )}
-
-                        <button
-                            onClick={goNext}
-                            disabled={currentIndex === cards.length - 1}
-                            className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/30 transition-all z-10"
-                        >
-                            <ChevronDown size={24} />
-                        </button>
-
-                        {currentIndex === cards.length - 1 && (
-                            <button
-                                onClick={reset}
-                                className="absolute bottom-20 left-1/2 -translate-x-1/2 bg-white text-gray-900 px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-gray-100 transition-all z-10 shadow-lg"
-                            >
-                                <RotateCcw size={18} />
-                                <span>Start Over</span>
-                            </button>
-                        )}
-                    </div>
-
-                    <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/40 text-sm text-center">
-                        Swipe up/down or use arrow keys
+                        <div class="card-section">
+                            <div class="section-label" id="exampleLabel">Example</div>
+                            <p class="section-content example" id="cardExample"></p>
+                        </div>
+                        <div class="card-section tip">
+                            <div class="section-label" id="tipLabel">💡 Pro Tip</div>
+                            <p class="section-content" id="cardTip"></p>
+                        </div>
                     </div>
                 </div>
-            );
+                <div class="card-counter" id="cardCounter"></div>
+            </div>
+
+            <button class="nav-button up" id="prevButton" aria-label="Previous card">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+
+            <button class="shuffle-button hidden" id="shuffleButton" aria-label="Shuffle cards">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 3 21 3 21 8"></polyline>
+                    <line x1="4" y1="20" x2="21" y2="3"></line>
+                    <polyline points="21 16 21 21 16 21"></polyline>
+                    <line x1="15" y1="15" x2="21" y2="21"></line>
+                    <line x1="4" y1="4" x2="9" y2="9"></line>
+                </svg>
+            </button>
+
+            <button class="nav-button down" id="nextButton" aria-label="Next card">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </button>
+
+            <button class="reset-button hidden" id="resetButton">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="1 4 1 10 7 10"></polyline>
+                    <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                </svg>
+                <span>Start Over</span>
+            </button>
+        </div>
+
+        <div class="instructions">Swipe up/down or use arrow keys</div>
+    </div>
+
+    <script>
+        let cardData = [];
+        let currentIndex = 0;
+        let shuffledCards = [];
+        let touchStartY = 0;
+        let touchEndY = 0;
+        let isDragging = false;
+
+        // Load data
+        fetch('fallacies.json')
+            .then(response => response.json())
+            .then(data => {
+                cardData = data.cards;
+                shuffledCards = [...cardData];
+                init();
+            })
+            .catch(error => console.error('Error loading fallacies:', error));
+
+        function init() {
+            renderCard();
+            setupEventListeners();
         }
 
-        ReactDOM.render(<FallacySwiper />, document.getElementById('root'));
+        function renderCard() {
+            const card = shuffledCards[currentIndex];
+            const cardEl = document.getElementById('card');
+            
+            // Set gradient background
+            cardEl.style.background = `linear-gradient(to bottom right, var(--tw-gradient-stops))`;
+            cardEl.className = `card bg-gradient-to-br ${card.color}`;
+            
+            // Apply gradient colors
+            const gradientMatch = card.color.match(/from-(\S+)\s+to-(\S+)/);
+            if (gradientMatch) {
+                const fromColor = getTailwindColor(gradientMatch[1]);
+                const toColor = getTailwindColor(gradientMatch[2]);
+                cardEl.style.background = `linear-gradient(to bottom right, ${fromColor}, ${toColor})`;
+            }
+
+            // Update content
+            document.getElementById('cardTitle').textContent = card.title;
+            document.getElementById('cardTitle').style.fontSize = calculateFontSize(card.title);
+            document.getElementById('cardSubtitle').textContent = card.subtitle;
+            document.getElementById('cardDescription').textContent = card.description;
+            document.getElementById('cardExample').textContent = card.example;
+            document.getElementById('cardTip').textContent = card.tip;
+            document.getElementById('cardCounter').textContent = `${currentIndex + 1} / ${shuffledCards.length}`;
+
+            // Update labels for intro card
+            if (card.isIntro) {
+                document.getElementById('definitionLabel').textContent = 'Welcome';
+                document.getElementById('exampleLabel').textContent = "What You'll Learn";
+                document.getElementById('tipLabel').textContent = '💡 Get Started';
+            } else {
+                document.getElementById('definitionLabel').textContent = 'Definition';
+                document.getElementById('exampleLabel').textContent = 'Example';
+                document.getElementById('tipLabel').textContent = '💡 Pro Tip';
+            }
+
+            // Update progress bar
+            renderProgressBar();
+
+            // Update button states
+            document.getElementById('prevButton').disabled = currentIndex === 0;
+            document.getElementById('nextButton').disabled = currentIndex === shuffledCards.length - 1;
+
+            // Show/hide buttons
+            document.getElementById('shuffleButton').classList.toggle('hidden', currentIndex !== 0);
+            document.getElementById('resetButton').classList.toggle('hidden', currentIndex !== shuffledCards.length - 1);
+        }
+
+        function renderProgressBar() {
+            const progressBar = document.getElementById('progressBar');
+            progressBar.innerHTML = '';
+            shuffledCards.forEach((_, idx) => {
+                const dot = document.createElement('div');
+                dot.className = `progress-dot ${idx === currentIndex ? 'active' : ''}`;
+                progressBar.appendChild(dot);
+            });
+        }
+
+        function calculateFontSize(title) {
+            const length = title.length;
+            const baseSize = 3.5;
+            const minSize = 1.2;
+            const scaleFactor = 0.08;
+            const calculatedSize = Math.max(minSize, baseSize - (length * scaleFactor));
+            return `${calculatedSize}rem`;
+        }
+
+        function getTailwindColor(colorClass) {
+            const colorMap = {
+                'slate-700': '#334155', 'slate-900': '#0f172a',
+                'purple-500': '#a855f7', 'pink-500': '#ec4899',
+                'blue-500': '#3b82f6', 'cyan-500': '#06b6d4',
+                'green-500': '#22c55e', 'emerald-500': '#10b981',
+                'orange-500': '#f97316', 'red-500': '#ef4444',
+                'indigo-500': '#6366f1', 'violet-500': '#8b5cf6',
+                'yellow-500': '#eab308', 'teal-500': '#14b8a6',
+                'rose-500': '#f43f5e', 'amber-500': '#f59e0b',
+                'lime-500': '#84cc16', 'fuchsia-500': '#d946ef',
+                'sky-500': '#0ea5e9', 'gray-500': '#6b7280',
+                'slate-500': '#64748b',
+                'purple-600': '#9333ea', 'pink-600': '#db2777',
+                'indigo-600': '#4f46e5', 'red-600': '#dc2626',
+                'rose-600': '#e11d48', 'yellow-600': '#ca8a04',
+                'orange-600': '#ea580c', 'green-600': '#16a34a',
+                'emerald-600': '#059669', 'lime-600': '#65a30d',
+                'violet-600': '#7c3aed', 'fuchsia-600': '#c026d3',
+                'blue-600': '#2563eb', 'cyan-600': '#0891b2',
+                'teal-600': '#0d9488', 'amber-600': '#d97706',
+                'purple-700': '#7e22ce', 'pink-700': '#be185d',
+                'yellow-700': '#a16207', 'orange-700': '#c2410c',
+                'blue-700': '#1d4ed8', 'indigo-700': '#4338ca',
+                'rose-700': '#be123c', 'teal-700': '#0f766e',
+                'cyan-700': '#0e7490', 'green-700': '#15803d',
+                'emerald-700': '#047857', 'violet-700': '#6d28d9',
+                'fuchsia-700': '#a21caf', 'slate-700': '#334155',
+                'gray-700': '#374151', 'red-700': '#b91c1c',
+                'amber-700': '#b45309', 'lime-700': '#4d7c0f',
+                'red-800': '#991b1b', 'orange-800': '#9a3412',
+                'cyan-800': '#155e75', 'blue-800': '#1e40af',
+                'pink-800': '#9f1239', 'rose-800': '#9f1239',
+                'teal-800': '#115e59', 'emerald-800': '#065f46',
+                'green-800': '#166534', 'lime-800': '#3f6212',
+                'indigo-800': '#3730a3', 'violet-800': '#5b21b6',
+                'purple-800': '#6b21a8', 'fuchsia-800': '#86198f',
+                'amber-800': '#92400e', 'yellow-800': '#854d0e',
+                'slate-600': '#475569', 'gray-600': '#4b5563',
+                'blue-900': '#1e3a8a', 'indigo-900': '#312e81',
+                'red-900': '#7f1d1d', 'rose-900': '#881337',
+                'orange-900': '#7c2d12', 'amber-900': '#78350f',
+                'sky-900': '#0c4a6e', 'purple-900': '#581c87',
+                'fuchsia-900': '#701a75', 'cyan-900': '#164e63',
+                'teal-900': '#134e4a', 'emerald-900': '#064e3b',
+                'green-900': '#14532d', 'lime-900': '#365314',
+                'violet-900': '#4c1d95', 'pink-900': '#831843',
+                'yellow-900': '#713f12', 'gray-900': '#111827',
+                'slate-900': '#0f172a'
+            };
+            return colorMap[colorClass] || '#3b82f6';
+        }
+
+        function setupEventListeners() {
+            const container = document.getElementById('cardContainer');
+            const card = document.getElementById('card');
+
+            // Navigation buttons
+            document.getElementById('prevButton').addEventListener('click', goPrev);
+            document.getElementById('nextButton').addEventListener('click', goNext);
+            document.getElementById('resetButton').addEventListener('click', reset);
+            document.getElementById('shuffleButton').addEventListener('click', shuffle);
+
+            // Touch events
+            container.addEventListener('touchstart', handleTouchStart, { passive: true });
+            container.addEventListener('touchmove', handleTouchMove, { passive: true });
+            container.addEventListener('touchend', handleTouchEnd);
+
+            // Mouse events
+            container.addEventListener('mousedown', handleMouseDown);
+            container.addEventListener('mousemove', handleMouseMove);
+            container.addEventListener('mouseup', handleMouseUp);
+            container.addEventListener('mouseleave', handleMouseUp);
+
+            // Keyboard
+            document.addEventListener('keydown', handleKeyDown);
+        }
+
+        function handleTouchStart(e) {
+            touchStartY = e.touches[0].clientY;
+            isDragging = true;
+        }
+
+        function handleTouchMove(e) {
+            if (!isDragging) return;
+            touchEndY = e.touches[0].clientY;
+            const offset = touchEndY - touchStartY;
+            document.getElementById('card').style.transform = `translateY(${offset}px)`;
+        }
+
+        function handleTouchEnd() {
+            if (!isDragging) return;
+            const swipeDistance = touchStartY - touchEndY;
+            const minSwipeDistance = 50;
+
+            if (swipeDistance > minSwipeDistance) {
+                goNext();
+            } else if (swipeDistance < -minSwipeDistance) {
+                goPrev();
+            }
+
+            document.getElementById('card').style.transform = '';
+            isDragging = false;
+            touchStartY = 0;
+            touchEndY = 0;
+        }
+
+        function handleMouseDown(e) {
+            touchStartY = e.clientY;
+            isDragging = true;
+        }
+
+        function handleMouseMove(e) {
+            if (!isDragging) return;
+            touchEndY = e.clientY;
+            const offset = touchEndY - touchStartY;
+            document.getElementById('card').style.transform = `translateY(${offset}px)`;
+        }
+
+        function handleMouseUp() {
+            if (!isDragging) return;
+            handleTouchEnd();
+        }
+
+        function handleKeyDown(e) {
+            if (e.key === 'ArrowUp') goPrev();
+            if (e.key === 'ArrowDown') goNext();
+        }
+
+        function goNext() {
+            if (currentIndex < shuffledCards.length - 1) {
+                currentIndex++;
+                renderCard();
+            }
+        }
+
+        function goPrev() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderCard();
+            }
+        }
+
+        function reset() {
+            currentIndex = 0;
+            renderCard();
+        }
+
+        function shuffle() {
+            const button = document.getElementById('shuffleButton');
+            button.classList.add('spinning');
+
+            const introCard = cardData[0];
+            const fallacyCards = cardData.slice(1);
+
+            // Fisher-Yates shuffle
+            for (let i = fallacyCards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [fallacyCards[i], fallacyCards[j]] = [fallacyCards[j], fallacyCards[i]];
+            }
+
+            shuffledCards = [introCard, ...fallacyCards];
+            currentIndex = 0;
+            renderCard();
+
+            setTimeout(() => {
+                button.classList.remove('spinning');
+            }, 600);
+        }
     </script>
 </body>
 </html>
