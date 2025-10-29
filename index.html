@@ -336,18 +336,9 @@
             const card = shuffledCards[currentIndex];
             const cardEl = document.getElementById('card');
             
-            // Set gradient background
-            cardEl.style.background = `linear-gradient(to bottom right, var(--tw-gradient-stops))`;
-            cardEl.className = `card bg-gradient-to-br ${card.color}`;
+            // Set solid background color
+            cardEl.style.background = card.color;
             
-            // Apply gradient colors
-            const gradientMatch = card.color.match(/from-(\S+)\s+to-(\S+)/);
-            if (gradientMatch) {
-                const fromColor = getTailwindColor(gradientMatch[1]);
-                const toColor = getTailwindColor(gradientMatch[2]);
-                cardEl.style.background = `linear-gradient(to bottom right, ${fromColor}, ${toColor})`;
-            }
-
             // Update content
             document.getElementById('cardTitle').textContent = card.title;
             document.getElementById('cardTitle').style.fontSize = calculateFontSize(card.title);

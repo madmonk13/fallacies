@@ -4,1361 +4,461 @@
       "id": 0,
       "title": "🧠 Logical Fallacies",
       "subtitle": "Master Critical Thinking",
-      "description": "Learn to identify common errors in reasoning that can mislead arguments and debates. Swipe through to discover fallacies that appear everywhere from social media to political discourse.",
-      "example": "Understanding these patterns will help you think more clearly, argue more effectively, and avoid being manipulated by flawed reasoning.",
-      "tip": "Take your time with each one. Real mastery comes from recognizing these fallacies in everyday conversations!",
-      "color": "from-slate-700 to-slate-900",
+      "description": "Logical fallacies are errors in reasoning that undermine the logic of an argument. They occur when the connection between premises and conclusion is flawed, even if the premises themselves might be true. Understanding these patterns is essential for critical thinking, effective debate, and recognizing manipulation in media, politics, and everyday discourse.",
+      "example": "You'll encounter these fallacies daily: in advertisements trying to sell you products, in political debates shaping public opinion, in social media arguments, and even in your own reasoning. Learning to spot them helps you think more clearly, argue more effectively, and make better decisions based on sound logic rather than emotional manipulation or flawed reasoning.",
+      "tip": "Don't rush through these. Real mastery comes from recognizing fallacies in real-world situations. After learning each one, try to spot it in news articles, social media posts, or everyday conversations. The goal isn't to win arguments, but to think more clearly and help others do the same.",
+      "color": "#4A5568",
       "isIntro": true
     },
     {
       "id": 1,
       "title": "👤 Ad Hominem",
       "subtitle": "Attacking the Person",
-      "description": "Attacking the person making an argument rather than addressing the argument itself.",
-      "example": "You can't trust John's opinion on climate change because he's not a scientist.",
-      "tip": "Focus on the argument's merit, not who's making it.",
-      "color": "from-purple-500 to-pink-500"
+      "description": "Ad hominem (Latin for 'to the person') occurs when someone attacks the character, motive, or other attribute of the person making an argument rather than addressing the substance of the argument itself. This fallacy attempts to discredit an idea by discrediting the person who presents it, which is logically invalid because the truth of a claim is independent of who states it.",
+      "example": "Climate scientist presents data on global warming. Opponent responds: 'You can't trust her opinion because she drives an SUV' or 'He's just saying that because he gets research grants.' These attacks on character or motive don't address whether the data and conclusions are actually correct. Even hypocrites can make valid arguments.",
+      "tip": "When evaluating arguments, separate the message from the messenger. A person's character flaws, political affiliations, or personal interests don't automatically invalidate their reasoning. Always ask: Does this response address the actual argument, or is it just attacking the person making it?",
+      "color": "#5A67D8"
     },
     {
       "id": 2,
       "title": "🎪 Straw Man",
       "subtitle": "Misrepresenting the Argument",
-      "description": "Misrepresenting someone's argument to make it easier to attack.",
-      "example": "Person A: We should have some gun control. Person B: So you want to take away all guns?",
-      "tip": "Always address the actual argument being made.",
-      "color": "from-blue-500 to-cyan-500"
+      "description": "The straw man fallacy involves distorting, exaggerating, or misrepresenting someone's argument to make it easier to attack or refute. Instead of addressing the actual position, the arguer constructs a weaker, more extreme, or simplified version (a 'straw man') that's easier to knock down. This is intellectually dishonest because it gives the appearance of refuting an argument without actually engaging with it.",
+      "example": "Person A: 'We should have some reasonable gun control measures like background checks.' Person B: 'So you want to take away all guns and leave law-abiding citizens defenseless against criminals?' Person B has created a straw man by transforming a nuanced position about specific regulations into an extreme position about total gun confiscation, which is easier to argue against.",
+      "tip": "Before responding to an argument, try to state the other person's position back to them in your own words and ask if you've understood correctly. This ensures you're addressing their actual argument, not a distorted version. If someone seems to be misrepresenting your position, politely clarify: 'That's not quite what I said. My actual position is...'",
+      "color": "#4299E1"
     },
     {
       "id": 3,
       "title": "⚫⚪ False Dichotomy",
       "subtitle": "Black-and-White Thinking",
-      "description": "Presenting only two options when more exist.",
-      "example": "You're either with us or against us.",
-      "tip": "Look for middle ground and additional alternatives.",
-      "color": "from-green-500 to-emerald-500"
+      "description": "A false dichotomy (also called false dilemma or black-and-white thinking) presents only two options as if they're the only possibilities, when in reality there are additional alternatives, middle ground, or nuances. This fallacy artificially limits choices and forces a decision between extremes, ignoring the spectrum of possibilities that usually exists between them.",
+      "example": "You're either with us or against us. You either support the police completely or you hate them. You're either pro-business or anti-growth. These statements ignore countless middle positions: you can support police reform while respecting officers, or favor environmental protection while supporting economic development. Most complex issues have more than two positions.",
+      "tip": "When someone presents only two options, ask yourself: Are these really the only possibilities? What middle ground exists? What am I not considering? Complex issues rarely have simple binary solutions. Beware of rhetoric that uses 'either/or' thinking, especially in politics and advertising.",
+      "color": "#48BB78"
     },
     {
       "id": 4,
       "title": "👔 Appeal to Authority",
       "subtitle": "Improper Authority",
-      "description": "Using an authority figure's opinion as evidence when they lack relevant expertise.",
-      "example": "This famous actor says this diet works, so it must be healthy.",
-      "tip": "Check if the authority is actually an expert in the relevant field.",
-      "color": "from-orange-500 to-red-500"
+      "description": "An appeal to authority fallacy occurs when someone cites an authority figure as evidence for a claim, but that authority lacks relevant expertise in the specific field being discussed. While expert opinion can be valuable evidence, it becomes fallacious when the person cited isn't actually an expert in the relevant domain, or when their authority is invoked as the sole justification without supporting evidence.",
+      "example": "A famous actor endorses a diet plan, claiming it's scientifically proven. While the actor may be successful in entertainment, they have no nutrition or medical expertise. Or: 'Einstein believed in God, so atheism is wrong.' Einstein's expertise in physics doesn't make him an authority on theology. The fallacy is citing authority outside their domain of expertise.",
+      "tip": "Always ask: Is this person actually an expert in this specific field? What are their credentials and qualifications? Are other experts in the field in agreement? Even genuine experts can be wrong, so look for consensus and supporting evidence, not just a single authority's opinion. Be especially skeptical of celebrity endorsements.",
+      "color": "#ED8936"
     },
     {
       "id": 5,
       "title": "🎿 Slippery Slope",
       "subtitle": "Chain Reaction Fallacy",
-      "description": "Arguing that one step will inevitably lead to extreme consequences without evidence.",
-      "example": "If we allow students to redo assignments, soon grades will be meaningless.",
-      "tip": "Each step in a chain needs its own justification.",
-      "color": "from-indigo-500 to-purple-500"
+      "description": "The slippery slope fallacy argues that one small step will inevitably lead to a chain of events resulting in an extreme, usually negative outcome, without providing evidence for the inevitability of this chain reaction. While some actions do lead to consequences, this fallacy assumes each step necessarily leads to the next without justifying why the progression is inevitable rather than merely possible.",
+      "example": "If we allow students to redo one assignment, they'll expect to redo every assignment, then retake every test, then demand automatic passing grades, and eventually degrees will become meaningless. Each step is presented as inevitable, but there's no evidence that allowing one redo must lead to this cascade. Reasonable policies can include limited redos without sliding down this entire slope.",
+      "tip": "Each link in a causal chain needs its own justification. Ask: Is each step in this sequence actually inevitable? What evidence supports that one thing must lead to another? What safeguards or stopping points exist? Many slippery slope arguments rely on fear rather than logic. Look for actual evidence of the causal chain, not just speculation.",
+      "color": "#9F7AEA"
     },
     {
       "id": 6,
       "title": "🏃 Hasty Generalization",
       "subtitle": "Jumping to Conclusions",
-      "description": "Drawing a broad conclusion from limited evidence.",
-      "example": "I met two rude people from that city, so everyone there must be rude.",
-      "tip": "Ensure your sample size is large and representative.",
-      "color": "from-yellow-500 to-orange-500"
+      "description": "A hasty generalization draws a broad conclusion from insufficient evidence, typically from a sample that's too small, unrepresentative, or biased. This fallacy occurs when someone takes limited observations and applies them universally without adequate justification. While inductive reasoning requires making generalizations from observations, hasty generalization does so prematurely or carelessly.",
+      "example": "I met two rude people from New York, so all New Yorkers are rude. My friend smoked for 40 years and never got cancer, so smoking must not cause cancer. Both examples draw sweeping conclusions from tiny, unrepresentative samples while ignoring vast amounts of contradictory evidence. Personal anecdotes, no matter how vivid, don't override statistical reality.",
+      "tip": "Before accepting a generalization, ask: How large is the sample size? Is it representative of the whole population? What about counter-examples? Anecdotes and personal experiences are memorable but often misleading. Look for systematic evidence from properly conducted studies rather than generalizing from a few examples. The plural of anecdote is not data.",
+      "color": "#ECC94B"
     },
     {
       "id": 7,
       "title": "🔄 Circular Reasoning",
       "subtitle": "Begging the Question",
-      "description": "Using the conclusion as a premise in your argument.",
-      "example": "The Bible is true because it says so in the Bible.",
-      "tip": "Your premises must be independent of your conclusion.",
-      "color": "from-pink-500 to-rose-500"
+      "description": "Circular reasoning (also called begging the question) occurs when an argument's conclusion is assumed in one of its premises, creating a logical loop that doesn't actually prove anything. The conclusion is used as evidence for itself, providing no independent justification. While the argument may be logically valid (if the premise is true, the conclusion follows), it's epistemically useless because it doesn't establish why we should accept the premise in the first place.",
+      "example": "The Bible is true because it says so in the Bible. This assumes the Bible's truthfulness (the conclusion) in order to prove the Bible's truthfulness (the premise). Or: 'I'm trustworthy because I always tell the truth, and you can trust what I say about being truthful.' The argument goes in a circle without providing external evidence.",
+      "tip": "Check whether the premises actually provide independent support for the conclusion, or if they're just restating the conclusion in different words. Ask: What evidence supports this that doesn't assume what we're trying to prove? Good arguments build from accepted facts or principles to reach new conclusions, not from the conclusion itself.",
+      "color": "#FC8181"
     },
     {
       "id": 8,
       "title": "🐟 Red Herring",
       "subtitle": "Distracting from the Issue",
-      "description": "Introducing irrelevant information to distract from the actual issue.",
-      "example": "Why worry about the environment when there are people starving?",
-      "tip": "Stay focused on the topic being discussed.",
-      "color": "from-teal-500 to-blue-500"
+      "description": "A red herring introduces irrelevant information into an argument to distract from the actual issue being discussed. Named after the practice of using smoked fish to distract hunting dogs from a scent trail, this fallacy diverts attention to a different topic that seems related but doesn't address the original argument. It's often used deliberately to avoid difficult questions or uncomfortable topics.",
+      "example": "Discussing environmental protection: 'Why worry about the environment when there are people starving in the world?' While hunger is important, it's a separate issue that doesn't address whether environmental protection is valuable. Both issues can be important simultaneously. Or in a debate about education funding: 'But what about our military readiness?' - again, changing the subject rather than addressing the original issue.",
+      "tip": "Stay focused on the original question or argument. When someone introduces a new topic, pause and ask: Is this actually relevant to what we're discussing, or is it changing the subject? It's okay to acknowledge that other issues matter while redirecting back to the original point: 'That's an important topic we can discuss separately, but right now we're talking about...'",
+      "color": "#4FD1C5"
     },
     {
       "id": 9,
       "title": "🚐 Bandwagon",
       "subtitle": "Appeal to Popularity",
-      "description": "Arguing something is true because many people believe it.",
-      "example": "Everyone's buying this product, so it must be good.",
-      "tip": "Popularity doesn't equal correctness.",
-      "color": "from-violet-500 to-purple-500"
+      "description": "The bandwagon fallacy (or appeal to popularity) argues that something is true, good, or desirable simply because many people believe it or do it. This confuses popularity with correctness. While popularity can be relevant in some contexts (like determining what's socially acceptable), it's not evidence for truth, quality, or ethical rightness. History is full of popular ideas that turned out to be wrong.",
+      "example": "Everyone's buying this cryptocurrency, so it must be a good investment. Millions of people believe in astrology, so it must be true. These arguments ignore that popular opinion can be misinformed, manipulated, or simply wrong. The truth of a claim is independent of how many people believe it. Remember that at various points in history, slavery, smoking, and bloodletting were all widely accepted.",
+      "tip": "Popularity can indicate that something is worth investigating, but it's not proof of correctness. Ask: What's the actual evidence, independent of how many people believe it? Are these people believing for good reasons or just following the crowd? Consider whether you're feeling social pressure to conform rather than evaluating evidence objectively.",
+      "color": "#B794F4"
     },
     {
       "id": 10,
       "title": "⏰ Post Hoc",
       "subtitle": "False Cause",
-      "description": "Assuming that because B follows A, A must have caused B.",
-      "example": "I wore my lucky socks and we won the game, so my socks caused our victory.",
-      "tip": "Correlation does not imply causation.",
-      "color": "from-cyan-500 to-teal-500"
+      "description": "Post hoc ergo propter hoc (Latin for 'after this, therefore because of this') assumes that because event B followed event A, event A must have caused event B. This confuses temporal sequence with causal relationship. While causes do precede effects, not everything that comes before is a cause. This fallacy ignores other possible causes, coincidence, and the need to establish an actual causal mechanism.",
+      "example": "I wore my lucky socks and we won the game, so my socks caused our victory. The rooster crows before sunrise, so the rooster's crow causes the sun to rise. I started taking these vitamins and my cold got better, so the vitamins cured it (ignoring that colds typically resolve on their own). These confuse correlation with causation without evidence of a causal mechanism.",
+      "tip": "Correlation doesn't imply causation. When you notice two things happening together or in sequence, ask: Is there a plausible mechanism connecting them? Could there be other explanations? Could it be coincidence? Could a third factor be causing both? Establishing true causation requires controlled studies that can rule out alternative explanations and confounding variables.",
+      "color": "#63B3ED"
     },
     {
       "id": 11,
       "title": "😢 Appeal to Emotion",
       "subtitle": "Playing on Feelings",
-      "description": "Manipulating emotions instead of using valid reasoning to persuade.",
-      "example": "If you don't support this law, you must hate children.",
-      "tip": "Strong emotions don't make an argument logically sound.",
-      "color": "from-rose-500 to-pink-500"
+      "description": "An appeal to emotion attempts to manipulate feelings rather than presenting valid reasoning. While emotions are important and can highlight issues worth considering, this fallacy uses emotional manipulation as a substitute for logic and evidence. It's particularly common in advertising, political rhetoric, and activism, where the goal is to bypass rational analysis and trigger an emotional response that leads to agreement or action.",
+      "example": "If you don't support this law, you must want children to suffer. Think of the children! How can you be so heartless? This uses emotional manipulation (guilt, fear, sympathy) rather than explaining why the law would actually help children or addressing potential problems with it. The emotional appeal distracts from substantive analysis of the policy's likely effects.",
+      "tip": "Emotions can alert us to moral issues, but they shouldn't replace analysis. When you feel a strong emotional reaction to an argument, pause and ask: What's the actual evidence? Is this trying to make me feel something instead of convincing me with logic? Strong feelings can coexist with clear thinking - acknowledge the emotion, then analyze the argument rationally.",
+      "color": "#F687B3"
     },
     {
       "id": 12,
       "title": "🪞 Tu Quoque",
       "subtitle": "You Too Fallacy",
-      "description": "Dismissing criticism by pointing out the critic's hypocrisy.",
-      "example": "You say I shouldn't smoke, but you used to smoke too!",
-      "tip": "Hypocrisy doesn't make the criticism wrong.",
-      "color": "from-amber-500 to-orange-500"
+      "description": "Tu quoque (Latin for 'you too') attempts to dismiss criticism by pointing out that the critic is hypocritical or has done the same thing. While hypocrisy may be worth noting, it doesn't actually address whether the criticism is valid. The truth of a claim is independent of whether the person making it practices what they preach. This fallacy is a specific type of ad hominem that focuses on perceived hypocrisy.",
+      "example": "Doctor: You should quit smoking, it's terrible for your health. Patient: But you smoke too! How can you tell me to quit? Even if the doctor is a hypocrite, that doesn't make the health advice wrong. A smoking doctor can still give accurate information about smoking's dangers. The advice should be evaluated on its merits, not on whether the advisor follows it.",
+      "tip": "Separate the message from the messenger's behavior. Hypocrisy is worth noting and may indicate lack of willpower or sincerity, but it doesn't invalidate true statements. Ask: Is the criticism itself accurate and well-founded? Would the argument be valid if someone else made it? Focus on whether the advice or argument is sound, not whether the person is perfect.",
+      "color": "#F6AD55"
     },
     {
       "id": 13,
       "title": "🌿 Appeal to Nature",
       "subtitle": "Natural Equals Good",
-      "description": "Arguing that something is good because it's natural.",
-      "example": "This medicine is better because it's all-natural and organic.",
-      "tip": "Arsenic is natural. Natural doesn't mean safe.",
-      "color": "from-lime-500 to-green-500"
+      "description": "The appeal to nature fallacy assumes that what is natural is automatically good, right, or beneficial, while what is unnatural is bad or harmful. This ignores that nature includes both beneficial and harmful things, and that humans have improved on nature in countless ways. The natural/unnatural distinction is often arbitrary, and 'natural' is frequently used as a marketing term without clear meaning.",
+      "example": "This medicine is better because it's all-natural and organic. But arsenic, mercury, and deadly nightshade are all natural. Conversely, vaccines, antibiotics, and eyeglasses are 'unnatural' but highly beneficial. Nature is indifferent to human wellbeing - it includes both healing herbs and lethal poisons. Something being natural tells us nothing about its safety or efficacy.",
+      "tip": "Don't confuse natural with safe or good. What matters is evidence of safety and effectiveness, not whether something is found in nature. Remember that 'natural' products can be harmful and 'artificial' ones can be beneficial. Ask: What's the actual evidence for safety and effectiveness? Don't let the word 'natural' bypass your critical thinking.",
+      "color": "#68D391"
     },
     {
       "id": 14,
       "title": "🎯 Texas Sharpshooter",
       "subtitle": "Cherry-Picking Data",
-      "description": "Selecting data that supports your conclusion while ignoring data that doesn't.",
-      "example": "Look at all these warm days - global warming is happening!",
-      "tip": "Look at all the data, not just what supports your view.",
-      "color": "from-red-500 to-orange-500"
+      "description": "The Texas sharpshooter fallacy involves cherry-picking data points that support your argument while ignoring those that don't, then claiming the selected data proves your point. Named after a joke about a shooter who fires randomly at a barn, then paints targets around the bullet holes to make it look like perfect aim, this fallacy involves finding patterns in random data by focusing only on the 'hits' and ignoring the 'misses.'",
+      "example": "Look at all these warm days this winter - global warming is definitely happening! (Ignoring all the cold days). Or pointing to three cancer patients in one neighborhood as proof of environmental contamination, while ignoring that with enough neighborhoods, such clusters will occur by chance. This selectively highlights confirming evidence while discarding contradictory data.",
+      "tip": "Look at all the data, not just what supports your preferred conclusion. Ask: What percentage of cases fit this pattern? How many counter-examples exist? Could this pattern occur by chance? Genuine patterns hold up when you look at comprehensive data, not just cherry-picked examples. Be especially suspicious when someone shows you only favorable data points.",
+      "color": "#F56565"
     },
     {
       "id": 15,
       "title": "🏴 No True Scotsman",
       "subtitle": "Moving the Goalposts",
-      "description": "Changing the definition to exclude counterexamples.",
-      "example": "No true Christian would do that. Well, he's not a TRUE Christian then.",
-      "tip": "Definitions shouldn't change to preserve your argument.",
-      "color": "from-indigo-500 to-blue-500"
+      "description": "The 'no true Scotsman' fallacy makes a universal claim, then when confronted with a legitimate counter-example, dismisses it by claiming it doesn't count as a 'true' example. This involves changing the definition or criteria to exclude inconvenient counter-examples, effectively making the original claim unfalsifiable. It's a way of protecting a belief from evidence by arbitrarily redefining terms.",
+      "example": "No true Christian would do something so cruel. But Person X is Christian and did exactly that. Well, then they're not a TRUE Christian. The definition of Christian is being changed mid-argument to exclude counter-examples. Same with: No true Scotsman puts sugar on his porridge. But my uncle from Scotland does. Well, no TRUE Scotsman does. The goalposts keep moving to preserve the original claim.",
+      "tip": "Define your terms clearly at the start and stick to those definitions. If counter-examples emerge, acknowledge them rather than changing definitions to exclude them. Ask: Am I moving the goalposts to protect my conclusion? Am I using a 'no true' defense to dismiss valid counter-examples? Honest inquiry means being willing to modify claims when faced with contrary evidence.",
+      "color": "#667EEA"
     },
     {
       "id": 16,
       "title": "🪤 Loaded Question",
       "subtitle": "Trap Questions",
-      "description": "Asking a question that contains an unproven assumption.",
-      "example": "Have you stopped cheating on tests?",
-      "tip": "Challenge the assumptions built into questions.",
-      "color": "from-purple-500 to-violet-500"
+      "description": "A loaded question contains an assumption or accusation embedded within the question itself, making it impossible to answer directly without accepting the problematic premise. The question is 'loaded' like a loaded gun - it comes with something extra that traps the respondent. Answering the question as asked implicitly accepts an assumption that may be false or disputed.",
+      "example": "Have you stopped cheating on tests? This assumes you were cheating. Answering yes or no both confirm that you cheated. Or: When did you become so selfish? This presupposes selfishness. These questions make an accusation while appearing to ask a simple question. They're designed to put the respondent on the defensive regardless of how they answer.",
+      "tip": "When faced with a loaded question, identify and challenge the hidden assumption before answering. Say something like: Your question assumes that I cheated, which isn't true, so I can't answer it as stated. Or ask for the question to be rephrased without the assumption. Don't let yourself be trapped into accepting false premises by trying to directly answer unfairly loaded questions.",
+      "color": "#B794F4"
     },
     {
       "id": 17,
       "title": "⚖️ Middle Ground",
       "subtitle": "False Compromise",
-      "description": "Assuming the truth lies in the middle of two extreme positions.",
-      "example": "Some say vaccines are safe, others deadly. Truth is in between.",
-      "tip": "Sometimes one side is simply right and the other wrong.",
-      "color": "from-gray-500 to-slate-500"
+      "description": "The middle ground fallacy (or argument to moderation) assumes that the truth must lie somewhere between two opposing positions, or that a compromise between two views must be correct. While compromise is often valuable in practice, this fallacy incorrectly treats all disputes as if both sides are equally valid and the truth must be somewhere in between. Sometimes one side is simply right and the other wrong.",
+      "example": "Some say vaccines are safe and effective, others say they cause autism and are deadly poison. The truth is probably somewhere in between. Actually, overwhelming scientific evidence supports vaccine safety and effectiveness, while the anti-vaccine position is not supported by evidence. The middle ground between fact and fiction is still fiction. Not all controversies have two equally valid sides.",
+      "tip": "Evaluate the evidence for each position independently rather than assuming truth lies in the middle. Ask: What does the evidence actually say? Are both positions backed by equal quality evidence? Sometimes compromise is wise, but sometimes one side is simply correct. Don't let false balance lead you to give equal weight to unequal positions.",
+      "color": "#718096"
     },
     {
       "id": 18,
       "title": "📋 Burden of Proof",
       "subtitle": "Prove Me Wrong",
-      "description": "Claiming something is true until proven false.",
-      "example": "Bigfoot exists. Prove to me that he doesn't!",
-      "tip": "The person making a claim has the burden to prove it.",
-      "color": "from-emerald-500 to-teal-500"
+      "description": "The burden of proof fallacy occurs when someone makes a claim and demands that others prove it false, rather than providing evidence that it's true. In rational discourse, the person making a positive claim bears the burden of supporting it with evidence. Shifting this burden to skeptics is fallacious because it's impossible to prove a negative, and unfalsifiable claims are meaningless. The default position should be skepticism until evidence is provided.",
+      "example": "I believe Bigfoot exists. Prove to me that he doesn't! There's an invisible dragon in my garage. You can't prove there isn't! These reverse the burden of proof. The person making the extraordinary claim (Bigfoot exists, invisible dragons exist) is responsible for providing evidence, not the skeptic. It's impossible to prove that something doesn't exist anywhere in the universe.",
+      "tip": "If someone makes a claim, they need to support it with evidence. Don't accept the burden of disproving unfounded claims. Ask: What's your evidence for this? The more extraordinary the claim, the stronger the evidence required. Be especially wary of conspiracy theories and supernatural claims that demand you disprove them rather than providing positive evidence.",
+      "color": "#48BB78"
     },
     {
       "id": 19,
       "title": "🏛️ Appeal to Tradition",
       "subtitle": "We've Always Done It",
-      "description": "Arguing something is correct because it's been done historically.",
-      "example": "We've always done it this way, so we should continue.",
-      "tip": "Tradition doesn't justify an action's correctness.",
-      "color": "from-amber-600 to-orange-600"
+      "description": "An appeal to tradition argues that something is good, right, or true because it's traditional, long-established, or 'the way we've always done it.' While traditions can have value and may reflect accumulated wisdom, age alone doesn't validate a practice. Many harmful practices (slavery, denial of women's rights, etc.) were traditional. This fallacy confuses longevity with correctness and resists change based on custom rather than merit.",
+      "example": "We've always elected men as president, so we should continue doing so. Marriage has traditionally been between a man and woman, so other forms shouldn't be recognized. Companies have always required employees to work in offices, so remote work must be wrong. These arguments appeal to history rather than providing reasons why the traditional approach is actually better than alternatives.",
+      "tip": "Traditions deserve consideration but not uncritical acceptance. Ask: Why did this tradition start? Is it still serving its original purpose? What would be the actual consequences of changing it? Just because something is old doesn't make it good, and just because something is new doesn't make it bad. Evaluate practices on their current merits, not just their history.",
+      "color": "#D69E2E"
     },
     {
       "id": 20,
       "title": "🧬 Genetic Fallacy",
       "subtitle": "Judging by Origin",
-      "description": "Judging something based on where it comes from.",
-      "example": "That theory came from a discredited scientist, so it's wrong.",
-      "tip": "Evaluate ideas on their own merit, not their source.",
-      "color": "from-fuchsia-500 to-pink-500"
+      "description": "The genetic fallacy judges something as true, false, good, or bad based on its origin, source, or history rather than its current merit or the strength of the argument itself. While origin can sometimes be relevant (understanding bias, checking credentials), this fallacy focuses exclusively on where something came from rather than evaluating it on its own merits. Good ideas can come from bad sources, and bad ideas can come from good sources.",
+      "example": "That theory came from a discredited scientist, so it must be wrong. This idea originated in Nazi Germany, so it's invalid. He's suggesting that because he'll profit from it. While these facts might raise questions worth investigating, they don't automatically determine whether the theory or idea is correct. Even terrible people occasionally have valid insights, and even good people can be wrong.",
+      "tip": "Evaluate ideas on their merits, not their origins. Consider the source as one factor (especially regarding credibility and potential bias) but don't let it substitute for examining the argument itself. Ask: Setting aside where this came from, is the reasoning sound and evidence strong? Don't dismiss good ideas because of their source, or accept bad ideas because of their pedigree.",
+      "color": "#D53F8C"
     },
     {
       "id": 21,
-      "title": "🧩 Composition",
-      "subtitle": "Parts to Whole",
-      "description": "Assuming what's true for the parts must be true for the whole.",
-      "example": "Each player is excellent, so the team must be excellent.",
-      "tip": "A collection can have different properties than its parts.",
-      "color": "from-sky-500 to-blue-500"
+      "title": "📖 Anecdotal Evidence",
+      "subtitle": "My Experience Proves It",
+      "description": "The anecdotal evidence fallacy relies on personal experience or isolated examples as the sole or primary evidence for a general claim, ignoring statistical evidence and the role of chance. While anecdotes can be valuable for generating hypotheses or illustrating points, they're insufficient for drawing general conclusions because personal experiences are prone to bias, selective memory, and misinterpretation. Individual cases don't override systematic data.",
+      "example": "My grandfather smoked two packs a day and lived to 95, so smoking can't be that bad for you. This ignores overwhelming statistical evidence that smoking dramatically increases disease risk and reduces life expectancy. One case doesn't disprove a general pattern. Personal experience, however vivid and memorable, is not a reliable guide to what's generally true. Statistics beat anecdotes.",
+      "tip": "Anecdotes are not data. Personal experiences are real but often unrepresentative. Ask: Is this one case typical or exceptional? What do systematic studies show? How large and representative is the sample? Be especially skeptical of your own anecdotes - we remember unusual outcomes more than typical ones, and we're prone to confirmation bias about our own experiences.",
+      "color": "#ED8936"
     },
     {
       "id": 22,
-      "title": "✂️ Division",
-      "subtitle": "Whole to Parts",
-      "description": "Assuming what's true for the whole must be true for the parts.",
-      "example": "This company is profitable, so every department is profitable.",
-      "tip": "Individual parts may differ from the collective whole.",
-      "color": "from-cyan-500 to-sky-500"
+      "title": "❓ Appeal to Ignorance",
+      "subtitle": "Absence of Evidence",
+      "description": "An appeal to ignorance (argumentum ad ignorantiam) argues that a claim is true because it hasn't been proven false, or false because it hasn't been proven true. This confuses lack of evidence with evidence of absence. Just because something hasn't been proven doesn't mean it's true (or false). This fallacy shifts the burden of proof and makes unfalsifiable claims appear reasonable. The absence of disproof is not proof.",
+      "example": "No one has proven that aliens don't exist, so they must be real. You can't prove that ghosts don't exist, so they do. Conversely: There's no proof that this treatment works, so it must not work. In all cases, absence of evidence is being treated as if it were evidence. The rational position in the absence of evidence is agnosticism or proportional skepticism, not belief.",
+      "tip": "The burden is on those claiming something exists or is true to provide evidence, not on skeptics to disprove it. Ask: What positive evidence supports this claim? Lack of disproof is not proof. Be especially wary of conspiracy theories and pseudoscience that rely on this fallacy, claiming their beliefs are valid because they haven't been definitively disproven.",
+      "color": "#805AD5"
     },
     {
       "id": 23,
-      "title": "🔀 Equivocation",
-      "subtitle": "Shifting Meanings",
-      "description": "Using the same word with different meanings in an argument.",
-      "example": "A feather is light. Light is opposite of dark. Feather is opposite of dark.",
-      "tip": "Keep word meanings consistent throughout.",
-      "color": "from-violet-500 to-fuchsia-500"
+      "title": "🎭 Special Pleading",
+      "subtitle": "Rules for Thee, Not for Me",
+      "description": "Special pleading applies rules, standards, or principles to others while claiming exemption for oneself (or one's argument) without adequate justification. It's essentially saying 'the general rule applies to everyone except me' without providing good reasons why an exception should be made. This fallacy involves citing something as an exception to a general principle without justifying why it should be exempt.",
+      "example": "I know everyone should follow the speed limit, but I'm a good driver so it doesn't apply to me. My religion is the one true faith, but other religions that make the same claim about themselves are clearly wrong. I can use my cell phone while driving because I'm being careful, even though others shouldn't. These apply a double standard without adequate justification.",
+      "tip": "Apply consistent standards. If you claim an exception, you need to explain what genuinely makes your case different. Ask yourself: If everyone made this same exception for themselves, would the rule become meaningless? Am I applying a double standard? Would I accept this reasoning if someone else used it? Genuine exceptions require genuine justifications.",
+      "color": "#E53E3E"
     },
     {
       "id": 24,
-      "title": "📖 Anecdotal Evidence",
-      "subtitle": "My Experience Proves It",
-      "description": "Using personal experience as the sole evidence.",
-      "example": "My grandfather smoked and lived to 95, so smoking isn't bad.",
-      "tip": "Individual cases don't disprove statistical trends.",
-      "color": "from-orange-500 to-amber-500"
+      "title": "💸 Sunk Cost",
+      "subtitle": "Can't Waste the Investment",
+      "description": "The sunk cost fallacy involves continuing a behavior or endeavor because of previously invested time, money, or effort, even when continuing is not the best decision going forward. Past investments ('sunk costs') are gone and shouldn't influence future decisions - only future costs and benefits matter. This fallacy makes us throw good money after bad because we can't accept that our previous investment is lost.",
+      "example": "I've already spent $500 fixing this unreliable car, so I have to keep fixing it (even though selling it and buying a reliable car would be cheaper). I've watched five seasons of this boring show, I can't quit now (even though you'll never get that time back anyway). These decisions prioritize past investments over what's actually best going forward.",
+      "tip": "When making decisions, consider only future costs and benefits, not past investments. Ask: If I hadn't already invested anything, would I still choose this path? What's the best decision going forward, regardless of what's already been spent? It's okay to cut your losses. Past costs are gone whether you continue or quit - don't let them trap you in bad situations.",
+      "color": "#DD6B20"
     },
     {
       "id": 25,
-      "title": "❓ Appeal to Ignorance",
-      "subtitle": "Absence of Evidence",
-      "description": "Claiming something is true because it hasn't been proven false.",
-      "example": "No one has proven aliens don't exist, so they must be real.",
-      "tip": "Lack of evidence isn't evidence itself.",
-      "color": "from-indigo-600 to-purple-600"
+      "title": "🎲 Gambler's Fallacy",
+      "subtitle": "Due for a Win",
+      "description": "The gambler's fallacy believes that past random events affect future independent random events, as if chance has memory. After a run of one outcome, people think the opposite becomes 'due' to balance things out. This misunderstands randomness and probability - each independent event has the same probability regardless of what came before. Random sequences don't self-correct or balance out in short runs.",
+      "example": "The coin has landed heads five times in a row, so it's due to land tails next. (Each flip is still 50/50). I haven't won the lottery in 20 years, so I'm due for a win now. (Each draw has the same odds). After a string of bad luck, people think good luck must be coming, but random events don't work that way.",
+      "tip": "Independent events don't have memory. Each occurrence has the same probability regardless of history. Ask: Are these events truly independent? Does the past actually influence the probability of future outcomes? Understand that patterns will appear in random data, but they don't predict future results. This fallacy costs gamblers billions annually.",
+      "color": "#38A169"
     },
     {
       "id": 26,
-      "title": "🎭 Special Pleading",
-      "subtitle": "Rules for Thee, Not for Me",
-      "description": "Applying rules to others but claiming you're exempt.",
-      "example": "Everyone should follow speed limits, but I'm a good driver.",
-      "tip": "General rules need general application.",
-      "color": "from-red-600 to-rose-600"
+      "title": "🍎🍊 False Analogy",
+      "subtitle": "Apples to Oranges",
+      "description": "A false analogy compares two things that aren't sufficiently similar in relevant ways, then draws conclusions based on this flawed comparison. While analogies can be useful for explanation and illustration, they become fallacious when used as the primary evidence for an argument while ignoring important differences between the things being compared. The analogy breaks down upon examination.",
+      "example": "Employees are like nails - just as nails must be hit on the head to get them to work, so must employees. This ignores that employees are thinking humans with motivations and feelings, while nails are inanimate objects. The analogy fails because the relevant differences are more important than the superficial similarities. The comparison misleads rather than enlightens.",
+      "tip": "When someone uses an analogy to argue a point, examine whether the similarities are relevant and whether the differences are significant. Ask: Are these things actually comparable in the ways that matter for this argument? What important differences am I ignoring? Analogies can illustrate but shouldn't substitute for actual evidence and reasoning.",
+      "color": "#F687B3"
     },
     {
       "id": 27,
-      "title": "💸 Sunk Cost",
-      "subtitle": "Can't Waste the Investment",
-      "description": "Continuing because you've already invested.",
-      "example": "I've already spent $500 fixing this car, so I have to keep fixing it.",
-      "tip": "Past investments shouldn't dictate future decisions.",
-      "color": "from-yellow-600 to-orange-600"
+      "title": "🥅 Moving the Goalposts",
+      "subtitle": "Never Satisfied",
+      "description": "Moving the goalposts involves changing the requirements or standards of proof once they've been met, making it impossible to win the argument. When presented with requested evidence or meeting stated criteria, the person moves the goalposts by demanding different or additional evidence. This makes the argument unfalsifiable and suggests the person isn't genuinely interested in evidence but rather in maintaining their position regardless of what's presented.",
+      "example": "Show me evidence for evolution. (Evidence provided) That's not enough evidence. (More provided) Well, I meant a different kind of evidence. (That provided too) You still can't prove it 100%. The standards keep changing so no amount of evidence is ever sufficient. This suggests the person's mind isn't actually changeable by evidence.",
+      "tip": "Establish clear criteria for what would constitute adequate evidence before beginning the discussion. If someone keeps moving the goalposts, point it out: 'You asked for X, I provided it. Now you're asking for Y. What would actually change your mind?' If nothing would change their mind, you're not having a productive discussion.",
+      "color": "#4299E1"
     },
     {
       "id": 28,
-      "title": "🎲 Gambler's Fallacy",
-      "subtitle": "Due for a Win",
-      "description": "Believing past random events affect future independent events.",
-      "example": "The coin landed heads five times, so tails is due next.",
-      "tip": "Independent events don't have memory.",
-      "color": "from-green-600 to-emerald-600"
+      "title": "🤡 Appeal to Ridicule",
+      "subtitle": "Mocking the Argument",
+      "description": "An appeal to ridicule presents an opponent's argument in a way that makes it appear absurd or laughable, then treats this mockery as if it were a refutation. Rather than addressing the actual argument and showing why it's wrong, this fallacy uses ridicule, sarcasm, or exaggeration to make the position seem foolish. Mockery is not the same as refutation - making something sound silly doesn't prove it's false.",
+      "example": "Oh sure, and I suppose next you'll tell me the moon is made of cheese! This mocks the person's argument by comparing it to something absurd, but doesn't explain what's actually wrong with their reasoning. Or: 'So you believe that tiny invisible things cause disease? How cute!' (This was used to mock germ theory before it was proven true.)",
+      "tip": "Ridicule is not refutation. When someone mocks an argument, ask: Have they actually shown what's wrong with it, or just made it sound silly? Can you separate the mockery from any actual critique? Be aware that many now-accepted scientific ideas were initially ridiculed. Judge arguments on their merits, not on how easy they are to mock.",
+      "color": "#F6AD55"
     },
     {
       "id": 29,
-      "title": "🍎🍊 False Analogy",
-      "subtitle": "Apples to Oranges",
-      "description": "Comparing two things that aren't sufficiently similar.",
-      "example": "Employees are like nails. Nails must be hit to work, so must employees.",
-      "tip": "Analogies only work when similarities are relevant.",
-      "color": "from-pink-600 to-fuchsia-600"
+      "title": "⚡ Nirvana Fallacy",
+      "subtitle": "Perfect or Nothing",
+      "description": "The nirvana fallacy (or perfect solution fallacy) rejects a solution because it's not perfect, even though it would be better than the current situation or other available alternatives. This compares realistic solutions to idealized, perfect ones rather than to the actual alternatives. It uses the unattainability of perfection as an argument against any improvement, essentially making 'perfect' the enemy of 'good.'",
+      "example": "This safety regulation won't prevent ALL accidents, so we shouldn't implement it. (But it would prevent some). This environmental policy won't solve climate change completely, so it's worthless. (But it would help). These reject genuine improvements because they're not perfect solutions. Progress often requires incremental steps rather than perfect solutions.",
+      "tip": "Compare realistic alternatives to each other, not to impossible ideals. Ask: Is this better than what we have now? Is this the best of the available options? Don't let perfect be the enemy of good. Incremental improvement is still improvement. Be suspicious when someone rejects a beneficial change because it's not a complete solution.",
+      "color": "#9F7AEA"
     },
     {
       "id": 30,
-      "title": "🥅 Moving the Goalposts",
-      "subtitle": "Never Satisfied",
-      "description": "Changing requirements when they've been met.",
-      "example": "Show evidence. That's not enough. I meant different evidence.",
-      "tip": "Define success criteria clearly beforehand.",
-      "color": "from-blue-600 to-cyan-600"
+      "title": "📺 Proof by Assertion",
+      "subtitle": "Repeat Until True",
+      "description": "Proof by assertion treats repeated declaration of a claim as if repetition makes it true or constitutes evidence. Simply stating something multiple times, perhaps with increasing conviction, doesn't make it more true or provide any actual support for the claim. This fallacy relies on the psychological principle that repeated exposure to a claim makes people more likely to believe it, even without evidence.",
+      "example": "This product is simply the best. It's the best. Everyone knows it's the best. The best! The repetition provides no evidence for why it's supposedly the best. Or in politics: 'We will make America great again' repeated endlessly without explaining how. Repetition can be persuasive but it's not proof. Advertising and propaganda rely heavily on this technique.",
+      "tip": "When you notice repeated assertions, ask: What's the actual evidence being provided, beyond the repetition itself? Strip away the repetition and see if any real argument remains. Be aware that hearing something repeatedly makes it feel more true (the 'illusory truth effect') even without evidence. Don't let repetition substitute for actual reasoning.",
+      "color": "#F687B3"
     },
     {
       "id": 31,
-      "title": "🤡 Appeal to Ridicule",
-      "subtitle": "Mocking the Argument",
-      "description": "Presenting an opponent's argument as absurd.",
-      "example": "Oh sure, and the moon is made of cheese!",
-      "tip": "Ridicule is not refutation.",
-      "color": "from-orange-600 to-red-600"
+      "title": "🎪 False Equivalence",
+      "subtitle": "Both Sides Are Equal",
+      "description": "False equivalence treats two things as equal or comparable when they're actually significantly different in important ways, particularly in degree, magnitude, or nature. While both things may belong to the same category, this fallacy ignores that not everything in a category is equally significant. This is particularly problematic in media's desire to present 'both sides' as if all perspectives have equal merit or validity.",
+      "example": "A jaywalker and a murderer are both criminals, so they're basically the same. Both broke the law, but the severity and nature of their offenses are vastly different. Or: 'Both sides' in a debate about scientific consensus vs. fringe views - presenting them as equally valid when 99% of experts support one side and 1% support the other creates false equivalence.",
+      "tip": "Ask: Are these things actually equal in the ways that matter? What are the important differences being ignored? Just because two things share some quality doesn't make them equivalent. Be especially critical of 'both sides' framing in media - check whether the sides have equal evidence, expert support, and validity rather than just equal airtime.",
+      "color": "#F6AD55"
     },
     {
       "id": 32,
-      "title": "🌊 Overwhelming Exception",
-      "subtitle": "Exception Swallows Rule",
-      "description": "Citing an exception as if it disproves the rule.",
-      "example": "Exercise is healthy? My friend got injured exercising!",
-      "tip": "Exceptions don't invalidate general patterns.",
-      "color": "from-teal-600 to-cyan-600"
+      "title": "🎯 Cherry Picking",
+      "subtitle": "Selective Evidence",
+      "description": "Cherry picking (or confirmation bias in action) involves carefully selecting only the evidence that supports your conclusion while ignoring or suppressing evidence that contradicts it. This creates a misleading picture by presenting only favorable data points. It's related to the Texas sharpshooter fallacy but focuses more broadly on selective presentation of evidence. It's a dishonest or biased approach to evidence evaluation.",
+      "example": "Look at these five studies that support my position (while ignoring 50 studies with opposite findings). Or selectively quoting parts of a document that support your view while omitting context that changes the meaning. Or a company advertising only successful customer stories while hiding complaints and failures. The selected evidence may be real but is unrepresentative of the whole picture.",
+      "tip": "Always ask: What evidence is being left out? Has someone done a comprehensive review or just selected favorable examples? Seek out systematic reviews, meta-analyses, and comprehensive data rather than cherry-picked examples. Be aware that you're prone to cherry-picking evidence that supports your existing beliefs - actively search for disconfirming evidence.",
+      "color": "#E53E3E"
     },
     {
       "id": 33,
-      "title": "⚡ Nirvana Fallacy",
-      "subtitle": "Perfect or Nothing",
-      "description": "Rejecting a solution because it's not perfect.",
-      "example": "This safety measure won't prevent ALL accidents.",
-      "tip": "Better is still better, even if not perfect.",
-      "color": "from-purple-600 to-pink-600"
+      "title": "🤝 Guilt by Association",
+      "subtitle": "Bad Company, Bad Ideas",
+      "description": "Guilt by association discredits an idea, person, or argument by pointing out that it's associated with someone or something undesirable, disliked, or evil. This fallacy assumes that if bad people believe or do something, the belief or action itself must be bad. But the merit of an idea is independent of who holds it - even terrible people can have some correct beliefs, and even good people can be wrong about things.",
+      "example": "Hitler was a vegetarian, so vegetarianism is morally wrong. This Nazi scientist developed this theory, so the theory must be false. You know who else supported gun control? Stalin! These attempt to discredit ideas by associating them with villains, ignoring that even terrible people can have some correct positions and that many different people hold the same beliefs for different reasons.",
+      "tip": "Evaluate ideas on their own merits, independent of who believes them. Ask: Would this idea be wrong if Mother Teresa believed it? Would it be right if Hitler believed it? Neither, because the person holding an idea doesn't determine its validity. Consider whether association is being used to avoid actually addressing the argument itself.",
+      "color": "#805AD5"
     },
     {
       "id": 34,
-      "title": "🎣 Argument from Fallacy",
-      "subtitle": "Fallacy Fallacy",
-      "description": "If an argument has a fallacy, the conclusion must be false.",
-      "example": "Your argument used a fallacy, so exercise isn't beneficial.",
-      "tip": "A bad argument doesn't make the conclusion wrong.",
-      "color": "from-emerald-600 to-green-600"
+      "title": "🎭 Appeal to Fear",
+      "subtitle": "Scare Tactics",
+      "description": "An appeal to fear uses threats, worst-case scenarios, and fear-mongering to persuade rather than using logical reasoning and evidence. By triggering anxiety and fear, it bypasses rational analysis and pushes people toward a conclusion based on emotion rather than careful thinking. This is especially common in politics, advertising, and activism where the goal is to motivate action through fear rather than through reasoned consideration.",
+      "example": "If you don't vote for this candidate, our entire way of life will be destroyed and chaos will reign! Vote for this security system or your family will be attacked! These use fear and catastrophizing to push a conclusion without actually proving that these terrible outcomes will occur or that the proposed solution would prevent them.",
+      "tip": "When you feel fear in response to an argument, pause and analyze carefully. Ask: What's the actual evidence for this scary outcome? How likely is it really? Are there other factors to consider? Fear can be appropriate for real dangers, but it shouldn't override rational analysis. Be especially suspicious of arguments that rely primarily on scaring you.",
+      "color": "#DD6B20"
     },
     {
       "id": 35,
-      "title": "👥 Appeal to Pity",
-      "subtitle": "Sympathy Over Logic",
-      "description": "Winning support through sympathy rather than reasoning.",
-      "example": "I've been having a hard time, so give me an A.",
-      "tip": "Sympathy doesn't validate a claim.",
-      "color": "from-blue-600 to-indigo-600"
+      "title": "🎪 Confirmation Bias",
+      "subtitle": "See What You Want",
+      "description": "Confirmation bias is the tendency to seek, interpret, favor, and recall information in a way that confirms your preexisting beliefs while giving disproportionately less attention to contradictory evidence. This isn't so much a logical fallacy as a cognitive bias that leads to fallacious reasoning. We naturally notice and remember information that supports our beliefs and dismiss or forget information that challenges them.",
+      "example": "I knew astrology works - my horoscope was right today! (Forgetting the 364 days it was vague or wrong). Or reading only news sources that align with your political views and dismissing opposing views without serious consideration. We unconsciously filter information to preserve existing beliefs, creating an echo chamber of self-reinforcing ideas.",
+      "tip": "Actively seek out information and arguments that challenge your beliefs. Ask: What would disprove my belief? What's the strongest argument against my position? Am I dismissing contrary evidence too quickly? Try to steelman opposing arguments (present them in their strongest form) rather than strawmanning them. Remember that being wrong and learning is better than being confidently incorrect.",
+      "color": "#9F7AEA"
     },
     {
       "id": 36,
-      "title": "💪 Appeal to Force",
-      "subtitle": "Might Makes Right",
-      "description": "Using threats instead of reasoning.",
-      "example": "Believe what I say or you'll lose your job.",
-      "tip": "Threats don't make an argument valid.",
-      "color": "from-red-700 to-orange-700"
+      "title": "🔍 Hindsight Bias",
+      "subtitle": "I Knew It All Along",
+      "description": "Hindsight bias is the tendency to see past events as having been more predictable than they actually were at the time. After learning an outcome, we convince ourselves that we 'knew it all along' and that the result was obvious or inevitable. This distorts our memory of what we actually knew or believed before the outcome, leading to overconfidence in our ability to predict future events.",
+      "example": "After a team wins: 'I knew that team would win all along!' (But you didn't bet on them). After a stock crashes: 'It was obvious that bubble would burst.' (But you didn't sell beforehand). After an accident: 'I could see that coming.' Our memory revises what seemed obvious before vs. after we know the outcome.",
+      "tip": "Remember that outcomes seem more obvious in hindsight than they were beforehand. Before judging past decisions, consider what was actually known at the time, not what you know now. Keep predictions and decisions documented so you can check your actual accuracy rather than relying on hindsight-distorted memory. This bias makes us overconfident in our predictive abilities.",
+      "color": "#ED8936"
     },
     {
       "id": 37,
-      "title": "🌟 Appeal to Novelty",
-      "subtitle": "New Must Be Better",
-      "description": "Assuming something is better because it's newer.",
-      "example": "This new app must be better just because it's newer.",
-      "tip": "Age doesn't determine quality.",
-      "color": "from-cyan-600 to-blue-600"
+      "title": "🎯 Anchoring Bias",
+      "subtitle": "First Number Sticks",
+      "description": "Anchoring bias is the tendency to rely too heavily on the first piece of information encountered (the 'anchor') when making decisions. Subsequent judgments are adjusted from that initial anchor, often insufficiently. This affects negotiations, estimations, and decisions - the initial number or value mentioned disproportionately influences final outcomes, even when it's arbitrary or irrelevant.",
+      "example": "A car is listed at $30,000, so when you negotiate down to $25,000 it feels like a great deal - but perhaps the car is only worth $20,000. The initial price anchored your perception of value. Or in salary negotiations, whoever mentions a number first often anchors the entire discussion around that figure, affecting the final outcome.",
+      "tip": "Be aware of initial numbers and consciously evaluate them. Ask: Is this anchor arbitrary or meaningful? What would I consider fair or reasonable if I hadn't seen that initial number? In negotiations, do research beforehand to establish your own independent assessment of value rather than letting someone else's first offer anchor you.",
+      "color": "#4FD1C5"
     },
     {
       "id": 38,
-      "title": "🎖️ Appeal to Accomplishment",
-      "subtitle": "Success in One, Expert in All",
-      "description": "Expertise in one field grants expertise in all.",
-      "example": "She's a great athlete, so her political opinions are valid.",
-      "tip": "Excellence doesn't transfer between domains.",
-      "color": "from-yellow-600 to-amber-600"
+      "title": "🎯 Dunning-Kruger Effect",
+      "subtitle": "Ignorance Breeds Confidence",
+      "description": "The Dunning-Kruger effect is a cognitive bias where people with limited knowledge or expertise in a domain greatly overestimate their own knowledge or ability. Conversely, experts tend to underestimate their competence. This creates a situation where the least qualified people are the most confident, while true experts are more aware of the complexity and limits of their knowledge.",
+      "example": "I watched a YouTube video about vaccines, so I know more than doctors who studied immunology for years. After reading one article about economics, feeling qualified to dismiss professional economists. The less someone knows, the more confident they often are because they don't know enough to recognize what they don't know. True expertise brings humility.",
+      "tip": "Remember that the more you learn about a subject, the more you realize how much you don't know. If you feel very confident about a complex topic after minimal exposure, that's a red flag. Before expressing strong opinions, ask: How much do I actually know about this? Have I studied it seriously? What do actual experts say? Confidence should grow with competence, not precede it.",
+      "color": "#667EEA"
     },
     {
       "id": 39,
-      "title": "💰 Appeal to Wealth",
-      "subtitle": "Rich Means Right",
-      "description": "Someone is correct because they are wealthy.",
-      "example": "He's a billionaire, so he's right about economics.",
-      "tip": "Wealth doesn't equal correctness.",
-      "color": "from-green-600 to-lime-600"
+      "title": "🎯 Survivorship Bias",
+      "subtitle": "Success Story Selection",
+      "description": "Survivorship bias focuses on the people or things that 'survived' some selection process while overlooking those that didn't because of their lack of visibility. We see the success stories but not the failures, leading to overly optimistic beliefs about our chances of success. This is especially common in business advice, investing, and self-help where we hear from successful people but not the many who tried the same things and failed.",
+      "example": "College dropouts like Bill Gates and Mark Zuckerberg became billionaires, so dropping out of college is a good path to success! This ignores millions of dropouts who struggled financially. We see successful entrepreneurs who took risks, not the many more who took similar risks and failed. The visible survivors bias our perception of what works.",
+      "tip": "When looking at success stories, ask: How many people tried this and failed? What's the actual success rate? Am I only seeing the survivors? Look for comprehensive statistics rather than inspiring anecdotes. Understand that survivorship bias makes risky strategies seem more successful than they are because you're not seeing all the people who tried and failed.",
+      "color": "#38A169"
     },
     {
       "id": 40,
-      "title": "🧹 Reductio ad Absurdum",
-      "subtitle": "Misused Reduction to Absurdity",
-      "description": "Taking an argument to extremes improperly.",
-      "example": "If we allow gay marriage, people will marry their pets!",
-      "tip": "Valid when logical, invalid when exaggerating.",
-      "color": "from-violet-600 to-purple-600"
+      "title": "🎪 Self-Serving Bias",
+      "subtitle": "Credit Success, Blame Circumstances",
+      "description": "Self-serving bias is the tendency to attribute positive outcomes to our own character or actions (internal factors) while attributing negative outcomes to external circumstances or bad luck. We take credit for successes but deflect blame for failures. This protects our self-esteem but prevents learning from mistakes and gives us an unrealistic view of our own abilities and the role of luck.",
+      "example": "I passed the test because I'm smart and studied hard. I failed the test because it was unfair and the teacher doesn't like me. I got the job because I'm qualified and impressive. I didn't get the job because they already had someone in mind. We credit ourselves for good outcomes but blame circumstances for bad ones, maintaining a positive but distorted self-image.",
+      "tip": "Be honest with yourself about both successes and failures. Ask: What role did luck, circumstances, or others play in my success? What role did my own choices play in this failure? Learning requires acknowledging mistakes. Successful people often credit luck and help, while unsuccessful people often blame others. Be the kind of person who learns from both.",
+      "color": "#F687B3"
     },
     {
       "id": 41,
-      "title": "📺 Proof by Assertion",
-      "subtitle": "Repeat Until True",
-      "description": "Repeating a statement as if repetition makes it true.",
-      "example": "This is the best. Simply the best. Everyone knows it's the best.",
-      "tip": "Repetition doesn't create truth.",
-      "color": "from-pink-600 to-rose-600"
+      "title": "💭 Whataboutism",
+      "subtitle": "Deflecting with Other Issues",
+      "description": "Whataboutism (or tu quoque in action) responds to criticism or a difficult question by deflecting to a different issue, typically by pointing to the hypocrisy or wrongdoing of others. Instead of addressing the criticism, it changes the subject: 'What about this other thing?' This deflects from the original issue without actually defending against or refuting the criticism. It's a form of red herring focused on comparisons.",
+      "example": "Criticism: Your country has human rights violations. Response: What about human rights in your country? This doesn't address whether the original criticism is valid - it just deflects by pointing to someone else's problems. It's the geopolitical equivalent of 'Yeah, but what about...' when confronted with uncomfortable facts.",
+      "tip": "When someone uses whataboutism, redirect to the original issue: 'That's a valid concern we can discuss separately, but right now we're talking about X.' Multiple things can be wrong simultaneously - one wrong doesn't excuse another. Address issues on their own merits rather than deflecting to other problems. If someone only responds with 'what about,' they're probably avoiding the actual issue.",
+      "color": "#E53E3E"
     },
     {
       "id": 42,
-      "title": "🎪 False Equivalence",
-      "subtitle": "Both Sides Are Equal",
-      "description": "Treating unequal things as equal.",
-      "example": "A jaywalker and murderer are both criminals, so they're the same.",
-      "tip": "Not all things in a category are equally significant.",
-      "color": "from-orange-600 to-amber-600"
+      "title": "🌟 Optimism Bias",
+      "subtitle": "Bad Things to Others",
+      "description": "Optimism bias is the tendency to believe you're less likely to experience negative events and more likely to experience positive events compared to others. While positive thinking has benefits, this bias can lead to underestimating risks and failing to take appropriate precautions. We think 'it won't happen to me' even when statistics clearly show it could.",
+      "example": "I don't need insurance - bad things won't happen to me. Other people get in accidents, but I'm a careful driver. Other people's businesses fail, but mine will succeed. This unrealistic optimism can lead to poor planning, inadequate preparation, and unnecessary risks. Statistics apply to you too, regardless of how special you think your case is.",
+      "tip": "Base decisions on statistics and evidence, not on gut feelings that you're luckier or more special than others. Ask: What's the actual probability of this happening? Am I taking reasonable precautions? Would I bet my life savings on my chances? Appropriate optimism is good, but it shouldn't override rational risk assessment and planning.",
+      "color": "#63B3ED"
     },
     {
       "id": 43,
-      "title": "🎨 Fallacy of Composition",
-      "subtitle": "Good for One, Good for All",
-      "description": "What benefits one will benefit the group.",
-      "example": "If one person stands at a concert, everyone should stand.",
-      "tip": "Individual benefits don't always scale.",
-      "color": "from-indigo-600 to-violet-600"
+      "title": "⏰ Present Bias",
+      "subtitle": "Now Over Later",
+      "description": "Present bias (or temporal discounting) is the tendency to give stronger weight to immediate rewards and costs compared to future ones. We overvalue immediate gratification and undervalue future consequences. This explains why we struggle with diet, exercise, saving money, and other behaviors where immediate costs or effort are required for delayed benefits. Our present self is very real to us; our future self seems abstract.",
+      "example": "I'll start my diet tomorrow, but today I'll eat this cake. I should save money, but I want to buy this now. I know I should exercise, but I'll start next week. We consistently prioritize present pleasure over future wellbeing, even when we consciously know we'll regret it later. Tomorrow's consequences always seem less urgent than today's desires.",
+      "tip": "Recognize that future you is still you and will have to deal with the consequences of present you's decisions. Ask: Will I regret this later? What would future me want present me to do? Use commitment devices (prepay gym membership, automatic savings) to help present you make choices that benefit future you. Your future self will thank you.",
+      "color": "#ED8936"
     },
     {
       "id": 44,
-      "title": "🕰️ Chronological Snobbery",
-      "subtitle": "Old Means Wrong",
-      "description": "Dismissing ideas because they're old.",
-      "example": "That book is 100 years old, so it can't be relevant.",
-      "tip": "Some truths are timeless.",
-      "color": "from-slate-600 to-gray-600"
+      "title": "🎯 Framing Effect",
+      "subtitle": "Presentation Changes Perception",
+      "description": "The framing effect shows that people react differently to the same information depending on how it's presented. Logically equivalent information produces different responses based on whether it's framed positively or negatively, as a gain or loss, with certain words vs. others. The frame doesn't change the facts but dramatically changes how we perceive and respond to them.",
+      "example": "A medical procedure with a '90% survival rate' sounds much better than one with a '10% mortality rate,' even though these are mathematically identical. 'Beef is 80% lean' sounds better than '20% fat.' The underlying facts are the same, but the frame changes our perception and emotional response. Politicians and marketers exploit this constantly.",
+      "tip": "Train yourself to reframe information to see if your reaction changes. Ask: How would I feel about this if it were framed differently? What are the actual numbers behind the frame? Is someone using framing to manipulate my response? Look past the presentation to the underlying facts. Don't let how information is packaged determine your conclusion.",
+      "color": "#4299E1"
     },
     {
       "id": 45,
-      "title": "🎯 Cherry Picking",
-      "subtitle": "Selective Evidence",
-      "description": "Selecting only favorable evidence.",
-      "example": "Look at these five studies that support my view.",
-      "tip": "Consider all available evidence.",
-      "color": "from-red-600 to-pink-600"
+      "title": "💎 Endowment Effect",
+      "subtitle": "My Stuff More Valuable",
+      "description": "The endowment effect is the tendency to overvalue things simply because we own them. People demand more money to give up something they have than they'd be willing to pay to acquire it. Ownership creates an emotional attachment that inflates perceived value beyond objective worth. This affects decisions about selling possessions, investments, and even ideas we've committed to.",
+      "example": "I wouldn't sell my car for $10,000, but I also wouldn't pay $10,000 to buy an identical car. Logically, these valuations should be the same - it's the same car. But ownership makes us value it more. This is why people hold onto losing stocks, clutter they don't use, and relationships that aren't working - what we have feels more valuable than objectively it is.",
+      "tip": "When deciding whether to keep something, ask: If I didn't already own this, would I buy it at its current value? Would I choose this again today? Try to evaluate things as objectively as possible, as if you didn't own them. Ownership shouldn't change objective value. Be willing to cut losses and let go of things that no longer serve you.",
+      "color": "#D69E2E"
     },
     {
       "id": 46,
-      "title": "🤝 Guilt by Association",
-      "subtitle": "Bad Company, Bad Ideas",
-      "description": "Discrediting by association with undesirable groups.",
-      "example": "Hitler was a vegetarian, so vegetarianism is bad.",
-      "tip": "Judge ideas independently.",
-      "color": "from-purple-600 to-indigo-600"
+      "title": "🎭 IKEA Effect",
+      "subtitle": "I Made It, Better",
+      "description": "The IKEA effect is the tendency to overvalue things we've partially created or assembled ourselves, even when the result is objectively lower quality than professionally made alternatives. The effort we put in creates emotional attachment and inflates our perception of value. Labor leads to love, even for mediocre results. This affects everything from furniture to ideas to solutions we've personally invested in.",
+      "example": "That wobbly table I built from IKEA parts is worth way more to me than a sturdier store-bought table, because I assembled it. I value my amateur painting more than objectively better professional art. This idea must be good because I came up with it. Our effort creates attachment and blinds us to objective quality differences.",
+      "tip": "Recognize that your effort doesn't change objective value or quality. Ask: Am I overvaluing this because I made it? Would I pay market price for this if someone else made it? Your emotional attachment is real and valid, but don't confuse it with objective worth. Be willing to honestly assess the quality of your own creations.",
+      "color": "#667EEA"
     },
     {
       "id": 47,
-      "title": "🎬 Historian's Fallacy",
-      "subtitle": "They Should Have Known",
-      "description": "Assuming past people had current information.",
-      "example": "How could they not know smoking was bad in the 1950s?",
-      "tip": "Evaluate past with past information.",
-      "color": "from-amber-600 to-yellow-600"
+      "title": "🎭 Virtue Signaling",
+      "subtitle": "Values Without Action",
+      "description": "Virtue signaling refers to expressing opinions or taking positions primarily to demonstrate moral superiority or good character rather than from genuine commitment or with the intention of actually helping. It's about appearing to care more than actually caring, signaling alliance with fashionable causes without meaningful action or sacrifice. The focus is on reputation management rather than genuine ethical commitment.",
+      "example": "Posting on social media about important social causes but never actually donating time or money to help. Expressing outrage about injustice to look good to peers but doing nothing concrete about it. Wearing pins or symbols of fashionable causes without understanding or supporting them substantively. The performance of caring replaces actual caring.",
+      "tip": "Ask yourself honestly: Am I doing this to help or to look good? Would I still do this if no one knew about it? Actions matter more than declarations. If you care about a cause, contribute meaningfully - time, money, skills - not just social media posts. Be suspicious of your own motivations and focus on impact over image.",
+      "color": "#4FD1C5"
     },
     {
       "id": 48,
-      "title": "🔮 Appeal to Mystery",
-      "subtitle": "Patterns in Randomness",
-      "description": "Cherry-picking clusters in random data.",
-      "example": "Three people from this town got sick - must be the water!",
-      "tip": "Random clusters occur naturally.",
-      "color": "from-teal-600 to-emerald-600"
+      "title": "🎪 Greenwashing",
+      "subtitle": "False Environmental Claims",
+      "description": "Greenwashing is when companies or organizations make misleading claims about their environmental benefits or sustainability practices to appear more environmentally friendly than they actually are. This exploits consumers' desire to make ethical choices by creating a false impression of environmental responsibility while continuing harmful practices. It's a specific type of virtue signaling combined with deceptive marketing.",
+      "example": "Labeling plastic products as 'eco-friendly' when they still pollute extensively, just slightly less than before. Oil companies running ads about renewable energy while their business remains 99% fossil fuels. Brands using green imagery and nature language while having terrible environmental records. The marketing creates an impression that doesn't match reality.",
+      "tip": "Look past marketing imagery and buzzwords to actual practices and impacts. Ask: What specific, measurable environmental benefits does this provide? What percentage of their business is actually sustainable? Are they making real changes or just better PR? Check independent environmental ratings rather than trusting company claims. Green words don't equal green actions.",
+      "color": "#68D391"
     },
     {
       "id": 49,
-      "title": "🎭 Appeal to Fear",
-      "subtitle": "Scare Tactics",
-      "description": "Using fear to manipulate acceptance.",
-      "example": "If you don't vote for this, our way of life will be destroyed!",
-      "tip": "Fear-based arguments often lack logic.",
-      "color": "from-orange-700 to-red-700"
+      "title": "🌟 Analysis Paralysis",
+      "subtitle": "Overthinking Prevents Deciding",
+      "description": "Analysis paralysis occurs when overthinking a situation prevents making a decision or taking action. The desire for perfect information, fear of making the wrong choice, or overwhelming number of options leads to getting stuck in analysis mode rather than moving forward. While careful analysis is valuable, this represents analysis taken to a counterproductive extreme where the perfect becomes the enemy of the good.",
+      "example": "Researching laptops for months, reading hundreds of reviews, comparing every specification, but never actually buying one because you're worried about making the wrong choice. By the time you decide, the models you researched are obsolete. The cost of perfect information exceeded the cost of a potentially suboptimal choice.",
+      "tip": "Recognize when you have enough information to make a good decision. Ask: Will more research significantly change my decision? What's the cost of continuing to delay? Use decision-making frameworks: set a deadline, establish minimum criteria, or use the 80/20 rule (make the decision when you have 80% of the information). Done is often better than perfect.",
+      "color": "#667EEA"
     },
     {
       "id": 50,
-      "title": "🏁 Proof by Example",
-      "subtitle": "One Example Proves All",
-      "description": "Using one example as proof of a universal claim.",
-      "example": "My uncle smoked and lived to 100, so smoking isn't harmful.",
-      "tip": "One example doesn't establish a pattern.",
-      "color": "from-lime-600 to-green-600"
-    },
-    {
-      "id": 51,
-      "title": "🎰 Appeal to Probability",
-      "subtitle": "If It Can, It Will",
-      "description": "Assuming possibility equals inevitability.",
-      "example": "Someone will misuse this, so ban it now.",
-      "tip": "Possibility doesn't equal inevitability.",
-      "color": "from-purple-700 to-pink-700"
-    },
-    {
-      "id": 52,
-      "title": "🔍 Spotlight Fallacy",
-      "subtitle": "Media Equals Reality",
-      "description": "Media coverage represents full reality.",
-      "example": "News shows crime, so crime is rising.",
-      "tip": "Media coverage doesn't reflect statistics.",
-      "color": "from-yellow-700 to-orange-700"
-    },
-    {
-      "id": 53,
-      "title": "🎓 Argument from Authority",
-      "subtitle": "Expert Says, Must Be True",
-      "description": "Accepting claims just because an expert said it.",
-      "example": "Nobel winner said it, must be true.",
-      "tip": "Even experts need evidence.",
-      "color": "from-blue-700 to-indigo-700"
-    },
-    {
-      "id": 54,
-      "title": "🌈 Continuum Fallacy",
-      "subtitle": "No Clear Line, No Difference",
-      "description": "Rejecting distinction due to unclear boundary.",
-      "example": "No exact moment day becomes night, so no difference.",
-      "tip": "Vague boundaries don't eliminate differences.",
-      "color": "from-pink-700 to-rose-700"
-    },
-    {
-      "id": 55,
-      "title": "🎪 Kettle Logic",
-      "subtitle": "Contradictory Arguments",
-      "description": "Using contradictory arguments together.",
-      "example": "Never borrowed it. Was broken. Returned perfect.",
-      "tip": "Contradictions undermine each other.",
-      "color": "from-teal-700 to-cyan-700"
-    },
-    {
-      "id": 56,
-      "title": "🔔 Affirming the Consequent",
-      "subtitle": "Backward Logic",
-      "description": "If A causes B, then B proves A.",
-      "example": "Rain makes grass wet. Grass wet, so it rained.",
-      "tip": "Effects have multiple causes.",
-      "color": "from-green-700 to-emerald-700"
-    },
-    {
-      "id": 57,
-      "title": "❌ Denying the Antecedent",
-      "subtitle": "Wrong Direction",
-      "description": "If A causes B, not-A means not-B.",
-      "example": "Study to pass. Didn't study, won't pass.",
-      "tip": "Absence of one cause doesn't eliminate all.",
-      "color": "from-red-700 to-pink-700"
-    },
-    {
-      "id": 58,
-      "title": "🎯 Base Rate Fallacy",
-      "subtitle": "Ignoring Background Rate",
-      "description": "Ignoring overall probability.",
-      "example": "99% accurate test, you're positive, so you have it.",
-      "tip": "Consider baseline probability.",
-      "color": "from-indigo-700 to-violet-700"
-    },
-    {
-      "id": 59,
-      "title": "🎲 Conjunction Fallacy",
-      "subtitle": "More Detail, More Likely",
-      "description": "Specific seems more likely than general.",
-      "example": "Linda is more likely feminist bank teller than bank teller.",
-      "tip": "Adding details decreases probability.",
-      "color": "from-orange-700 to-amber-700"
-    },
-    {
-      "id": 60,
-      "title": "🧠 Mind Projection",
-      "subtitle": "My Thoughts Are Reality",
-      "description": "Mental states reflect objective reality.",
-      "example": "This music is objectively bad because I dislike it.",
-      "tip": "Subjective isn't objective.",
-      "color": "from-purple-700 to-fuchsia-700"
-    },
-    {
-      "id": 61,
-      "title": "🎭 Motte-and-Bailey",
-      "subtitle": "Defend Weak, Assert Strong",
-      "description": "Switching between controversial and defensible positions.",
-      "example": "Abolish prisons. I meant reform prisons.",
-      "tip": "Don't let retreat to weaker claims.",
-      "color": "from-slate-700 to-gray-700"
-    },
-    {
-      "id": 62,
-      "title": "🌀 Kafkatrapping",
-      "subtitle": "Denial Proves Guilt",
-      "description": "Denial itself is proof of guilt.",
-      "example": "Not racist? That's what racists say!",
-      "tip": "Unfalsifiable accusations are invalid.",
-      "color": "from-red-800 to-orange-800"
-    },
-    {
-      "id": 63,
-      "title": "💭 Thought-Terminating Cliché",
-      "subtitle": "Conversation Ender",
-      "description": "Catchy phrases shut down thinking.",
-      "example": "It is what it is. Boys will be boys.",
-      "tip": "Clichés stop thinking.",
-      "color": "from-cyan-700 to-blue-700"
-    },
-    {
-      "id": 64,
-      "title": "🎪 Two Wrongs Make Right",
-      "subtitle": "Their Wrong Justifies Mine",
-      "description": "Others' wrongs justify yours.",
-      "example": "Sure I cheated, everyone does!",
-      "tip": "Others' wrongs don't justify yours.",
-      "color": "from-pink-800 to-rose-800"
-    },
-    {
-      "id": 65,
-      "title": "⚖️ False Balance",
-      "subtitle": "Equal Time for Unequal",
-      "description": "Giving equal weight to unequal positions.",
-      "example": "99% of scientists vs one skeptic - both sides!",
-      "tip": "Balance isn't equal time.",
-      "color": "from-teal-800 to-emerald-800"
-    },
-    {
-      "id": 66,
-      "title": "🔊 Argument from Loudness",
-      "subtitle": "Yelling Means Winning",
-      "description": "Speaking louder makes argument valid.",
-      "example": "Shouting over someone in debate.",
-      "tip": "Volume doesn't validate.",
-      "color": "from-orange-800 to-red-800"
-    },
-    {
-      "id": 67,
-      "title": "🎯 Ecological Fallacy",
-      "subtitle": "Group Stats to Individuals",
-      "description": "Group truth applies to individuals.",
-      "example": "High income neighborhood, so everyone is wealthy.",
-      "tip": "Averages don't describe individuals.",
-      "color": "from-green-800 to-lime-800"
-    },
-    {
-      "id": 68,
-      "title": "🎨 McNamara Fallacy",
-      "subtitle": "Only Measurable Matters",
-      "description": "Decisions based only on metrics.",
-      "example": "Student learning is only test scores.",
-      "tip": "Not everything important is measurable.",
-      "color": "from-blue-800 to-indigo-800"
-    },
-    {
-      "id": 69,
-      "title": "🎪 Psychologist's Fallacy",
-      "subtitle": "Observer Bias as Fact",
-      "description": "Projecting your perspective into subjects.",
-      "example": "Baby smiled, so it recognizes me.",
-      "tip": "Your interpretation isn't their experience.",
-      "color": "from-pink-800 to-fuchsia-800"
-    },
-    {
-      "id": 70,
-      "title": "🎭 Package Deal",
-      "subtitle": "All or Nothing Bundle",
-      "description": "Positions must always go together.",
-      "example": "Support gun rights? Must oppose abortion.",
-      "tip": "Beliefs don't come in packages.",
-      "color": "from-amber-800 to-yellow-800"
-    },
-    {
-      "id": 71,
-      "title": "🔄 Circular Cause",
-      "subtitle": "Chicken and Egg",
-      "description": "A causes B and B causes A.",
-      "example": "Depressed because unemployed, unemployed because depressed.",
-      "tip": "Break loops by examining origins.",
-      "color": "from-cyan-800 to-teal-800"
-    },
-    {
-      "id": 72,
-      "title": "💎 Appeal to Consequences",
-      "subtitle": "Truth Based on Outcomes",
-      "description": "True or false based on liking consequences.",
-      "example": "Can't be no afterlife, too depressing.",
-      "tip": "Wanting doesn't make it true.",
-      "color": "from-rose-800 to-red-800"
-    },
-    {
-      "id": 73,
-      "title": "🎯 Sharpshooter's Fallacy",
-      "subtitle": "Paint Target After",
-      "description": "Adjusting hypothesis after seeing data.",
-      "example": "Predicted something big, celebrity divorced!",
-      "tip": "After-the-fact isn't prediction.",
-      "color": "from-lime-800 to-green-800"
-    },
-    {
-      "id": 74,
-      "title": "🌟 Wishful Thinking",
-      "subtitle": "Belief Shapes Reality",
-      "description": "True because you want it true.",
-      "example": "Don't need to study, will pass because I need to.",
-      "tip": "Desire doesn't override reality.",
-      "color": "from-purple-800 to-pink-800"
-    },
-    {
-      "id": 75,
-      "title": "🎭 Appeal to Flattery",
-      "subtitle": "Compliments Replace Logic",
-      "description": "Using praise to get acceptance.",
-      "example": "Someone as smart as you agrees...",
-      "tip": "Flattery is persuasion, not proof.",
-      "color": "from-yellow-800 to-orange-800"
-    },
-    {
-      "id": 76,
-      "title": "⚡ Lightning Fallacy",
-      "subtitle": "Sudden Insight Must Be True",
-      "description": "Sudden realization must be true.",
-      "example": "Suddenly became clear - this is the answer!",
-      "tip": "Epiphanies need verification.",
-      "color": "from-blue-900 to-indigo-900"
-    },
-    {
-      "id": 77,
-      "title": "🎪 Availability Heuristic",
-      "subtitle": "Easy Recall Means Common",
-      "description": "Judging likelihood by ease of recall.",
-      "example": "Plane crashes are so common!",
-      "tip": "Memorable doesn't mean common.",
-      "color": "from-red-900 to-rose-900"
-    },
-    {
-      "id": 78,
-      "title": "🎯 Anchoring Bias",
-      "subtitle": "First Number Sticks",
-      "description": "Over-relying on first information.",
-      "example": "Listed at $30K, so $25K is great!",
-      "tip": "Don't let initial info anchor you.",
-      "color": "from-teal-900 to-cyan-900"
-    },
-    {
-      "id": 79,
-      "title": "🎪 Confirmation Bias",
-      "subtitle": "See What You Want",
-      "description": "Seeking info confirming beliefs.",
-      "example": "Horoscope was right today!",
-      "tip": "Actively seek disconfirming evidence.",
-      "color": "from-purple-900 to-fuchsia-900"
-    },
-    {
-      "id": 80,
-      "title": "🔍 Hindsight Bias",
-      "subtitle": "I Knew It All Along",
-      "description": "Past events seemed more predictable.",
-      "example": "I knew that team would win!",
-      "tip": "Obvious in hindsight wasn't before.",
-      "color": "from-orange-900 to-amber-900"
-    },
-    {
-      "id": 81,
-      "title": "👤 Fundamental Attribution Error",
-      "subtitle": "Character Over Circumstance",
-      "description": "Overemphasizing personality over situation.",
-      "example": "He cut me off - terrible person!",
-      "tip": "Consider situational factors.",
-      "color": "from-blue-900 to-sky-900"
-    },
-    {
-      "id": 82,
-      "title": "🎭 Actor-Observer Bias",
-      "subtitle": "Different Rules for Me",
-      "description": "Your actions situational, others' character.",
-      "example": "I was late because traffic, you because irresponsible.",
-      "tip": "Apply same standards to all.",
-      "color": "from-pink-900 to-rose-900"
-    },
-    {
-      "id": 83,
-      "title": "🌟 Halo Effect",
-      "subtitle": "One Good, All Good",
-      "description": "One positive quality influences all judgment.",
-      "example": "She's attractive, so also smart and kind.",
-      "tip": "Evaluate each quality independently.",
-      "color": "from-yellow-900 to-lime-900"
-    },
-    {
-      "id": 84,
-      "title": "😈 Horn Effect",
-      "subtitle": "One Bad, All Bad",
-      "description": "One negative quality influences all.",
-      "example": "He made a mistake, so incompetent at everything.",
-      "tip": "One flaw doesn't define all.",
-      "color": "from-red-900 to-orange-900"
-    },
-    {
-      "id": 85,
-      "title": "🎯 Dunning-Kruger Effect",
-      "subtitle": "Ignorance Breeds Confidence",
-      "description": "Overestimating knowledge when knowing little.",
-      "example": "Watched YouTube video, know more than doctors.",
-      "tip": "More you learn, more you don't know.",
-      "color": "from-indigo-900 to-violet-900"
-    },
-    {
-      "id": 86,
-      "title": "🎪 Impostor Syndrome",
-      "subtitle": "Expertise Breeds Doubt",
-      "description": "Doubting abilities despite competence.",
-      "example": "Only got PhD because lucky, not capable.",
-      "tip": "Recognize actual accomplishments.",
-      "color": "from-teal-900 to-emerald-900"
-    },
-    {
-      "id": 87,
-      "title": "💭 Clustering Illusion",
-      "subtitle": "Patterns in Randomness",
-      "description": "Finding patterns where none exist.",
-      "example": "Keep seeing 11:11, must mean something!",
-      "tip": "Random events naturally cluster.",
-      "color": "from-cyan-900 to-blue-900"
-    },
-    {
-      "id": 88,
-      "title": "🎲 Hot Hand Fallacy",
-      "subtitle": "Streaks Mean Momentum",
-      "description": "Success streaks will continue.",
-      "example": "Won three coin flips, on a hot streak!",
-      "tip": "Past luck doesn't influence future.",
-      "color": "from-orange-900 to-red-900"
-    },
-    {
-      "id": 89,
-      "title": "🎯 Survivorship Bias",
-      "subtitle": "Success Story Selection",
-      "description": "Focusing on successes, ignoring failures.",
-      "example": "Dropouts like Gates became billionaires!",
-      "tip": "Look at full population.",
-      "color": "from-green-900 to-emerald-900"
-    },
-    {
-      "id": 90,
-      "title": "📊 Regression to Mean",
-      "subtitle": "Extreme Results Normalize",
-      "description": "Not accounting for return to average.",
-      "example": "Back pain went away after healer!",
-      "tip": "Extremes naturally move to average.",
-      "color": "from-violet-900 to-purple-900"
-    },
-    {
-      "id": 91,
-      "title": "🎪 Self-Serving Bias",
-      "subtitle": "Credit Success, Blame Circumstances",
-      "description": "Successes yours, failures external.",
-      "example": "Passed because smart, failed because unfair test.",
-      "tip": "Be honest about both.",
-      "color": "from-pink-900 to-fuchsia-900"
-    },
-    {
-      "id": 92,
-      "title": "👥 Ingroup Bias",
-      "subtitle": "My Group Better",
-      "description": "Favoring your own group.",
-      "example": "Lost due to luck, they won by cheating.",
-      "tip": "Evaluate individually.",
-      "color": "from-blue-900 to-indigo-900"
-    },
-    {
-      "id": 93,
-      "title": "🌍 Outgroup Homogeneity",
-      "subtitle": "They're All Same",
-      "description": "Perceiving outgroups as more similar.",
-      "example": "All millennials are entitled.",
-      "tip": "Outgroups have diversity too.",
-      "color": "from-red-900 to-pink-900"
-    },
-    {
-      "id": 94,
-      "title": "🎯 Projection Bias",
-      "subtitle": "Everyone Thinks Like Me",
-      "description": "Assuming others share your views.",
-      "example": "I love spicy food, great gift for anyone!",
-      "tip": "People have different preferences.",
-      "color": "from-amber-900 to-yellow-900"
-    },
-    {
-      "id": 95,
-      "title": "🔮 Planning Fallacy",
-      "subtitle": "Underestimating Time",
-      "description": "Underestimating time and costs.",
-      "example": "This will take 2 weeks. Takes 2 months.",
-      "tip": "Look at past similar tasks.",
-      "color": "from-teal-900 to-cyan-900"
-    },
-    {
-      "id": 96,
-      "title": "⏰ Present Bias",
-      "subtitle": "Now Over Later",
-      "description": "Overvaluing immediate rewards.",
-      "example": "Start diet tomorrow, eat cake today.",
-      "tip": "Future you thanks present you.",
-      "color": "from-orange-900 to-rose-900"
-    },
-    {
-      "id": 97,
-      "title": "🎪 Hyperbolic Discounting",
-      "subtitle": "Near Beats Distant",
-      "description": "Preferring smaller immediate over larger delayed.",
-      "example": "$50 now better than $100 in a year.",
-      "tip": "Calculate actual value.",
-      "color": "from-lime-900 to-green-900"
-    },
-    {
-      "id": 98,
-      "title": "🎯 Framing Effect",
-      "subtitle": "Presentation Changes Perception",
-      "description": "Same info, different conclusions by framing.",
-      "example": "90% survival sounds better than 10% death.",
-      "tip": "Look past framing to facts.",
-      "color": "from-blue-900 to-cyan-900"
-    },
-    {
-      "id": 99,
-      "title": "🎭 Distinction Bias",
-      "subtitle": "Comparison Exaggerates",
-      "description": "Overvaluing differences when comparing.",
-      "example": "These headphones sound way better in store!",
-      "tip": "Evaluate in context.",
-      "color": "from-pink-900 to-red-900"
-    },
-    {
-      "id": 100,
-      "title": "💭 Information Bias",
-      "subtitle": "More Info Better",
-      "description": "Seeking info that won't affect decision.",
-      "example": "Researching hours when differences trivial.",
-      "tip": "Know when you have enough.",
-      "color": "from-indigo-900 to-purple-900"
-    },
-    {
-      "id": 101,
-      "title": "🎯 Ostrich Effect",
-      "subtitle": "Avoiding Negative Info",
-      "description": "Ignoring dangerous information.",
-      "example": "Not checking bank balance when low.",
-      "tip": "Facing problems solves them.",
-      "color": "from-yellow-900 to-orange-900"
-    },
-    {
-      "id": 102,
-      "title": "🌟 Optimism Bias",
-      "subtitle": "Bad Things to Others",
-      "description": "Less likely to experience negatives.",
-      "example": "Don't need insurance, won't happen to me.",
-      "tip": "Statistics apply to you too.",
-      "color": "from-cyan-900 to-teal-900"
-    },
-    {
-      "id": 103,
-      "title": "😰 Pessimism Bias",
-      "subtitle": "Overestimating Negatives",
-      "description": "Expecting worst more likely.",
-      "example": "Speak up, definitely get fired.",
-      "tip": "Worst-case usually unlikely.",
-      "color": "from-gray-900 to-slate-900"
-    },
-    {
-      "id": 104,
-      "title": "🎪 Normalcy Bias",
-      "subtitle": "Everything Stays Same",
-      "description": "Underestimating disaster likelihood.",
-      "example": "Fire alarm is probably just drill.",
-      "tip": "Prepare for serious events.",
-      "color": "from-red-900 to-orange-900"
-    },
-    {
-      "id": 105,
-      "title": "⚡ Recency Bias",
-      "subtitle": "Recent More Important",
-      "description": "More weight to recent events.",
-      "example": "Market crashed yesterday, bad time to invest.",
-      "tip": "Consider full timeline.",
-      "color": "from-purple-900 to-pink-900"
-    },
-    {
-      "id": 106,
-      "title": "🎯 Peak-End Rule",
-      "subtitle": "Peaks and Ends Define Memory",
-      "description": "Judging by peak and end.",
-      "example": "Vacation was amazing! Last day was great.",
-      "tip": "Consider full experience.",
-      "color": "from-teal-900 to-blue-900"
-    },
-    {
-      "id": 107,
-      "title": "💎 Endowment Effect",
-      "subtitle": "My Stuff More Valuable",
-      "description": "Overvaluing because you own it.",
-      "example": "Won't sell car for $10K, wouldn't pay $10K either.",
-      "tip": "Ownership shouldn't change value.",
-      "color": "from-amber-900 to-orange-900"
-    },
-    {
-      "id": 108,
-      "title": "🎭 IKEA Effect",
-      "subtitle": "I Made It, Better",
-      "description": "Overvaluing what you created.",
-      "example": "Wobbly table I built worth more than store-bought!",
-      "tip": "Effort doesn't change market value.",
-      "color": "from-blue-900 to-indigo-900"
-    },
-    {
-      "id": 109,
-      "title": "🌟 Zero-Risk Bias",
-      "subtitle": "Eliminate One Risk",
-      "description": "Preferring one risk to zero over reducing multiple.",
-      "example": "Make X 100% safe instead of reducing all risks.",
-      "tip": "Reduce total risk.",
-      "color": "from-green-900 to-emerald-900"
-    },
-    {
-      "id": 110,
-      "title": "🎪 Denomination Effect",
-      "subtitle": "Big Bills More Valuable",
-      "description": "Less likely to spend larger bills.",
-      "example": "Won't break $100, easily spend five $20s.",
-      "tip": "Denomination doesn't change value.",
-      "color": "from-violet-900 to-purple-900"
-    },
-    {
-      "id": 111,
-      "title": "💭 Mental Accounting",
-      "subtitle": "Money in Mental Buckets",
-      "description": "Treating money differently by category.",
-      "example": "Birthday money can splurge, salary be careful.",
-      "tip": "Money is fungible.",
-      "color": "from-pink-900 to-rose-900"
-    },
-    {
-      "id": 112,
-      "title": "🎯 Decoy Effect",
-      "subtitle": "Third Option Changes Preference",
-      "description": "Third inferior option changes preference.",
-      "example": "Small $3, Large $7, Medium $6.50 makes large good.",
-      "tip": "Ignore decoys.",
-      "color": "from-orange-900 to-amber-900"
-    },
-    {
-      "id": 113,
-      "title": "🌈 Rainbow Washing",
-      "subtitle": "Superficial Cause Support",
-      "description": "Appearing to support causes for profit.",
-      "example": "Support pride month, logo change June only.",
-      "tip": "Look for action, not symbols.",
-      "color": "from-pink-800 to-purple-800"
-    },
-    {
-      "id": 114,
-      "title": "🎪 Greenwashing",
-      "subtitle": "False Environmental Claims",
-      "description": "Misleading environmental claims.",
-      "example": "Eco-friendly plastic! Still pollutes.",
-      "tip": "Research actual impact.",
-      "color": "from-green-800 to-lime-800"
-    },
-    {
-      "id": 115,
-      "title": "🎭 Virtue Signaling",
-      "subtitle": "Values Without Action",
-      "description": "Expressing opinions for moral superiority.",
-      "example": "Posting about causes, never helping.",
-      "tip": "Actions matter more.",
-      "color": "from-blue-800 to-cyan-800"
-    },
-    {
-      "id": 116,
-      "title": "💭 Whataboutism",
-      "subtitle": "Deflecting with Other Issues",
-      "description": "Responding to criticism with different issue.",
-      "example": "Why criticize us? What about what they did?",
-      "tip": "Address actual criticism.",
-      "color": "from-red-800 to-orange-800"
-    },
-    {
-      "id": 117,
-      "title": "🎯 Golden Hammer",
-      "subtitle": "One Solution for All",
-      "description": "Over-relying on familiar tool.",
-      "example": "Know Excel, use it for everything!",
-      "tip": "Different problems need different tools.",
-      "color": "from-yellow-800 to-amber-800"
-    },
-    {
-      "id": 118,
-      "title": "🎪 Not Invented Here",
-      "subtitle": "Rejecting External Ideas",
-      "description": "Avoiding solutions from outside.",
-      "example": "Can't use their solution, build our own.",
-      "tip": "Good ideas come from anywhere.",
-      "color": "from-indigo-800 to-violet-800"
-    },
-    {
-      "id": 119,
-      "title": "⚡ Premature Optimization",
-      "subtitle": "Perfecting Before Knowing",
-      "description": "Optimizing before understanding needs.",
-      "example": "Weeks optimizing code that runs once daily.",
-      "tip": "Optimize what matters, when matters.",
-      "color": "from-purple-800 to-pink-800"
-    },
-    {
-      "id": 120,
-      "title": "🎭 Bikeshedding",
-      "subtitle": "Focusing on Trivial",
-      "description": "Disproportionate time on minor decisions.",
-      "example": "Hours debating paint color, quick million-dollar approvals.",
-      "tip": "Time should match importance.",
-      "color": "from-teal-800 to-cyan-800"
-    },
-    {
-      "id": 121,
-      "title": "🌟 Analysis Paralysis",
-      "subtitle": "Overthinking Prevents Deciding",
-      "description": "Unable to decide due to overanalyzing.",
-      "example": "Researching laptops for months, never buying.",
-      "tip": "Good enough beats perfect.",
-      "color": "from-blue-800 to-indigo-800"
-    },
-    {
-      "id": 122,
-      "title": "💎 Feature Creep",
-      "subtitle": "Adding Unnecessary Complexity",
-      "description": "Continuously adding features.",
-      "example": "Just one more feature... repeat 100 times.",
-      "tip": "Know when to stop adding.",
-      "color": "from-orange-800 to-red-800"
-    },
-    {
-      "id": 123,
-      "title": "🎯 Scope Creep",
-      "subtitle": "Expanding Beyond Plan",
-      "description": "Requirements expanding without evaluation.",
-      "example": "While we're at it, let's also add...",
-      "tip": "Protect original scope.",
-      "color": "from-green-800 to-emerald-800"
-    },
-    {
-      "id": 124,
-      "title": "🎪 Perfectionism Paralysis",
-      "subtitle": "Nothing Good Enough",
-      "description": "Never completing because not perfect.",
-      "example": "Rewriting first chapter 50 times.",
-      "tip": "Done beats perfect.",
-      "color": "from-violet-800 to-purple-800"
-    },
-    {
-      "id": 125,
-      "title": "⚡ Busy Work Fallacy",
-      "subtitle": "Activity Equals Productivity",
-      "description": "Confusing busy with productive.",
-      "example": "Sent 100 emails, accomplished nothing important.",
-      "tip": "Measure output and impact.",
-      "color": "from-pink-800 to-rose-800"
-    },
-    {
-      "id": 126,
-      "title": "🎭 Mere Exposure Effect",
-      "subtitle": "Familiarity Breeds Preference",
-      "description": "Preferring because familiar.",
-      "example": "Like song after hearing 20 times.",
-      "tip": "Familiarity doesn't equal quality.",
-      "color": "from-cyan-800 to-blue-800"
-    },
-    {
-      "id": 127,
-      "title": "🌟 Authority Bias",
-      "subtitle": "Authority Must Be Right",
-      "description": "Trusting authority even when wrong.",
-      "example": "CEO said it, must be true.",
-      "tip": "Question authority respectfully.",
-      "color": "from-amber-800 to-yellow-800"
-    },
-    {
-      "id": 128,
-      "title": "🎯 Bystander Effect",
-      "subtitle": "Someone Else Will Handle",
-      "description": "Not acting because others present.",
-      "example": "Someone else will help that person.",
-      "tip": "Take responsibility.",
-      "color": "from-red-800 to-pink-800"
-    },
-    {
-      "id": 129,
-      "title": "💭 Just-World Hypothesis",
-      "subtitle": "Good to Good People",
-      "description": "World is fair, people get what deserve.",
-      "example": "They're poor, must be lazy.",
-      "tip": "World isn't always fair.",
-      "color": "from-indigo-800 to-violet-800"
-    },
-    {
-      "id": 130,
-      "title": "🎪 Barnum Effect",
-      "subtitle": "Vague Feels Personal",
-      "description": "Vague statements feel specifically about you.",
-      "example": "You need others to like you.",
-      "tip": "Horoscopes exploit this.",
-      "color": "from-purple-800 to-fuchsia-800"
-    },
-    {
-      "id": 131,
-      "title": "🌈 Choice-Supportive Bias",
-      "subtitle": "Retroactively Justifying",
-      "description": "Remembering choices as better.",
-      "example": "Glad I chose this car.",
-      "tip": "Honestly evaluate past decisions.",
-      "color": "from-teal-800 to-emerald-800"
-    },
-    {
-      "id": 132,
-      "title": "⚡ Reactance",
-      "subtitle": "Resist Being Told",
-      "description": "Opposite of suggested because freedom threatened.",
-      "example": "Don't tell me what to do!",
-      "tip": "Evaluate advice on merit.",
-      "color": "from-orange-800 to-amber-800"
-    },
-    {
-      "id": 133,
-      "title": "🎭 Illusory Superiority",
-      "subtitle": "I'm Better Than Average",
-      "description": "Overestimating positive qualities.",
-      "example": "I'm above-average driver.",
-      "tip": "You're probably more average.",
-      "color": "from-blue-800 to-cyan-800"
-    },
-    {
-      "id": 134,
-      "title": "💎 Hard-Easy Effect",
-      "subtitle": "Confidence Inversely Related",
-      "description": "Overconfident on hard, underconfident on easy.",
-      "example": "This is impossible! vs No problem!",
-      "tip": "Calibrate confidence with difficulty.",
-      "color": "from-pink-800 to-rose-800"
-    },
-    {
-      "id": 135,
-      "title": "🎯 Egocentric Bias",
-      "subtitle": "My Contribution Larger",
-      "description": "Overestimating own contributions.",
-      "example": "I did 80% of group project!",
-      "tip": "Others contributed more than you remember.",
-      "color": "from-green-800 to-lime-800"
-    },
-    {
-      "id": 136,
-      "title": "🌟 False Consensus",
-      "subtitle": "Everyone Agrees",
-      "description": "Overestimating agreement with beliefs.",
-      "example": "Everyone thinks this way.",
-      "tip": "Your views aren't universal.",
-      "color": "from-violet-800 to-purple-800"
-    },
-    {
-      "id": 137,
-      "title": "⚡ Curse of Knowledge",
-      "subtitle": "Can't Remember Not Knowing",
-      "description": "Difficulty imagining not knowing what you know.",
-      "example": "This is so obvious!",
-      "tip": "Remember when you were learning.",
-      "color": "from-cyan-800 to-teal-800"
-    },
-    {
-      "id": 138,
-      "title": "🎪 Spotlight Effect",
-      "subtitle": "Everyone Watching",
-      "description": "Overestimating how much others notice.",
-      "example": "Everyone will notice this stain!",
-      "tip": "People less focused on you.",
-      "color": "from-red-800 to-orange-800"
-    },
-    {
-      "id": 139,
-      "title": "💭 Illusion of Transparency",
-      "subtitle": "Thoughts Are Obvious",
-      "description": "Overestimating how well others understand you.",
-      "example": "They should know I'm upset!",
-      "tip": "Communicate explicitly.",
-      "color": "from-indigo-800 to-blue-800"
-    },
-    {
-      "id": 140,
-      "title": "🎭 Illusion of Control",
-      "subtitle": "Can Influence Random",
-      "description": "Overestimating influence over uncontrollable.",
-      "example": "Need lucky jersey for team to win!",
-      "tip": "Distinguish controllable from not.",
-      "color": "from-purple-800 to-pink-800"
-    },
-    {
-      "id": 141,
-      "title": "🌈 Moral Luck",
-      "subtitle": "Judging by Outcomes",
-      "description": "Judging by outcomes rather than intent.",
-      "example": "Drove drunk but didn't hit anyone, not that bad.",
-      "tip": "Judge action itself.",
-      "color": "from-amber-800 to-orange-800"
-    },
-    {
-      "id": 142,
-      "title": "🎯 Outcome Bias",
-      "subtitle": "Results Determine Quality",
-      "description": "Judging decision by outcome.",
-      "example": "Terrible choice! Was good bet that lost.",
-      "tip": "Good decisions can have bad outcomes.",
-      "color": "from-teal-800 to-cyan-800"
-    },
-    {
-      "id": 143,
-      "title": "⚡ Impact Bias",
-      "subtitle": "Overestimating Duration",
-      "description": "Overestimating emotional duration.",
-      "example": "Don't get job, devastated forever!",
-      "tip": "You're more resilient.",
-      "color": "from-blue-800 to-indigo-800"
-    },
-    {
-      "id": 144,
-      "title": "💎 Restraint Bias",
-      "subtitle": "Overconfident Self-Control",
-      "description": "Overestimating ability to resist.",
-      "example": "Keep cookies, have willpower! Eats all.",
-      "tip": "Don't expose to temptation.",
-      "color": "from-rose-800 to-pink-800"
-    },
-    {
-      "id": 145,
-      "title": "🎪 Time-Saving Bias",
-      "subtitle": "Overestimating Time Saved",
-      "description": "Overestimating time saved by speed.",
-      "example": "Speeding to save 2 minutes on 10 minute drive.",
-      "tip": "Time savings are logarithmic.",
-      "color": "from-yellow-800 to-lime-800"
-    },
-    {
-      "id": 146,
-      "title": "🌟 Effort Justification",
-      "subtitle": "Hard Work Makes Valuable",
-      "description": "Valuing outcomes more when effort required.",
-      "example": "Meal tastes better, spent 5 hours making it.",
-      "tip": "Effort doesn't always equal value.",
-      "color": "from-indigo-800 to-purple-800"
-    },
-    {
-      "id": 147,
-      "title": "🎯 Ben Franklin Effect",
-      "subtitle": "Favors Create Liking",
-      "description": "Liking someone more after doing favor.",
-      "example": "Helped them, so worth helping, like them now.",
-      "tip": "Actions influence feelings.",
-      "color": "from-cyan-800 to-teal-800"
-    },
-    {
-      "id": 148,
-      "title": "🎭 Reactance Theory",
-      "subtitle": "Forbidden Fruit Sweeter",
-      "description": "Wanting more when restricted.",
-      "example": "Don't think about pink elephants.",
-      "tip": "Restriction increases desire.",
-      "color": "from-pink-800 to-rose-800"
-    },
-    {
-      "id": 149,
-      "title": "💭 Zeigarnik Effect",
-      "subtitle": "Unfinished Tasks Haunt",
-      "description": "Remembering incomplete better than completed.",
-      "example": "Can't stop thinking about unfinished project.",
-      "tip": "Minds crave closure.",
-      "color": "from-orange-800 to-amber-800"
-    },
-    {
-      "id": 150,
       "title": "🎯 Blind Spot Bias",
       "subtitle": "I'm Less Biased",
-      "description": "Recognizing biases in others, not self.",
-      "example": "Everyone else biased, I see objectively.",
-      "tip": "You have biases too - this proves it!",
-      "color": "from-cyan-800 to-teal-800"
+      "description": "Blind spot bias is the tendency to recognize biases in others while failing to recognize our own biases. We see ourselves as more objective and less susceptible to bias than we actually are. This meta-bias makes all other biases harder to correct because we don't think they apply to us. It's the bias that prevents us from recognizing our biases - ironically, the more we learn about biases, the more we think others have them while we don't.",
+      "example": "Everyone else is biased by their politics, emotions, and self-interest, but I see things objectively. They're falling for propaganda, but my sources are reliable. They're influenced by cognitive biases, but I'm rational and clear-thinking. The fact that you're reading this and thinking 'yes, other people have that bias' demonstrates the bias itself.",
+      "tip": "Assume you have all the biases you recognize in others. Ask: How might I be biased in this situation? What would I need to believe to be wrong about this? Actively seek out your blind spots. The very fact that you think you're less biased than average is evidence that you're not. Recognizing this bias is the first step to actually reducing your biases.",
+      "color": "#4FD1C5"
     }
   ]
 }
